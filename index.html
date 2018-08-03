@@ -43,22 +43,30 @@
               <div class="navmenu">
                 <div class="menu-bg"></div>
                 <div class="menu">
-
-                  <ul>
-                    <li>Work</li>
-                    <li>About</li>
-                    <li>Contact</li>
-                    <li>Blog</li>
-                </ul>
-                <address>
-                  <p>+63 928 550 4378</p>
-                  <p>uxellesa@gmail.com</p>
-                </address>
+                  <div class="menu__content">
+                    <ul>
+                      <li><a href="/">Work <sup>17</sup></a></li>
+                      <li><a href="/about">About</a></li>
+                      <li><a href="/contact">Contact</a></li>
+                      <li><a href="https://medium.com/@ellesa">Blog</a></li>
+                    </ul>
+                    <address>
+                      <p><a href="tel:+639285504378">+63 928 550 4378 <i class="fas fa-sm fa-phone"></i></a></p>
+                      <p><a href="mailto:uxellesa@gmail.com">uxellesa@gmail.com <i class="fas fa-sm fa-envelope"></i></a></p>
+                    </address>
+                  </div>
                 </div>
                 <button class="menu-toggle"></button>
             </div>
             </div>
       </nav>
+      <button onclick="topFunction()" class="button button-clear button-btt" id="backToTop" title="Go to top">
+        <svg version="1.1" id="Ebene_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="53px" height="20px" viewBox="0 0 53 20" enable-background="new 0 0 53 20" xml:space="preserve">
+        <g fill="#654BA5">
+        	<polygon points="43.886,16.221 42.697,17.687 26.5,4.731 10.303,17.688 9.114,16.221 26.5,2.312 	"></polygon>
+        </g>
+        </svg>
+      </button>
       <div class="clearfix"></div>
     </header>
     <div id="banner" class="hero row">
@@ -77,84 +85,104 @@
     </div>
 
     <div id="career">
-        <!-- Showcase ePLDT -->
-        <div class="case__epldt">
-          <div class="case_details">
-            <h2 class="company">ePLDT</h2>
-            <h5 class="position">Sr. UX Designer</h4>
-            <h5 class="duration">
-              <span class="duration_start">Oct 2016</span>
-              <span class="duration_end">Jul 2018</span>
-            </h4>
-            <p class="description">As part of the company’s key innovation group, I helped ePLDT tackled some tough problems from designing customer experiences to establishing design strategy for cross functional teams.</p>
-            <button class="button-clear">Read Case Study →</button>
+      <div class="container">
+          <!-- Showcase ePLDT -->
+          <div class="row case case--epldt">
+            <div class="column column-42-sm">
+              <div class="case-details">
+                <h2 class="company">ePLDT</h2>
+                <h5 class="position">Sr. UX Designer</h4>
+                <h5 class="duration">
+                  <span class="duration_start">Oct 2016</span>
+                  <span class="duration_end">Jul 2018</span>
+                </h4>
+                <p class="description">As part of the company’s key innovation group, I helped ePLDT tackled some tough problems from designing customer experiences to establishing design strategy for cross functional teams.</p>
+                <button class="button-clear">Read Case Study →</button>
+              </div>
+            </div>
+            <div class="column">
+              <div class="case-shot">
+                <picture>
+                  <source media="(min-width: 40rem)" srcset="images/shots/epldt.png">
+                  <img src="images/shots/epldt@sm.png" alt="Flowers" style="width:auto;">
+                </picture>
+              </div>
+            </div>
           </div>
-          <div class="case_showcase">
-            <picture>
-              <source media="(min-width: 40rem)" srcset="http://placehold.jp/940x540.png">
-              <img src="http://placehold.jp/327x240.png" alt="Flowers" style="width:auto;">
-            </picture>
-          </div>
-        </div>
 
-        <!-- Showcase Nimbyx -->
-        <div class="case__epldt">
-          <div class="case_details">
-            <h2 class="company">Nimbyx</h2>
-            <h5 class="position">UX Engineer</h4>
-            <h5 class="duration">
-              <span class="duration_start">Dec 2015</span>
-              <span class="duration_end">Jun 2016</span>
-            </h4>
-            <p class="description">Working on the company's flagship products, Evident Labs and Nimbyx ecosystem, I took charge of designing and developing the style guide and CSS frameworks. Handling research, wireframing, prototyping, high-fidelity mockups and user flows, I saved hours of development time, by working closely with clients to rapidly iterate on UI solutions.</p>
-            <button class="button-clear">Read Case Study →</button>
+          <!-- Showcase Nimbyx -->
+          <div class="row case case--nimbyx">
+            <div class="column column-42-sm pull-right">
+              <div class="case-details">
+                <h2 class="company">Nimbyx</h2>
+                <h5 class="position">UX Engineer</h4>
+                <h5 class="duration">
+                  <span class="duration_start">Oct 2015</span>
+                  <span class="duration_end">Jul 2016</span>
+                </h4>
+                <p class="description">Working on the company's flagship products, Evident Labs and Nimbyx ecosystem, I took charge of designing and developing the style guide and CSS frameworks. Handling research, wireframing, prototyping, high-fidelity mockups and user flows, I saved hours of development time, by working closely with clients to rapidly iterate on UI solutions.</p>
+                <button class="button-clear">Read Case Study →</button>
+              </div>
+            </div>
+            <div class="column">
+              <div class="case-shot pull-left">
+                <picture>
+                  <source media="(min-width: 40rem)" srcset="images/shots/nimbyx.png">
+                  <img src="images/shots/nimbyx@sm.png" alt="Flowers" style="width:auto;">
+                </picture>
+              </div>
+            </div>
           </div>
-          <div class="case_showcase">
-            <picture>
-              <source media="(min-width: 40rem)" srcset="http://placehold.jp/668x400.png">
-              <img src="http://placehold.jp/327x240.png" alt="Flowers" style="width:auto;">
-            </picture>
-          </div>
-        </div>
 
-        <!-- Showcase Kite Systems -->
-        <div class="case__epldt">
-          <div class="case_details">
-            <h2 class="company">Kite Systems</h2>
-            <h5 class="position">Lead UI Designer and Front-end Developer</h4>
-            <h5 class="duration">
-              <span class="duration_start">Sept 2014</span>
-              <span class="duration_end">Oct 2015</span>
-            </h4>
-            <p class="description">Working on the company's flagship products, Evident Labs and Nimbyx ecosystem, I took charge of designing and developing the style guide and CSS frameworks. Handling research, wireframing, prototyping, high-fidelity mockups and user flows, I saved hours of development time, by working closely with clients to rapidly iterate on UI solutions.</p>
-            <button class="button-clear">Read Case Study →</button>
+          <!-- Showcase Kite Systems -->
+          <div class="row case case--kite">
+            <div class="column column-42-sm">
+              <div class="case-details">
+                <h2 class="company">Kite Systems</h2>
+                <h5 class="position">Lead UI Designer and Front-end Developer</h4>
+                <h5 class="duration">
+                  <span class="duration_start">Sept 2014</span>
+                  <span class="duration_end">Oct 2015</span>
+                </h4>
+                <p class="description">I worked with an international team of developers an designers for the company's key projects: NAVGlobal, a multinational finance and wealth management app, Clockenflapp, an event app for HongKong's biggest music festival and CNNGo+Travel, CNN's answer to Netflix.</p>
+                <button class="button-clear">Read Case Study →</button>
+              </div>
+            </div>
+            <div class="column">
+              <div class="case-shot">
+                <picture>
+                  <source media="(min-width: 40rem)" srcset="images/shots/kite.png">
+                  <img src="images/shots/kite@sm.png" alt="Flowers" style="width:auto;">
+                </picture>
+              </div>
+            </div>
           </div>
-          <div class="case_showcase">
-            <picture>
-              <source media="(min-width: 40rem)" srcset="http://placehold.jp/600x340.png">
-              <img src="http://placehold.jp/327x240.png" alt="Flowers" style="width:auto;">
-            </picture>
-          </div>
-        </div>
 
-        <!-- Showcase Independent -->
-        <div class="case__epldt">
-          <div class="case_details">
-            <h2 class="company">Independent Designer</h2>
-            <h5 class="position">UX/UI Designer, Graphic Artist, Web Developer, Project Manager</h4>
-            <h5 class="duration">
-              <span class="duration_start">Oct 2010</span>
-              <span class="duration_end">May 2015</span>
-            </h4>
-            <p class="description">Over the years, I gained experience and fine-tuned my process by helping organizations innovate, transform and succeed in a digital world. Through design, I've helped brands set themselves up for true business success, embedding customer-centered thinking into everything they do. </p>
-            <button class="button-clear">Discover more of my work →</button>
+          <!-- Showcase Independent -->
+          <div class="row case case--independent">
+            <div class="column column-42-sm pull-right">
+              <div class="case-details">
+                <h2 class="company">Independent Designer</h2>
+                <h5 class="position">UX/UI Designer, Project Manager</h4>
+                <h5 class="duration">
+                  <span class="duration_start">Oct 2010</span>
+                  <span class="duration_end">May 2015</span>
+                </h4>
+                <p class="description">Over the years, I gained experience and fine-tuned my process by helping organizations innovate, transform and succeed in a digital world. Through design, I've helped brands set themselves up for true business success, embedding customer-centered thinking into everything they do. </p>
+                <button class="button-clear">Discover more of my work →</button>
+              </div>
+            </div>
+            <div class="column pull-left">
+              <div class="case-shot">
+                <picture>
+                  <source media="(min-width: 40rem)" srcset="images/shots/independent.png">
+                  <img src="images/shots/independent@sm.png" alt="Flowers" style="width:auto;">
+                </picture>
+              </div>
+            </div>
           </div>
-          <div class="case_showcase">
-            <picture>
-              <source media="(min-width: 40rem)" srcset="http://placehold.jp/460x324.png">
-              <img src="http://placehold.jp/327x240.png" alt="Flowers" style="width:auto;">
-            </picture>
-          </div>
+
+
         </div>
     </div>
 

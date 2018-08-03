@@ -16,15 +16,16 @@ console.log("margin = " + moveY)
 tl.to($navbtn, .6, { backgroundPosition: "-1560px 0", ease: SteppedEase.config(26)}, 'menu-turn')
   .to($navbg, .7, {height: 2*r, width: 2*r, scale: 1, ease: Power4.easeOut}, '-=0.3')
   //.to($navbg, .7, { transform: "translate3d(moveX, moveY, 0)", ease: Power4.easeOut }, 'menu-turn')
-  .to($navbg, .5, { opacity: "0", ease: Power4.easeIn}, 'menu-turn')
-  .to($navbg, .3, { visibility: "hidden"})
-  .to($nav, 0.2, { opacity: "1", visibility: "visible", ease: Power4.easeOut}, 'menu-turn');
+  .to($navbg, .4, { opacity: "0", ease: Power4.easeIn}, 'menu-turn')
+  .to($navbg, .1, { visibility: "hidden"})
+  .to($nav, 0.1, { opacity: "1", visibility: "visible", display: "block"}, 'menu-turn');
   // menu items
 
 
 $navbtn.click(function() {
     $navbtn.hasClass("--active") ? (tl.reverse(),
-    $navbtn.removeClass("--active"), $nav.removeClass("revealed"), $("html").removeClass("locked")) : (tl.play(0, !1),
+    $navbtn.removeClass("--active"), $nav.removeClass("revealed"), $("html").removeClass("locked")) :
+    (tl.play(0, !1),
     $navbtn.addClass("--active"), $nav.addClass("revealed"), $("html").addClass("locked"))
 });
 
@@ -80,3 +81,25 @@ var typed = new Typed('.effect--typed', {
     backDelay: 3000
 
   });
+
+
+  // When the user scrolls down 20px from the top of the document, show the button
+  window.onscroll = function() {scrollFunction()};
+
+  function scrollFunction() {
+      if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+          document.getElementById("backToTop").style.visibility = "visible";
+          document.getElementById("backToTop").style.opacity = "1";
+      } else {
+          document.getElementById("backToTop").style.visibility = "hidden";
+          document.getElementById("backToTop").style.opacity = "0";
+      }
+  }
+
+  // When the user clicks on the button, scroll to the top of the document
+  $('#backToTop').each(function(){
+    $(this).click(function(){
+        $('html,body').animate({ scrollTop: 0 }, 'slow');
+        return false;
+    });
+});

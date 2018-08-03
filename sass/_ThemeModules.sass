@@ -62,10 +62,49 @@ html
 	z-index: -1
 	opacity: 0
 	visibility: hidden
+	display: none
 
 	&.revealed
 		visibility: visible
+		z-index: -1
 
+	.menu__content
+		position: absolute
+		bottom: 0
+		width: 100%
+		padding: 4rem 2rem
+
+		a
+			color: $white
+			text-decoration: none
+
+			&:focus,
+			&:hover
+				color: fade-out($white, .3)
+
+		sup
+			font-size: 40%
+			line-height: 100%
+			vertical-align: middle
+			color: fade-out($white, .7)
+
+		address>p
+			margin: .6rem 0
+			font-style: normal
+
+		address i
+			font-size: 1rem
+			vertical-align: middle
+			margin-left: .5rem
+			color: fade-out($white, .8)
+
+			a
+				color: fade-out($white, .6)
+
+		ul
+			list-style: none
+			font-size: $xl-m
+			font-weight: 700
 
 /* warp speed ahead */
 .warpSpeed
@@ -75,3 +114,17 @@ html
 	transform: translate3d(0,0,0)
 	perspective: 1000
 	/* more specific animation properties here */
+
+
+// Larger than  Mobile
+@media (min-width: 40.0rem)
+
+	.menu
+
+		.menu__content
+			top: 50%
+			transform: translateY(-50%)
+			padding: 0 10rem
+
+			ul li a
+				font-size: $xl-d
