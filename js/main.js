@@ -16,9 +16,9 @@ console.log("margin = " + moveY)
 tl.to($navbtn, .6, { backgroundPosition: "-1560px 0", ease: SteppedEase.config(26)}, 'menu-turn')
   .to($navbg, .7, {height: 2*r, width: 2*r, scale: 1, ease: Power4.easeOut}, '-=0.3')
   //.to($navbg, .7, { transform: "translate3d(moveX, moveY, 0)", ease: Power4.easeOut }, 'menu-turn')
-  .to($navbg, .4, { opacity: "0", ease: Power4.easeIn}, 'menu-turn')
-  .to($navbg, .1, { visibility: "hidden"})
-  .to($nav, 0.1, { opacity: "1", visibility: "visible", display: "block"}, 'menu-turn');
+  .to($nav, .5, { opacity: "1", visibility: "visible", display: "block"}, '-=0.3')
+  .to($navbg, .2, { opacity: "0", ease: Power4.easeIn})
+  .to($navbg, .2, { visibility: "hidden"});
   // menu items
 
 
@@ -30,7 +30,6 @@ $navbtn.click(function() {
 });
 
 })(jQuery);
-
 
 $(function(){
     activate('img[src*=".svg"]');

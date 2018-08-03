@@ -47,7 +47,7 @@ html
 	border-radius: 9999px
 	background: $purple
 	//box-shadow: 0 11px 20px rgba(0,0,0,.05)
-	z-index: 0
+	z-index: -1
 	-webkit-transform: translate(-50%,-50%)
 	transform: translate(-50%, -50%)
 
@@ -59,14 +59,14 @@ html
 	top: 0
 	left: 0
 	background: $purple
-	z-index: -1
+	z-index: 0
 	opacity: 0
 	visibility: hidden
 	display: none
 
 	&.revealed
 		visibility: visible
-		z-index: -1
+		z-index: 0
 
 	.menu__content
 		position: absolute
