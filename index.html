@@ -15,12 +15,16 @@
 
   <!-- FONT
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
-  <link href="//fonts.googleapis.com/css?family=Raleway:400,300,600" rel="stylesheet" type="text/css">
+  <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,300i,400,400i,600,600i,700,700i,900,900i" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:600,700,800" rel="stylesheet">
+  <link href="https://afeld.github.io/emoji-css/emoji.css" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700,900" rel="stylesheet">
 
   <!-- CSS
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
   <link rel="stylesheet" href="css/normalize.css">
-  <link rel="stylesheet" href="css/skeleton.css">
+  <link rel="stylesheet" href="css/milligram.css">
+  <link rel="stylesheet" href="css/fa.css">
 
   <!-- Favicon
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
@@ -32,15 +36,235 @@
   <!-- Primary Page Layout
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
   <div class="container">
-    <div class="row">
-      <div class="one-half column" style="margin-top: 25%">
-        <h4>Basic Page</h4>
-        <p>This index.html page is a placeholder with the CSS, font and favicon. It's just waiting for you to add some content! If you need some help hit up the <a href="http://www.getskeleton.com">Skeleton documentation</a>.</p>
+    <header>
+      <nav class="navbar row row-nowrap">
+            <div class="nav__logo column column-50 logo logo-mono"><img src="/images/logo.svg" alt=""></div>
+            <div class="nav__menu column column-25 column-offset-25 navicon">
+              <div class="navmenu">
+                <div class="menu-bg"></div>
+                <div class="menu">
+
+                  <ul>
+                    <li>Work</li>
+                    <li>About</li>
+                    <li>Contact</li>
+                    <li>Blog</li>
+                </ul>
+                <address>
+                  <p>+63 928 550 4378</p>
+                  <p>uxellesa@gmail.com</p>
+                </address>
+                </div>
+                <button class="menu-toggle"></button>
+            </div>
+            </div>
+      </nav>
+      <div class="clearfix"></div>
+    </header>
+    <div id="banner" class="hero row">
+      <div class="column">
+        <p class="hero__greeting">Hello! <i class="em-svg em-wave"></i>
+ I'm Ellesa.</p>
+        <h1 class="hero__headline">Holistic digital product designer,<br>
+        with a knack for<br><span class="effect--typed skillset">UX strategy</span></h1>
+        <div class="hero__cta">
+          <button class="button-outline">Contact me</button>
+          <button class="button button-clear">Discover my work  <i class="fas fa-sm fa-arrow-down"></i>
+
+</button>
+        </div>
       </div>
     </div>
-  </div>
+
+    <div id="career">
+        <!-- Showcase ePLDT -->
+        <div class="case__epldt">
+          <div class="case_details">
+            <h2 class="company">ePLDT</h2>
+            <h5 class="position">Sr. UX Designer</h4>
+            <h5 class="duration">
+              <span class="duration_start">Oct 2016</span>
+              <span class="duration_end">Jul 2018</span>
+            </h4>
+            <p class="description">As part of the company’s key innovation group, I helped ePLDT tackled some tough problems from designing customer experiences to establishing design strategy for cross functional teams.</p>
+            <button class="button-clear">Read Case Study →</button>
+          </div>
+          <div class="case_showcase">
+            <picture>
+              <source media="(min-width: 40rem)" srcset="http://placehold.jp/940x540.png">
+              <img src="http://placehold.jp/327x240.png" alt="Flowers" style="width:auto;">
+            </picture>
+          </div>
+        </div>
+
+        <!-- Showcase Nimbyx -->
+        <div class="case__epldt">
+          <div class="case_details">
+            <h2 class="company">Nimbyx</h2>
+            <h5 class="position">UX Engineer</h4>
+            <h5 class="duration">
+              <span class="duration_start">Dec 2015</span>
+              <span class="duration_end">Jun 2016</span>
+            </h4>
+            <p class="description">Working on the company's flagship products, Evident Labs and Nimbyx ecosystem, I took charge of designing and developing the style guide and CSS frameworks. Handling research, wireframing, prototyping, high-fidelity mockups and user flows, I saved hours of development time, by working closely with clients to rapidly iterate on UI solutions.</p>
+            <button class="button-clear">Read Case Study →</button>
+          </div>
+          <div class="case_showcase">
+            <picture>
+              <source media="(min-width: 40rem)" srcset="http://placehold.jp/668x400.png">
+              <img src="http://placehold.jp/327x240.png" alt="Flowers" style="width:auto;">
+            </picture>
+          </div>
+        </div>
+
+        <!-- Showcase Kite Systems -->
+        <div class="case__epldt">
+          <div class="case_details">
+            <h2 class="company">Kite Systems</h2>
+            <h5 class="position">Lead UI Designer and Front-end Developer</h4>
+            <h5 class="duration">
+              <span class="duration_start">Sept 2014</span>
+              <span class="duration_end">Oct 2015</span>
+            </h4>
+            <p class="description">Working on the company's flagship products, Evident Labs and Nimbyx ecosystem, I took charge of designing and developing the style guide and CSS frameworks. Handling research, wireframing, prototyping, high-fidelity mockups and user flows, I saved hours of development time, by working closely with clients to rapidly iterate on UI solutions.</p>
+            <button class="button-clear">Read Case Study →</button>
+          </div>
+          <div class="case_showcase">
+            <picture>
+              <source media="(min-width: 40rem)" srcset="http://placehold.jp/600x340.png">
+              <img src="http://placehold.jp/327x240.png" alt="Flowers" style="width:auto;">
+            </picture>
+          </div>
+        </div>
+
+        <!-- Showcase Independent -->
+        <div class="case__epldt">
+          <div class="case_details">
+            <h2 class="company">Independent Designer</h2>
+            <h5 class="position">UX/UI Designer, Graphic Artist, Web Developer, Project Manager</h4>
+            <h5 class="duration">
+              <span class="duration_start">Oct 2010</span>
+              <span class="duration_end">May 2015</span>
+            </h4>
+            <p class="description">Over the years, I gained experience and fine-tuned my process by helping organizations innovate, transform and succeed in a digital world. Through design, I've helped brands set themselves up for true business success, embedding customer-centered thinking into everything they do. </p>
+            <button class="button-clear">Discover more of my work →</button>
+          </div>
+          <div class="case_showcase">
+            <picture>
+              <source media="(min-width: 40rem)" srcset="http://placehold.jp/460x324.png">
+              <img src="http://placehold.jp/327x240.png" alt="Flowers" style="width:auto;">
+            </picture>
+          </div>
+        </div>
+    </div>
+
+    <div id="showcase" class="violator">
+      <div class="row row-wrap">
+        <h3 class="column">7+ years of experience<br>
+        designing products and helping businesses</h3>
+        <div class="column column-20 centered-horizontally">
+          <button class="button-outline centered-horizontally">View resume</button>
+          <button class="button-clear centered-horizontally">Learn more about me</button>
+        </div>
+      </div>
+      <div class="spacer clearfix"></div>
+      <div class="row">
+        <div class="column project-card project-card--digicon">
+          <h3>PLDT Digicon</h3>
+          <h5>Design, Strategy</h5>
+          <div class="project-shot">
+            <picture class="dead-center">
+              <source media="(min-width: 40rem)" srcset="http://placehold.jp/327x300.png">
+              <img src="http://placehold.jp/327x300.png" alt="Flowers" style="width:auto;">
+            </picture>
+            <span class="project-mono dead-center">P</span>
+          </div>
+        </div>
+        <div class="column project-card project-card--clockenflap">
+          <h3>Clockenflap Music Festival</h3>
+          <h5>Design, Strategy, Copywriting</h5>
+          <div class="project-shot">
+            <picture class="dead-center">
+              <source media="(min-width: 40rem)" srcset="http://placehold.jp/327x300.png">
+              <img src="http://placehold.jp/327x300.png" alt="Flowers" style="width:auto;">
+            </picture>
+            <span class="project-mono dead-center">C</span>
+          </div>
+        </div>
+        <div class="column project-card project-card--jdsvoice">
+          <h3>John Scott School of Voice</h3>
+          <h5>Design, Strategy, PM</h5>
+          <div class="project-shot">
+            <picture class="dead-center">
+              <source media="(min-width: 40rem)" srcset="http://placehold.jp/327x300.png">
+              <img src="http://placehold.jp/327x300.png" alt="Flowers" style="width:auto;">
+            </picture>
+            <span class="project-mono dead-center">J</span>
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="column column-25 column-offset-75">Turn over<br>to see more</div>
+      </div>
+    </div>
+
+      <footer>
+        <div class="footer-logo">
+          <picture>
+            <source media="(min-width: 40rem)" srcset="http://placehold.jp/196x96.png">
+            <img src="http://placehold.jp/148x72.png" alt="Flowers" style="width:auto;">
+          </picture>
+          <div class="row">
+            <div class="column">
+              <p>I’m looking for a full-time UX and product designer position, worldwide.  I’m also looking to connect with fellow designers and am open to speaking opportunities. Let’s grab a coffee or two, and chat if you’re in Makati!</p>
+              <button class="button-outline">Contact me</button>
+              <button class="button-clear">View my resume ↓</button>
+            </div>
+            <div class="column">
+              <address class="vcard">
+                <p><a class="tel" href="tel:+639285504378">+63 928 550 4378</a></p>
+                <p><a href="mailto:uxellesa@gmail.com">uxellesa@gmail.com</a></p>
+                <nav class="social">
+                  <ul>
+                    <li><a href="https://www.linkedin.com/in/ellesa"><i class="fab fa-linkedin"></a></i>
+
+</li>
+                    <li><a href="https://www.behance.net/skyellesa"><i class="fab fa-behance"></i></a></li>
+                    <li><a href="https://medium.com/@ellesa"><i class="fab fa-medium"></i></a></li>
+                    <li><a href="https://github.com/emsky"><i class="fab fa-github"></i></a></li>
+                    <li><a href="https://codepen.io/emsky/"><i class="fab fa-codepen"></i></a></li>
+                    <li><a href="https://twitter.com/skyellesa"><i class="fab fa-twitter"></i></a></li>
+                    <li><a href="https://instagram.com/skyellesa"><i class="fab fa-instagram"></i></a></li>
+                    <li><a href="https://vimeo.com/skyellesa"><i class="fab fa-vimeo"></i></a></li>
+                  </ul>
+                </nav>
+              </address>
+            </div>
+          </div>
+          <div class="row">
+            <div class="column">
+              <p>Copyright 2018 Ellesa Sabasaje</p>
+            </div>
+          </div>
+        </div>
+      </footer>
+
+</div>
+
 
 <!-- End Document
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/2.0.1/TweenMax.min.js"></script>
+<script src="js/typed.min.js"></script>
+
+<script>
+window.jQuery || document.write('<script src="js/jquery-3.3.1.min.js"><\/script>')
+window.TweenMax || document.write('<script src="js/TweenMax.min.js"><\/script>')
+</script>
+
+<script src="js/main.js"></script>
+
 </body>
 </html>

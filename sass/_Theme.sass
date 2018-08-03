@@ -1,0 +1,153 @@
+
+// Theme
+// ––––––––––––––––––––––––––––––––––––––––––––––––––
+
+$purple: #654BA5
+$ube: #563E8E
+$sky: #68D5F8
+$black: #16162C
+$charcoal: #161517
+
+
+// OVERRIDES: Buttons
+// ––––––––––––––––––––––––––––––––––––––––––––––––––
+button
+	padding: 0.6rem 3rem
+
+	&.button-outline
+		@include border-gradient(left, $indigo3, $sky2, 4px)
+		color: $indigo4
+		//border-color: red
+
+// PLUGIN SETTINGS
+// ––––––––––––––––––––––––––––––––––––––––––––––––––
+
+/* Cursor */
+.typed-cursor
+	color: $indigo2
+	margin-left: .5rem
+
+.effect--typed
+	color: $indigo2
+
+
+.navbar
+	position: fixed
+	height: auto
+	top: 0
+	left: 0
+	width: 100%
+	padding: 2rem 1rem 2rem 2rem
+	box-sizing: border-box
+	z-index: 200
+
+.hero
+	padding-top: 40%
+	height: 100%
+	min-height: 100vh
+	height: 100px
+	color: $charcoal
+	display: flex
+	align-items: center
+	position: relative
+	overflow: hidden
+
+	.hero__greeting
+		font-weight: 400
+
+	.hero__cta
+		margin-top: 3.5rem
+
+.logo
+	flex-shrink: 0
+	margin-left: 1rem
+
+.logo-mono svg #logoName
+	fill: $black !important
+
+.logo-colored svg #logoName
+	fill: url(#grad3)
+
+.logo-colored svg #logoRayLeft
+	fill: $sky
+
+.logo-colored svg #logoRayMiddle
+	fill: $sky
+
+.logo-colored svg #logoRayRight
+	fill: $sky
+
+.navicon
+	flex-shrink: 0
+
+.violator
+	background: limegreen
+
+	h3
+		text-align: center
+
+// Project Cards
+
+.project-card
+
+
+	.project-shot
+		background: blue
+		display: flex
+		flex-direction: column
+		justify-content: center
+		align-items: center
+		min-height: 40rem
+
+		picture
+			position: absolute
+			z-index: 2
+
+		.project-mono
+			position: absolute
+			font-size: 50rem
+			font-family: "Poppins", "Helvetica Neue", "Helvetica", sans-serif
+			font-weight: bold
+			line-height: 25rem
+			vertical-align: middle
+			text-align: center
+			width: auto
+			height: 25rem
+			background: rgba(255,0,0,0.3)
+			z-index: 1
+
+.project-card--digicon
+	background: chartreuse !important
+
+.project-card--clockenflap
+	background: navy !important
+
+.project-card--jdsvoice
+	background: cyan !important
+
+.vcard
+
+	.social
+		font-size: 1.8rem
+
+		ul
+			list-style: none
+			display: flex
+			flex-direction: row
+			justify-content: space-between
+			max-width: 66.67%
+
+
+// Larger than  Mobile
+@media (min-width: 40.0rem)
+
+	.hero
+		padding: 10rem
+
+	h1.hero__headline
+		font-size: 6.4rem
+		letter-spacing: -0.32rem
+
+	p.hero__greeting
+		font-size: 2rem
+		letter-spacing: -.05rem
