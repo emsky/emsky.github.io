@@ -566,11 +566,10 @@ button, .button {
 
 /* Cursor */
 .typed-cursor {
-  color: #545ABF;
-  margin-left: .5rem; }
+  color: #7695F8; }
 
 .effect--typed {
-  color: #545ABF; }
+  color: #6772E5; }
 
 .navbar {
   position: fixed;
@@ -621,6 +620,7 @@ button, .button {
 
 .hero {
   padding-top: 40%;
+  padding-left: 1rem;
   height: 100%;
   min-height: 100vh;
   height: 100px;
@@ -633,6 +633,11 @@ button, .button {
     font-weight: 400; }
   .hero .hero__cta {
     margin-top: 3.5rem; }
+
+.header {
+  padding: 1rem;
+  padding-top: 40%;
+  min-height: 20vh; }
 
 .vcard {
   padding: 0; }
@@ -654,7 +659,7 @@ footer {
   padding: 96px 3rem 2rem;
   min-height: 100vh; }
   footer .footer-details {
-    padding: 1rem 2rem;
+    padding: 1rem;
     margin-bottom: 2rem; }
   footer .footer-logo {
     padding: 2rem; }
@@ -662,12 +667,14 @@ footer {
 @media (min-width: 40rem) {
   .hero {
     padding: 10rem; }
-  h1.hero__headline {
-    font-size: 6.4rem;
-    letter-spacing: -0.32rem; }
-  p.hero__greeting {
-    font-size: 2rem;
-    letter-spacing: -.05rem; }
+    .hero h1.hero__headline {
+      font-size: 6.4rem;
+      letter-spacing: -0.32rem; }
+    .hero p.hero__greeting {
+      font-size: 2rem;
+      letter-spacing: -.05rem; }
+  .header {
+    padding: 16rem 4em 12rem; }
   .pull-left {
     order: 1; }
   .pull-right {
@@ -675,7 +682,7 @@ footer {
   footer {
     min-height: 30vh;
     height: auto;
-    padding: 4rem 24rem; } }
+    padding: 4rem 10rem; } }
 
 .navmenu {
   z-index: 9999;
@@ -721,7 +728,7 @@ footer {
   width: 100%;
   top: 0;
   left: 0;
-  background: #654BA5;
+  background: #545ABF;
   z-index: 22000;
   opacity: 0;
   visibility: hidden;
@@ -780,7 +787,8 @@ footer {
 .case {
   min-height: 75vh;
   justify-content: space-around !important;
-  margin-bottom: 12rem; }
+  margin-bottom: 12rem;
+  padding: 0 1rem; }
 
 .case--epldt .case-details, .case--nimbyx .case-details, .case--kite .case-details, .case--independent .case-details {
   margin-top: 2rem; }
@@ -811,7 +819,7 @@ footer {
 
 .project-card {
   overflow: hidden;
-  margin-bottom: 3rem; }
+  margin-bottom: 5rem !important; }
   .project-card h3.project-name, .project-card h5.project-role {
     text-align: center;
     margin: 0; }
@@ -851,6 +859,24 @@ footer {
       color: #F0F4FA;
       pointer-events: none; }
 
+.text-soon {
+  text-align: center;
+  width: 50%;
+  word-break: break-word;
+  z-index: 10;
+  font-size: 4rem;
+  font-weight: 800;
+  font-family: 'Poppins';
+  text-transform: uppercase;
+  background-image: url("../images/bg/bg01@sm.png");
+  background-size: contain;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  position: relative; }
+
+.coming-soon .project-shot picture {
+  opacity: 0; }
+
 .violator {
   background-image: -webkit-linear-gradient(bottom, #FFFFFF, #F9FAFC);
   padding: 4rem 3rem; }
@@ -859,13 +885,12 @@ footer {
   .violator h3 {
     text-align: center;
     margin-bottom: 3rem; }
-  .violator .showcase {
-    padding: 6rem 16rem; }
 
 @media (min-width: 40rem) {
   .case {
     min-height: 60vh;
-    margin: 3rem 0; }
+    margin: 3rem 0;
+    padding: 1rem 4.2rem; }
     .case .case-details {
       padding: 0 5rem; }
     .case .pull-right > .case-details {
@@ -881,18 +906,24 @@ footer {
   .case--epldt .case-shot picture, .case--epldt .case-shot img {
     width: 2000px !important; }
   .case--nimbyx .case-shot picture, .case--nimbyx .case-shot img {
-    width: 668px !important;
-    transform: translateX(10%); }
+    width: 668px !important; }
   .case--kite .case-shot picture, .case--kite .case-shot img {
     width: 600px !important; }
   .case--independent .case-shot picture, .case--independent .case-shot img {
     width: 520px !important;
-    transform: translateX(25%); } }
-
-.project-card .project-shot picture {
-  position: absolute;
-  z-index: 2;
-  max-width: 360px; }
+    float: right;
+    margin-right: 4rem; }
+  .showcase {
+    padding: 0 6rem;
+    flex-wrap: wrap; }
+    .showcase .project-card {
+      width: 360px;
+      flex: 1 1 30%;
+      margin-bottom: 10rem !important; }
+      .showcase .project-card .project-shot picture {
+        position: absolute;
+        z-index: 2;
+        max-width: 360px; } }
 
 .fade {
   animation-name: fade;

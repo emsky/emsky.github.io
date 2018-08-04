@@ -16,6 +16,13 @@
 		"oAP": "\/.gitignore",
 		"oF": 0
 		},
+	"\/about.html": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/about.html",
+		"oF": 0
+		},
 	"\/css\/fa.css": {
 		"aP": 1,
 		"bl": 0,
@@ -170,6 +177,28 @@
 		"oAP": "\/fonts\/fa-solid-900.woff2",
 		"oF": 0
 		},
+	"\/images\/bg\/bg01.png": {
+		"ft": 32768,
+		"iS": 2816168,
+		"oA": 0,
+		"oAP": "\/images\/bg\/bg01.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/images\/bg\/bg01@sm.png": {
+		"ft": 32768,
+		"iS": 910875,
+		"oA": 0,
+		"oAP": "\/images\/bg\/bg01@sm.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
 	"\/images\/favicon.png": {
 		"ft": 32768,
 		"iS": 1156,
@@ -221,6 +250,17 @@
 		"oF": 0,
 		"oIPL": 1,
 		"opt": 1,
+		"oT": 1,
+		"q": 100
+		},
+	"\/images\/place@2x.png": {
+		"ft": 32768,
+		"iS": 2082278,
+		"oA": 0,
+		"oAP": "\/images\/place@2x.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
 		"oT": 1,
 		"q": 100
 		},
@@ -747,6 +787,13 @@
 		"oF": 0,
 		"oS": 0,
 		"uL": 1
+		},
+	"\/work.html": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/work.html",
+		"oF": 0
 		}
 	},
 "hooks": [

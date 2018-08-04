@@ -8,6 +8,7 @@
 	min-height: 75vh
 	justify-content: space-around !important
 	margin-bottom: 12rem
+	padding: 0 1rem
 
 .case--epldt, .case--nimbyx, .case--kite, .case--independent
 	.case-shot
@@ -44,7 +45,7 @@
 
 .project-card
 	overflow: hidden
-	margin-bottom: 3rem
+	margin-bottom: 5rem !important
 
 	h3.project-name, h5.project-role
 		text-align: center
@@ -91,6 +92,25 @@
 			pointer-events: none
 
 
+// Custom content
+
+.text-soon
+	text-align: center
+	width: 50%
+	word-break: break-word
+	z-index: 10
+	font-size: 4rem
+	font-weight: 800
+	font-family: 'Poppins'
+	text-transform: uppercase
+	background-image: url('../images/bg/bg01@sm.png')
+	background-size: contain
+	-webkit-background-clip: text
+	-webkit-text-fill-color: transparent
+	position: relative
+
+.coming-soon .project-shot picture
+		opacity: 0
 
 // violator
 
@@ -105,8 +125,7 @@
 		text-align: center
 		margin-bottom: 3rem
 
-	.showcase
-		padding: 6rem 16rem
+
 
 // Larger than  Mobile
 @media (min-width: 40.0rem)
@@ -114,6 +133,7 @@
 	.case
 		min-height: 60vh
 		margin: 3rem 0
+		padding: 1rem 4.2rem
 
 		.case-details
 			padding: 0 5rem
@@ -138,7 +158,6 @@
 	.case--nimbyx .case-shot
 			picture, img
 				width: 668px !important
-				transform: translateX(10%)
 
 	.case--kite .case-shot
 			picture, img
@@ -147,18 +166,22 @@
 	.case--independent .case-shot
 			picture, img
 				width: 520px !important
-				transform: translateX(25%)
+				float: right
+				margin-right: 4rem
 
 
+	.showcase
+		padding: 0 6rem
+		flex-wrap: wrap
 
+		.project-card
+			width: 360px
+			flex: 1 1 30%
+			margin-bottom: 10rem !important
 
-// Project Cards
+			.project-shot
 
-.project-card
-
-	.project-shot
-
-		picture
-			position: absolute
-			z-index: 2
-			max-width: 360px
+				picture
+					position: absolute
+					z-index: 2
+					max-width: 360px
