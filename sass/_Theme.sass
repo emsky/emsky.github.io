@@ -15,20 +15,36 @@ $xxl-m: 4.8rem
 $xl-d: 4.8rem
 $xl-m: 3.8rem
 
+$lg-d: 3.7rem
+$lg-m: 3.2rem
+
+$md-d: 3.2rem
+$md-m: 2.4rem
+
+$sm-d: 2.4rem
+$sm-m: 2rem
+
+$mc-d: 2rem
+$mc-m: 1.2rem
+
+
 // OVERRIDES: Buttons
 // ––––––––––––––––––––––––––––––––––––––––––––––––––
+
+
 button, .button
 	padding: .6rem 2rem
 
 	&.button-outline
 		@include border-gradient(left, $indigo3, $sky2, 4px)
 		color: $indigo4
+		transition: all .2s ease-in-out
 		//border-color: red
 
 		&:focus,
 		&:hover
 			@include border-gradient(left, $indigo4, $sky3, 4px)
-			color: $sky2
+			color: $sky3
 
 		&[disabled]
 
@@ -41,12 +57,13 @@ button, .button
 		border-color: transparent
 		color: $indigo4
 		padding: 1rem 1rem
+		transition: all .2s ease-in-out
 
 		&:focus,
 		&:hover
 			background-color: transparent
 			border-color: transparent
-			color: $sky2
+			color: $sky3
 
 		&[disabled]
 
@@ -80,12 +97,16 @@ button, .button
 	box-sizing: border-box
 	z-index: 200
 
+	.nav__logo
+		transition: all .5 ease-in-out
+		opacity: 1
+
 .logo
 	flex-shrink: 0
 	margin-left: 1rem
 
 .logo-mono svg #logoName
-	fill: $black !important
+	fill: $charcoal !important
 
 .logo-colored svg #logoName
 	fill: url(#grad3)
@@ -111,8 +132,10 @@ button, .button
 	position: fixed
 	right: 0
 	bottom: 0
-	z-index: 10000
+	z-index: 20000
 	transition: all .5s linear
+	padding: 1rem
+	margin-right: 1rem
 
 // HERO
 // ––––––––––––––––––––––––––––––––––––––––––––––––––
@@ -134,63 +157,37 @@ button, .button
 	.hero__cta
 		margin-top: 3.5rem
 
-.violator
-	background: limegreen
-
-	h3
-		text-align: center
-
-// Project Cards
-
-.project-card
-
-
-	.project-shot
-		background: blue
-		display: flex
-		flex-direction: column
-		justify-content: center
-		align-items: center
-		min-height: 40rem
-
-		picture
-			position: absolute
-			z-index: 2
-
-		.project-mono
-			position: absolute
-			font-size: 50rem
-			font-family: "Poppins", "Helvetica Neue", "Helvetica", sans-serif
-			font-weight: bold
-			line-height: 25rem
-			vertical-align: middle
-			text-align: center
-			width: auto
-			height: 25rem
-			background: rgba(255,0,0,0.3)
-			z-index: 1
-
-.project-card--digicon
-	background: chartreuse !important
-
-.project-card--clockenflap
-	background: navy !important
-
-.project-card--jdsvoice
-	background: cyan !important
-
 .vcard
+	padding: 0
+
+	p
+		margin-bottom: .5rem
 
 	.social
 		font-size: 1.8rem
+		margin-top: 3rem
 
 		ul
 			list-style: none
 			display: flex
 			flex-direction: row
-			justify-content: space-between
-			max-width: 40.67%
+			justify-content: flex-start
 
+			li
+				margin-right: 1rem
+
+
+footer
+	background-color: $charcoal
+	padding: 96px 3rem 2rem
+	min-height: 100vh
+
+	.footer-details
+		padding: 1rem 2rem
+		margin-bottom: 2rem
+
+	.footer-logo
+		padding: 2rem
 
 // Larger than  Mobile
 @media (min-width: 40.0rem)
@@ -212,3 +209,8 @@ button, .button
 
 	.pull-right
 		order: 2
+
+	footer
+		min-height: 30vh
+		height: auto
+		padding: 4rem 24rem

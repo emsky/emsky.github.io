@@ -5,13 +5,18 @@
 // HOME CASE STUDIES
 
 .case
-	min-height: 100vh
+	min-height: 75vh
+	justify-content: space-around !important
+	margin-bottom: 12rem
 
 .case--epldt, .case--nimbyx, .case--kite, .case--independent
+	.case-shot
 
+	.case-details
+		margin-top: 2rem
 
 	h2.company
-		margin-bottom: .5rem
+		margin-bottom: 1rem
 
 	h5
 		text-transform: uppercase
@@ -26,20 +31,124 @@
 
 	p.description
 		margin: 2rem 0
+		font-weight: normal
+		font-size: 16px
+		letter-spacing: -0.02rem
 
 	.case-shot
 		max-width: 327px
 		overflow: hidden
+
+
+// Project Cards
+
+.project-card
+	overflow: hidden
+	margin-bottom: 3rem
+
+	h3.project-name, h5.project-role
+		text-align: center
+		margin: 0
+
+	h3.project-name
+		font-size: $sm-m
+		font-weight: 800
+		text-transform: uppercase
+		letter-spacing: -0.05rem
+
+	.project-shot
+		display: flex
+		flex-direction: column
+		justify-content: center
+		align-items: center
+		min-height: 40rem
+
+		picture
+			position: absolute
+			z-index: 2
+			max-width: 100%
+
+		.project-mono
+			position: absolute
+			font-size: 50rem
+			font-family: "Poppins", "Helvetica Neue", "Helvetica", sans-serif
+			font-weight: bold
+			line-height: 25rem
+			vertical-align: middle
+			text-align: center
+			width: auto
+			height: 25rem
+			z-index: 1
+			color: fade-out($black, .9)
+			pointer-events: none
+
+
+
+// violator
+
+.violator
+	background: $wash1
+	padding: 6rem 3rem
+
+	button
+		display: block
+
+	h3
+		text-align: center
+		margin-bottom: 3rem
 
 // Larger than  Mobile
 @media (min-width: 40.0rem)
 
 	.case
 		min-height: 60vh
+		margin: 3rem 0
 
 		.case-details
 			padding: 0 5rem
 
+		.pull-right>.case-details
+			padding-left: 0
+
 		.case-shot
 			max-width: 940px
 			overflow: visible
+			object-fit: cover
+
+			picture, img
+				width: auto
+				object-fit: cover
+				flex-shrink: 0
+
+	.case--epldt .case-shot
+			picture, img
+				width: 2000px !important
+
+	.case--nimbyx .case-shot
+			picture, img
+				width: 668px !important
+				transform: translateX(10%)
+
+	.case--kite .case-shot
+			picture, img
+				width: 600px !important
+
+	.case--independent .case-shot
+			picture, img
+				width: 520px !important
+				transform: translateX(25%)
+
+
+	.violator
+		padding: 4rem 10rem
+
+// Project Cards
+
+.project-card
+
+	.project-shot
+
+		picture
+			position: absolute
+			z-index: 2
+			max-width: 360px

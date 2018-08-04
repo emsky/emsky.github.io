@@ -13,8 +13,8 @@ var moveY = (-1) * r/2
 console.log("hypo = " + r)
 console.log("margin = " + moveY)
 
-tl.to($navbtn, .6, { backgroundPosition: "-1560px 0", ease: SteppedEase.config(26)}, 'menu-turn')
-  .to($navbg, .7, {height: 2*r, width: 2*r, scale: 1, ease: Power4.easeOut}, '-=0.3')
+tl.to($navbg, .4, {height: 2*r, width: 2*r, scale: 1, ease: Power4.easeOut}, 'menu-turn')
+  .to($navbtn, .6, { backgroundPosition: "-1560px 0", ease: SteppedEase.config(26)}, '-=.35')
   //.to($navbg, .7, { transform: "translate3d(moveX, moveY, 0)", ease: Power4.easeOut }, 'menu-turn')
   .to($nav, .5, { opacity: "1", visibility: "visible", display: "block"}, '-=0.3')
   .to($navbg, .2, { opacity: "0", ease: Power4.easeIn})
@@ -23,6 +23,7 @@ tl.to($navbtn, .6, { backgroundPosition: "-1560px 0", ease: SteppedEase.config(2
 
 
 $navbtn.click(function() {
+    //$('.bottom-container').toggle();
     $navbtn.hasClass("--active") ? (tl.reverse(),
     $navbtn.removeClass("--active"), $nav.removeClass("revealed"), $("html").removeClass("locked")) :
     (tl.play(0, !1),
@@ -101,4 +102,12 @@ var typed = new Typed('.effect--typed', {
         $('html,body').animate({ scrollTop: 0 }, 'slow');
         return false;
     });
+});
+
+$(window).scroll(function() {
+   if($(window).scrollTop() + $(window).height() > $(document).height() - 700) {
+      $('.nav__logo').removeClass('fade-in').addClass('fade');
+   } else {
+      $('.nav__logo').removeClass('fade').addClass('fade-in');
+   }
 });

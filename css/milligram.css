@@ -224,6 +224,10 @@ input[type='radio'] {
   position: relative;
   width: 100%; }
 
+.container-full {
+  padding: 0;
+  max-width: 100% !important; }
+
 .row {
   display: flex;
   flex-direction: column;
@@ -363,10 +367,11 @@ input[type='radio'] {
         max-width: 90%; } }
 
 a {
-  color: #654BA5;
-  text-decoration: none; }
+  color: #7695F8;
+  text-decoration: none;
+  transition: all .2s ease-in-out; }
   a:focus, a:hover {
-    color: #4BB7E9; }
+    color: #8EEFFB; }
 
 dl,
 ol,
@@ -481,6 +486,13 @@ h6 {
   letter-spacing: 0;
   line-height: 1.4; }
 
+address {
+  font-style: normal; }
+
+@media (min-width: 40rem) {
+  h3 {
+    font-size: 3rem; } }
+
 img {
   max-width: 100%; }
 
@@ -508,8 +520,13 @@ img {
 .spacer {
   display: block;
   height: 4rem;
-  content: ' ';
-  background: red; }
+  content: ' '; }
+
+.text-invert {
+  color: rgba(255, 255, 255, 0.5); }
+
+.hide {
+  opacity: 0; }
 
 button, .button {
   padding: .6rem 2rem; }
@@ -521,7 +538,8 @@ button, .button {
     background-position: 0 100%, 0 0;
     background-repeat: no-repeat;
     background-clip: border-box;
-    color: #7695F8; }
+    color: #7695F8;
+    transition: all .2s ease-in-out; }
     button.button-outline:focus, button.button-outline:hover, .button.button-outline:focus, .button.button-outline:hover {
       border-left: 4px solid #7695F8;
       border-right: 4px solid #8EEFFB;
@@ -530,18 +548,19 @@ button, .button {
       background-position: 0 100%, 0 0;
       background-repeat: no-repeat;
       background-clip: border-box;
-      color: #68D5F8; }
+      color: #8EEFFB; }
     button.button-outline[disabled]:focus, button.button-outline[disabled]:hover, .button.button-outline[disabled]:focus, .button.button-outline[disabled]:hover {
       color: sky2; }
   button.button-clear, .button.button-clear {
     background-color: transparent;
     border-color: transparent;
     color: #7695F8;
-    padding: 1rem 1rem; }
+    padding: 1rem 1rem;
+    transition: all .2s ease-in-out; }
     button.button-clear:focus, button.button-clear:hover, .button.button-clear:focus, .button.button-clear:hover {
       background-color: transparent;
       border-color: transparent;
-      color: #68D5F8; }
+      color: #8EEFFB; }
     button.button-clear[disabled]:focus, button.button-clear[disabled]:hover, .button.button-clear[disabled]:focus, .button.button-clear[disabled]:hover {
       color: #68D5F8; }
 
@@ -562,13 +581,16 @@ button, .button {
   padding: 2rem 1rem 2rem 2rem;
   box-sizing: border-box;
   z-index: 200; }
+  .navbar .nav__logo {
+    transition: all .5 ease-in-out;
+    opacity: 1; }
 
 .logo {
   flex-shrink: 0;
   margin-left: 1rem; }
 
 .logo-mono svg #logoName {
-  fill: #16162C !important; }
+  fill: #161517 !important; }
 
 .logo-colored svg #logoName {
   fill: url(#grad3); }
@@ -592,8 +614,10 @@ button, .button {
   position: fixed;
   right: 0;
   bottom: 0;
-  z-index: 10000;
-  transition: all .5s linear; }
+  z-index: 20000;
+  transition: all .5s linear;
+  padding: 1rem;
+  margin-right: 1rem; }
 
 .hero {
   padding-top: 40%;
@@ -610,51 +634,30 @@ button, .button {
   .hero .hero__cta {
     margin-top: 3.5rem; }
 
-.violator {
-  background: limegreen; }
-  .violator h3 {
-    text-align: center; }
+.vcard {
+  padding: 0; }
+  .vcard p {
+    margin-bottom: .5rem; }
+  .vcard .social {
+    font-size: 1.8rem;
+    margin-top: 3rem; }
+    .vcard .social ul {
+      list-style: none;
+      display: flex;
+      flex-direction: row;
+      justify-content: flex-start; }
+      .vcard .social ul li {
+        margin-right: 1rem; }
 
-.project-card .project-shot {
-  background: blue;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  min-height: 40rem; }
-  .project-card .project-shot picture {
-    position: absolute;
-    z-index: 2; }
-  .project-card .project-shot .project-mono {
-    position: absolute;
-    font-size: 50rem;
-    font-family: "Poppins", "Helvetica Neue", "Helvetica", sans-serif;
-    font-weight: bold;
-    line-height: 25rem;
-    vertical-align: middle;
-    text-align: center;
-    width: auto;
-    height: 25rem;
-    background: rgba(255, 0, 0, 0.3);
-    z-index: 1; }
-
-.project-card--digicon {
-  background: chartreuse !important; }
-
-.project-card--clockenflap {
-  background: navy !important; }
-
-.project-card--jdsvoice {
-  background: cyan !important; }
-
-.vcard .social {
-  font-size: 1.8rem; }
-  .vcard .social ul {
-    list-style: none;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    max-width: 40.67%; }
+footer {
+  background-color: #161517;
+  padding: 96px 3rem 2rem;
+  min-height: 100vh; }
+  footer .footer-details {
+    padding: 1rem 2rem;
+    margin-bottom: 2rem; }
+  footer .footer-logo {
+    padding: 2rem; }
 
 @media (min-width: 40rem) {
   .hero {
@@ -668,7 +671,11 @@ button, .button {
   .pull-left {
     order: 1; }
   .pull-right {
-    order: 2; } }
+    order: 2; }
+  footer {
+    min-height: 30vh;
+    height: auto;
+    padding: 4rem 24rem; } }
 
 .navmenu {
   z-index: 9999;
@@ -691,7 +698,7 @@ button, .button {
   outline: 0;
   border: 0;
   float: right;
-  z-index: 1;
+  z-index: 23000;
   padding: 0; }
   .menu-toggle:hover, .menu-toggle:active, .menu-toggle:focus {
     background-color: transparent; }
@@ -715,18 +722,17 @@ button, .button {
   top: 0;
   left: 0;
   background: #654BA5;
-  z-index: 0;
+  z-index: 22000;
   opacity: 0;
   visibility: hidden;
   display: none; }
   .menu.revealed {
-    visibility: visible;
-    z-index: 0; }
+    visibility: visible; }
   .menu .menu__content {
     position: absolute;
     bottom: 0;
     width: 100%;
-    padding: 4rem 2rem; }
+    padding: 4rem 3rem; }
     .menu .menu__content a {
       color: #FFFFFF;
       text-decoration: none; }
@@ -762,18 +768,25 @@ button, .button {
   /* more specific animation properties here */ }
 
 @media (min-width: 40rem) {
-  .menu .menu__content {
-    top: 50%;
-    transform: translateY(-50%);
+  .menu {
     padding: 0 10rem; }
-    .menu .menu__content ul li a {
-      font-size: 4.8rem; } }
+    .menu .menu__content {
+      position: absolute;
+      top: 50%;
+      transform: translateY(-70%); }
+      .menu .menu__content ul li a {
+        font-size: 4.8rem; } }
 
 .case {
-  min-height: 100vh; }
+  min-height: 75vh;
+  justify-content: space-around !important;
+  margin-bottom: 12rem; }
+
+.case--epldt .case-details, .case--nimbyx .case-details, .case--kite .case-details, .case--independent .case-details {
+  margin-top: 2rem; }
 
 .case--epldt h2.company, .case--nimbyx h2.company, .case--kite h2.company, .case--independent h2.company {
-  margin-bottom: .5rem; }
+  margin-bottom: 1rem; }
 
 .case--epldt h5, .case--nimbyx h5, .case--kite h5, .case--independent h5 {
   text-transform: uppercase;
@@ -787,17 +800,125 @@ button, .button {
   color: rgba(22, 21, 23, 0.2); }
 
 .case--epldt p.description, .case--nimbyx p.description, .case--kite p.description, .case--independent p.description {
-  margin: 2rem 0; }
+  margin: 2rem 0;
+  font-weight: normal;
+  font-size: 16px;
+  letter-spacing: -0.02rem; }
 
 .case--epldt .case-shot, .case--nimbyx .case-shot, .case--kite .case-shot, .case--independent .case-shot {
   max-width: 327px;
   overflow: hidden; }
 
+.project-card {
+  overflow: hidden;
+  margin-bottom: 3rem; }
+  .project-card h3.project-name, .project-card h5.project-role {
+    text-align: center;
+    margin: 0; }
+  .project-card h3.project-name {
+    font-size: 2rem;
+    font-weight: 800;
+    text-transform: uppercase;
+    letter-spacing: -0.05rem; }
+  .project-card .project-shot {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 40rem; }
+    .project-card .project-shot picture {
+      position: absolute;
+      z-index: 2;
+      max-width: 100%; }
+    .project-card .project-shot .project-mono {
+      position: absolute;
+      font-size: 50rem;
+      font-family: "Poppins", "Helvetica Neue", "Helvetica", sans-serif;
+      font-weight: bold;
+      line-height: 25rem;
+      vertical-align: middle;
+      text-align: center;
+      width: auto;
+      height: 25rem;
+      z-index: 1;
+      color: rgba(22, 22, 44, 0.1);
+      pointer-events: none; }
+
+.violator {
+  background: #E6EBF1;
+  padding: 6rem 3rem; }
+  .violator button {
+    display: block; }
+  .violator h3 {
+    text-align: center;
+    margin-bottom: 3rem; }
+
 @media (min-width: 40rem) {
   .case {
-    min-height: 60vh; }
+    min-height: 60vh;
+    margin: 3rem 0; }
     .case .case-details {
       padding: 0 5rem; }
+    .case .pull-right > .case-details {
+      padding-left: 0; }
     .case .case-shot {
       max-width: 940px;
-      overflow: visible; } }
+      overflow: visible;
+      object-fit: cover; }
+      .case .case-shot picture, .case .case-shot img {
+        width: auto;
+        object-fit: cover;
+        flex-shrink: 0; }
+  .case--epldt .case-shot picture, .case--epldt .case-shot img {
+    width: 2000px !important; }
+  .case--nimbyx .case-shot picture, .case--nimbyx .case-shot img {
+    width: 668px !important;
+    transform: translateX(10%); }
+  .case--kite .case-shot picture, .case--kite .case-shot img {
+    width: 600px !important; }
+  .case--independent .case-shot picture, .case--independent .case-shot img {
+    width: 520px !important;
+    transform: translateX(25%); }
+  .violator {
+    padding: 4rem 10rem; } }
+
+.project-card .project-shot picture {
+  position: absolute;
+  z-index: 2;
+  max-width: 360px; }
+
+.fade {
+  animation-name: fade;
+  -webkit-animation-name: fade;
+  animation-duration: .5s;
+  -webkit-animation-duration: .5s;
+  animation-timing-function: ease-in-out;
+  -webkit-animation-timing-function: ease-in-out;
+  animation-iteration-count: 1;
+  -webkit-animation-iteration-count: 1;
+  animation-fill-mode: forwards;
+  -webkit-animation-fill-mode: forwards; }
+
+@keyframes fade {
+  0% {
+    opacity: 1; }
+  100% {
+    opacity: 0; } }
+
+.fade-in {
+  animation-name: fade-in;
+  -webkit-animation-name: fade-in;
+  animation-duration: .5s;
+  -webkit-animation-duration: .5s;
+  animation-timing-function: ease-in-out;
+  -webkit-animation-timing-function: ease-in-out;
+  animation-iteration-count: 1;
+  -webkit-animation-iteration-count: 1;
+  animation-fill-mode: forwards;
+  -webkit-animation-fill-mode: forwards; }
+
+@keyframes fade-in {
+  0% {
+    opacity: 0; }
+  100% {
+    opacity: 1; } }
