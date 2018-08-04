@@ -253,6 +253,61 @@
 		"oT": 1,
 		"q": 100
 		},
+	"\/images\/photo-beijing@2x.jpg": {
+		"ft": 16384,
+		"iS": 2654676,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "\/images\/photo-beijing@2x.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/images\/photo-beijing@2x.png": {
+		"ft": 32768,
+		"iS": 5029226,
+		"oA": 0,
+		"oAP": "\/images\/photo-beijing@2x.png",
+		"oF": 0,
+		"oIPL": 1,
+		"opt": 1,
+		"oT": 1,
+		"q": 100
+		},
+	"\/images\/photo-training@2x.jpg": {
+		"ft": 16384,
+		"iS": 3674898,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "\/images\/photo-training@2x.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/images\/photo-training@2x.png": {
+		"ft": 32768,
+		"iS": 7169199,
+		"oA": 0,
+		"oAP": "\/images\/photo-training@2x.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/images\/photo.jpg": {
+		"ft": 16384,
+		"iS": 11005414,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "\/images\/photo.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 1,
+		"q": 100
+		},
 	"\/images\/place@2x.png": {
 		"ft": 32768,
 		"iS": 2082278,
@@ -496,6 +551,35 @@
 		"oF": 0,
 		"sC": 3,
 		"tS": 0
+		},
+	"\/media\/name.gif": {
+		"ft": 4194304,
+		"iS": 303544,
+		"oA": 0,
+		"oAP": "\/media\/name.gif",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/media\/name.mp3": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/media\/name.mp3",
+		"oF": 0
+		},
+	"\/media\/name.ogg": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/media\/name.ogg",
+		"oF": 0
+		},
+	"\/media\/name.wav": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/media\/name.wav",
+		"oF": 0
 		},
 	"\/README.md": {
 		"cB": 0,

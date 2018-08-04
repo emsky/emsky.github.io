@@ -30,6 +30,10 @@ $navbtn.click(function() {
     $navbtn.addClass("--active"), $nav.addClass("revealed"), $("html").addClass("locked"))
 });
 
+$('.button-hear').click(function(){
+  $('#pronounce')[0].play();
+});
+
 })(jQuery);
 
 $(function(){
@@ -68,7 +72,7 @@ $(function(){
 
 });
 
-
+/*
 var typed = new Typed('.effect--typed', {
     strings: ["UX Design", "Visual Design", "Prototyping", "Front-end Development", "UX Strategy"],
     typeSpeed: 100,
@@ -80,7 +84,26 @@ var typed = new Typed('.effect--typed', {
     startDelay: 500,
     backDelay: 3000
 
-  });
+  }); */
+
+  function oopsieDaisy(fn) {
+    try {
+      var typed = new Typed('.effect--typed', {
+          strings: ["UX Design", "Visual Design", "Prototyping", "Front-end Development", "UX Strategy"],
+          typeSpeed: 100,
+          backspeed:100,
+          smartBackspace: true,
+          loop: true,
+          loopCount: Infinity,
+          cursorChar: "_",
+          startDelay: 500,
+          backDelay: 3000
+
+        })
+    } catch (e) {
+      throw new SpecifiedError('oops');
+    }
+  }
 
 
   // When the user scrolls down 20px from the top of the document, show the button
@@ -107,7 +130,18 @@ var typed = new Typed('.effect--typed', {
 $(window).scroll(function() {
    if($(window).scrollTop() + $(window).height() > $(document).height() - 700) {
       $('.nav__logo').removeClass('fade-in').addClass('fade');
+      console.log('near bottom!')
    } else {
       $('.nav__logo').removeClass('fade').addClass('fade-in');
+      console.log('beaming up!')
    }
 });
+
+
+var $card = $('.card');
+
+var tl = new TimelineMax({repeat: -1});
+
+ tl.set($card, {rotationX: 20, rotationY: -25, rotationZ: -3})
+.to($card, 3, {rotationX: 5, rotationY: -15, rotationZ: -2})
+.to($card, 3, {rotationX: 20, rotationY: -25, rotationZ: -3});

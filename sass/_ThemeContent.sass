@@ -110,7 +110,17 @@
 	position: relative
 
 .coming-soon .project-shot picture
-		opacity: 0
+	opacity: 0
+
+.hero-video
+	padding-top: 20%
+
+.video-centered
+	width: 100%
+
+.about__greeting
+	text-align: center
+	margin-top: 3rem
 
 // violator
 
@@ -125,6 +135,59 @@
 		text-align: center
 		margin-bottom: 3rem
 
+.about
+	padding: 0 3rem
+
+	.exp
+		margin-bottom: 2rem
+
+	.section-label
+		opacity: 0.8
+		font-size: 1rem
+		color: fade-out($charcoal, .7)
+		letter-spacing: 1.2px
+		text-transform: uppercase
+		margin-bottom: 1rem
+
+	.photo
+		padding: 2rem
+		box-shadow: 0 -10px 20px fade-out($charcoal, .9)
+		background-color: white
+
+	h4.company,
+	h4.organization
+		margin: 0
+		font-size: $nn-d
+		margin-bottom: .5rem
+
+	h5.position,
+	h5.role,
+	h5.course,
+	h5.duration,
+	h5.when
+		text-transform: uppercase
+		font-size: $nn-m
+		margin-bottom: .5rem
+		font-weight: 100
+		font-family: "Open Sans"
+		letter-spacing: .02rem
+
+	h5.duration,
+	h5.when
+		color: fade-out($charcoal, .8)
+		margin-bottom: .5rem
+
+	.bio
+		padding: 1rem
+
+	.work-experiences
+		padding: 1rem
+
+	.education
+		padding: 1rem
+
+	.leadership
+		padding: 1rem
 
 
 // Larger than  Mobile
@@ -185,3 +248,41 @@
 					position: absolute
 					z-index: 2
 					max-width: 360px
+
+	.hero-video
+		padding-top: 96px
+		position: relative
+
+		img.video-centered
+			position: relative
+			max-width: 60%
+			max-height: 10%
+			height: 32rem
+			object-fit: cover
+
+
+
+	.about
+		padding: 0 10rem
+
+		.pull-right.photo
+			margin-left: 3rem
+
+		.pull-left.photo
+			margin-right: 3rem
+
+		.photo
+			padding: 3rem
+			box-shadow: 0 -10px 20px fade-out($charcoal, .9)
+
+		.bio
+			padding: 1rem
+
+		.work-experiences
+			padding: 1rem
+
+		.education
+			padding: 1rem
+
+		.leadership
+			padding: 1rem

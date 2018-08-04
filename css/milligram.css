@@ -774,6 +774,31 @@ footer {
   perspective: 1000;
   /* more specific animation properties here */ }
 
+.wrapper {
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, 50%);
+  position: relative;
+  z-index: -100; }
+
+.stripe {
+  background: #6772E5;
+  width: 240px;
+  height: 180px;
+  transform: skewY(-14deg);
+  position: absolute;
+  right: -96px;
+  top: -60px; }
+
+.stripe-blue {
+  background: #68D5F8;
+  width: 240px;
+  height: 180px;
+  transform: skewY(-14deg);
+  position: absolute;
+  left: -60px;
+  top: -60px; }
+
 @media (min-width: 40rem) {
   .menu {
     padding: 0 10rem; }
@@ -782,7 +807,17 @@ footer {
       top: 50%;
       transform: translateY(-70%); }
       .menu .menu__content ul li a {
-        font-size: 4.8rem; } }
+        font-size: 4.8rem; }
+  .stripe {
+    width: 360px;
+    height: 240px;
+    right: -96px;
+    top: -140px; }
+  .stripe-blue {
+    width: 360px;
+    height: 240px;
+    left: -120px;
+    top: -60px; } }
 
 .case {
   min-height: 75vh;
@@ -877,6 +912,16 @@ footer {
 .coming-soon .project-shot picture {
   opacity: 0; }
 
+.hero-video {
+  padding-top: 20%; }
+
+.video-centered {
+  width: 100%; }
+
+.about__greeting {
+  text-align: center;
+  margin-top: 3rem; }
+
 .violator {
   background-image: -webkit-linear-gradient(bottom, #FFFFFF, #F9FAFC);
   padding: 4rem 3rem; }
@@ -885,6 +930,50 @@ footer {
   .violator h3 {
     text-align: center;
     margin-bottom: 3rem; }
+
+.about {
+  padding: 0 3rem; }
+  .about .exp {
+    margin-bottom: 2rem; }
+  .about .section-label {
+    opacity: 0.8;
+    font-size: 1rem;
+    color: rgba(22, 21, 23, 0.3);
+    letter-spacing: 1.2px;
+    text-transform: uppercase;
+    margin-bottom: 1rem; }
+  .about .photo {
+    padding: 2rem;
+    box-shadow: 0 -10px 20px rgba(22, 21, 23, 0.1);
+    background-color: white; }
+  .about h4.company,
+  .about h4.organization {
+    margin: 0;
+    font-size: 1.3rem;
+    margin-bottom: .5rem; }
+  .about h5.position,
+  .about h5.role,
+  .about h5.course,
+  .about h5.duration,
+  .about h5.when {
+    text-transform: uppercase;
+    font-size: 1rem;
+    margin-bottom: .5rem;
+    font-weight: 100;
+    font-family: "Open Sans";
+    letter-spacing: .02rem; }
+  .about h5.duration,
+  .about h5.when {
+    color: rgba(22, 21, 23, 0.2);
+    margin-bottom: .5rem; }
+  .about .bio {
+    padding: 1rem; }
+  .about .work-experiences {
+    padding: 1rem; }
+  .about .education {
+    padding: 1rem; }
+  .about .leadership {
+    padding: 1rem; }
 
 @media (min-width: 40rem) {
   .case {
@@ -923,7 +1012,33 @@ footer {
       .showcase .project-card .project-shot picture {
         position: absolute;
         z-index: 2;
-        max-width: 360px; } }
+        max-width: 360px; }
+  .hero-video {
+    padding-top: 96px;
+    position: relative; }
+    .hero-video img.video-centered {
+      position: relative;
+      max-width: 60%;
+      max-height: 10%;
+      height: 32rem;
+      object-fit: cover; }
+  .about {
+    padding: 0 10rem; }
+    .about .pull-right.photo {
+      margin-left: 3rem; }
+    .about .pull-left.photo {
+      margin-right: 3rem; }
+    .about .photo {
+      padding: 3rem;
+      box-shadow: 0 -10px 20px rgba(22, 21, 23, 0.1); }
+    .about .bio {
+      padding: 1rem; }
+    .about .work-experiences {
+      padding: 1rem; }
+    .about .education {
+      padding: 1rem; }
+    .about .leadership {
+      padding: 1rem; } }
 
 .fade {
   animation-name: fade;
