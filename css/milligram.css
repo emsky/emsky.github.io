@@ -816,10 +816,17 @@ footer {
     text-align: center;
     margin: 0; }
   .project-card h3.project-name {
-    font-size: 2rem;
+    font-size: 1.8rem;
     font-weight: 800;
     text-transform: uppercase;
-    letter-spacing: -0.05rem; }
+    letter-spacing: -0.05rem;
+    color: rgba(22, 22, 44, 0.8); }
+  .project-card h5.project-role {
+    font-size: 1.3rem;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 0;
+    color: rgba(22, 22, 44, 0.3); }
   .project-card .project-shot {
     display: flex;
     flex-direction: column;
@@ -841,17 +848,19 @@ footer {
       width: auto;
       height: 25rem;
       z-index: 1;
-      color: rgba(22, 22, 44, 0.1);
+      color: #F0F4FA;
       pointer-events: none; }
 
 .violator {
-  background: #E6EBF1;
-  padding: 6rem 3rem; }
+  background-image: -webkit-linear-gradient(bottom, #FFFFFF, #F9FAFC);
+  padding: 4rem 3rem; }
   .violator button {
     display: block; }
   .violator h3 {
     text-align: center;
     margin-bottom: 3rem; }
+  .violator .showcase {
+    padding: 6rem 16rem; }
 
 @media (min-width: 40rem) {
   .case {
@@ -878,9 +887,7 @@ footer {
     width: 600px !important; }
   .case--independent .case-shot picture, .case--independent .case-shot img {
     width: 520px !important;
-    transform: translateX(25%); }
-  .violator {
-    padding: 4rem 10rem; } }
+    transform: translateX(25%); } }
 
 .project-card .project-shot picture {
   position: absolute;

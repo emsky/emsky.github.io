@@ -55,6 +55,14 @@
 		font-weight: 800
 		text-transform: uppercase
 		letter-spacing: -0.05rem
+		color: fade-out($black, .2)
+
+	h5.project-role
+		font-size: $mc-m
+		font-weight: 600
+		text-transform: uppercase
+		letter-spacing: 0
+		color: fade-out($black, .7)
 
 	.project-shot
 		display: flex
@@ -79,7 +87,7 @@
 			width: auto
 			height: 25rem
 			z-index: 1
-			color: fade-out($black, .9)
+			color: $wash2
 			pointer-events: none
 
 
@@ -87,8 +95,8 @@
 // violator
 
 .violator
-	background: $wash1
-	padding: 6rem 3rem
+	@include background-gradient(bottom, $white, $wash3)
+	padding: 4rem 3rem
 
 	button
 		display: block
@@ -96,6 +104,9 @@
 	h3
 		text-align: center
 		margin-bottom: 3rem
+
+	.showcase
+		padding: 6rem 16rem
 
 // Larger than  Mobile
 @media (min-width: 40.0rem)
@@ -139,8 +150,7 @@
 				transform: translateX(25%)
 
 
-	.violator
-		padding: 4rem 10rem
+
 
 // Project Cards
 
