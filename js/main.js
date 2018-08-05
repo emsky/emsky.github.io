@@ -86,24 +86,24 @@ var typed = new Typed('.effect--typed', {
 
   }); */
 
-  function oopsieDaisy(fn) {
-    try {
-      var typed = new Typed('.effect--typed', {
-          strings: ["UX Design", "Visual Design", "Prototyping", "Front-end Development", "UX Strategy"],
-          typeSpeed: 100,
-          backspeed:100,
-          smartBackspace: true,
-          loop: true,
-          loopCount: Infinity,
-          cursorChar: "_",
-          startDelay: 500,
-          backDelay: 3000
+  if ($(".effect--typed")[0]){
+    var typed = new Typed('.effect--typed', {
+        strings: ["UX Design", "Visual Design", "Prototyping", "Front-end Development", "UX Strategy"],
+        typeSpeed: 100,
+        backspeed:100,
+        smartBackspace: true,
+        loop: true,
+        loopCount: Infinity,
+        cursorChar: "_",
+        startDelay: 500,
+        backDelay: 3000
 
-        })
-    } catch (e) {
-      throw new SpecifiedError('oops');
-    }
+      })
+  } else {
+      // Do something if class does not exist
   }
+
+
 
 
   // When the user scrolls down 20px from the top of the document, show the button
@@ -128,7 +128,7 @@ var typed = new Typed('.effect--typed', {
 });
 
 $(window).scroll(function() {
-   if($(window).scrollTop() + $(window).height() > $(document).height() - 700) {
+   if($(window).scrollTop() + $(window).height() > $(document).height() - 300) {
       $('.nav__logo').removeClass('fade-in').addClass('fade');
       console.log('near bottom!')
    } else {

@@ -4,11 +4,15 @@
 
 // HOME CASE STUDIES
 
+.duration_start::after
+	content: '-'
+	margin: 0 .5rem
+
 .case
 	min-height: 75vh
 	justify-content: space-around !important
 	margin-bottom: 12rem
-	padding: 0 1rem
+	padding: 0 3rem
 
 .case--epldt, .case--nimbyx, .case--kite, .case--independent
 	.case-shot
@@ -18,6 +22,22 @@
 
 	h2.company
 		margin-bottom: 1rem
+		position: relative
+
+		sup
+			font-size: .4em
+			padding: .3em
+			color: $indigo4
+			font-weight: 100
+			letter-spacing: 0
+			text-transform: uppercase
+			position: relative
+			top: 0
+			margin: .5rem
+
+		sup i
+			height: 1.2rem
+			width: 1.2rem
 
 	h5
 		text-transform: uppercase
@@ -31,10 +51,11 @@
 		color: fade-out($charcoal, .8)
 
 	p.description
-		margin: 2rem 0
+		margin: 4rem 0
 		font-weight: normal
 		font-size: 16px
 		letter-spacing: -0.02rem
+		color: $midgray
 
 	.case-shot
 		max-width: 327px
@@ -46,6 +67,7 @@
 .project-card
 	overflow: hidden
 	margin-bottom: 5rem !important
+	position: relative
 
 	h3.project-name, h5.project-role
 		text-align: center
@@ -124,16 +146,24 @@
 
 // violator
 
-.violator
+.violator, .footer-showcase
 	@include background-gradient(bottom, $white, $wash3)
-	padding: 4rem 3rem
+	padding: 5rem 3rem
 
 	button
 		display: block
 
 	h3
+		font-weight: 700
+		font-size: $lg-m
+		letter-spacing: -.05rem
 		text-align: center
-		margin-bottom: 3rem
+
+.footer-showcase
+
+
+.turn-over
+	text-align: center
 
 .about
 	padding: 0 3rem
@@ -196,7 +226,7 @@
 	.case
 		min-height: 60vh
 		margin: 3rem 0
-		padding: 1rem 4.2rem
+		padding: 10rem
 
 		.case-details
 			padding: 0 5rem
@@ -215,22 +245,24 @@
 				flex-shrink: 0
 
 	.case--epldt .case-shot
-			picture, img
-				width: 2000px !important
+		picture, img
+			width: 2000px !important
 
 	.case--nimbyx .case-shot
-			picture, img
-				width: 668px !important
+		picture, img
+			width: 668px !important
+			float: right
+			margin-right: 4rem
 
 	.case--kite .case-shot
-			picture, img
-				width: 600px !important
+		picture, img
+			width: 600px !important
 
 	.case--independent .case-shot
-			picture, img
-				width: 520px !important
-				float: right
-				margin-right: 4rem
+		picture, img
+			width: 520px !important
+			float: right
+			margin-right: 4rem
 
 
 	.showcase
@@ -240,7 +272,7 @@
 		.project-card
 			width: 360px
 			flex: 1 1 30%
-			margin-bottom: 10rem !important
+			margin-bottom: 3rem !important
 
 			.project-shot
 

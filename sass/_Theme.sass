@@ -9,11 +9,15 @@ $black: #16162C
 $charcoal: #161517
 
 // Sizes
-$xxl-d: 6.4rem
-$xxl-m: 4.8rem
 
-$xl-d: 4.8rem
-$xl-m: 3.8rem
+$jm-d: 6.4rem
+$jm-m: 4.8rem
+
+$xxl-d: 5.4rem
+$xxl-m: 4.2rem
+
+$xl-d: 4.2rem
+$xl-m: 3.6rem
 
 $lg-d: 3.7rem
 $lg-m: 3.2rem
@@ -138,31 +142,57 @@ button, .button
 	padding: 1rem
 	margin-right: 1rem
 
+// scrollicon
+
+.hero__pull-down
+	position: absolute
+	bottom: -1rem
+
+// HEIGHTS
+// ––––––––––––––––––––––––––––––––––––––––––––––––––
+
+.full-height
+	height: 100%
+	min-height: 100vh
+
+.half-mast
+	height: 100%
+	min-height: 100vh
+
 // HERO
 // ––––––––––––––––––––––––––––––––––––––––––––––––––
 
 .hero
-	padding-top: 40%
-	padding-left: 1rem
-	height: 100%
-	min-height: 100vh
-	height: 100px
+	padding-top: 35%
+	padding-left: 2rem
 	color: $charcoal
 	display: flex
 	align-items: center
 	position: relative
 	overflow: hidden
 
-	.hero__greeting
-		font-weight: 400
+	h1.hero__headline
+		font-size: $xxl-m
+		line-height: 1.24em
+
+	h1.case__headline
+		font-size: $lg-m
+		letter-spacing: -0.1rem
+		line-height: 1.24em
+
+	.hero__greeting, .case__greeting
+		font-weight: 100
 
 	.hero__cta
-		margin-top: 3.5rem
+		margin-top: 2rem
+
+
+.hero--case
+	padding-top: 35%
 
 .header
 	padding: 1rem
 	padding-top: 40%
-	min-height: 20vh
 
 .vcard
 	padding: 0
@@ -199,16 +229,27 @@ footer
 // Larger than  Mobile
 @media (min-width: 40.0rem)
 
+	.full-height
+		height: 100%
+		height: 100vh
+		max-height: 100vh
+		max-height: 100%
+
+	.half-mast
+		height: 85%
+		min-height: 85vh
+
 	.hero
 		padding: 10rem
 
 		h1.hero__headline
-			font-size: 6.4rem
+			font-size: $xxl-d
 			letter-spacing: -0.32rem
 
 		p.hero__greeting
-			font-size: 2rem
-			letter-spacing: -.05rem
+			font-size: $mc-d
+			letter-spacing: 0
+
 
 	.header
 		padding: 16rem 4em 12rem

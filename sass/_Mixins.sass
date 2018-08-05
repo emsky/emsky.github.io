@@ -25,3 +25,9 @@
   background: -webkit-linear-gradient($dir, $from, $to)
   -webkit-background-clip: text
   -webkit-text-fill-color: transparent
+
+@mixin shadowed($x, $y, $blur, $col)
+    -webkit-filter: drop-shadow($x $y $blur $col)
+    filter: drop-shadow($x $y $blur $col)
+    -ms-filter: "progid:DXImageTransform.Microsoft.Dropshadow(OffX=$x, OffY=$y, Color='$col')"
+    filter: "progid:DXImageTransform.Microsoft.Dropshadow(OffX=$x, OffY=$y, Color='$col')"
