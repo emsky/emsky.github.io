@@ -14,8 +14,8 @@ html {
 body {
   color: #6A6A72;
   font-family: 'Source Sans Pro', 'Helvetica Neue', 'Helvetica', 'Arial', sans-serif;
-  font-size: 1.6em;
-  font-weight: 400;
+  font-size: 20px;
+  font-weight: 100;
   letter-spacing: .01em;
   line-height: 1.66; }
 
@@ -902,8 +902,6 @@ footer {
 
 .case--epldt p.description, .case--nimbyx p.description, .case--kite p.description, .case--independent p.description {
   margin: 4rem 0;
-  font-weight: normal;
-  font-size: 16px;
   letter-spacing: -0.02rem;
   color: #6A6A72; }
 
@@ -1342,13 +1340,20 @@ footer {
   .design-objective h3::after {
     margin-top: 6rem; }
   /* --------------  */
+  .phase__intro {
+    min-height: 65vh;
+    padding-bottom: 4rem; }
   .subsection-left,
   .subsection-right,
   .subsection-images {
+    min-height: 90vh;
     padding: 0 10rem; }
-  .subsection-centered .content {
-    align-self: center;
-    padding: 0 30%; }
+  .subsection-centered {
+    min-height: 90vh;
+    background: tomato; }
+    .subsection-centered .content {
+      align-self: center;
+      padding: 0 30%; }
   .subsection-centered {
     padding-bottom: 0; } }
 
