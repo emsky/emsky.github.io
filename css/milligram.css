@@ -1341,7 +1341,7 @@ footer {
     margin-top: 6rem; }
   /* --------------  */
   .phase__intro {
-    min-height: 65vh;
+    min-height: 72vh;
     padding-bottom: 4rem; }
   .subsection-left,
   .subsection-right,
@@ -1349,13 +1349,25 @@ footer {
     min-height: 90vh;
     padding: 0 10rem; }
   .subsection-centered {
-    min-height: 90vh;
-    background: tomato; }
+    min-height: 90vh; }
     .subsection-centered .content {
       align-self: center;
       padding: 0 30%; }
   .subsection-centered {
-    padding-bottom: 0; } }
+    padding-bottom: 0; }
+  #phase-showcase-full .final-showcase {
+    max-height: 72rem !important;
+    overflow: hidden;
+    position: relative; }
+    #phase-showcase-full .final-showcase picture, #phase-showcase-full .final-showcase img {
+      width: 100% !important;
+      max-width: 100%;
+      object-fit: cover; } }
+
+.phase-icon-discover,
+.phase-icon-execution,
+.phase-icon-solution {
+  display: none; }
 
 .subsection-left .content h4,
 .subsection-right .content h4,
@@ -1363,3 +1375,26 @@ footer {
 .subsection-centered .content h4 {
   font-size: 3.7rem;
   font-weight: normal; }
+
+#gr-double-diamond-discover #discovery, #gr-double-diamond-discover #execution,
+#gr-double-diamond-execution #discovery,
+#gr-double-diamond-execution #execution {
+  stroke: #161517; }
+
+#gr-double-diamond-discover #ship,
+#gr-double-diamond-execution #ship {
+  fill: #161517; }
+
+#gr-double-diamond-discover #highlight,
+#gr-double-diamond-execution #highlight {
+  fill: #C81C31; }
+
+#rocket #rocket-window {
+  fill: #C81C31; }
+
+#rocket #rocket-wing {
+  fill: #C81C31;
+  stroke: #C81C31; }
+
+#rocket #rocket-fire1 {
+  fill: #C81C31; }
