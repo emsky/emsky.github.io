@@ -1,5 +1,6 @@
 ---
 layout: landing
---- 
+permalink: "/"
+---
 
 Test
