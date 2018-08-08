@@ -609,6 +609,20 @@
 		"oF": 0,
 		"oS": 3
 		},
+	"\/_site\/casestudy.html": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/_site\/casestudy.html",
+		"oF": 0
+		},
+	"\/_site\/colophon.html": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/_site\/colophon.html",
+		"oF": 0
+		},
 	"\/_site\/colophon\/index.html": {
 		"cB": 0,
 		"ft": 8192,
@@ -1372,6 +1386,13 @@
 		"pME": 1,
 		"rFN": 0,
 		"uCM": 0
+		},
+	"\/_site\/work.html": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/_site\/work.html",
+		"oF": 0
 		},
 	"\/_site\/work\/epldt\/digicon\/index.html": {
 		"cB": 0,
