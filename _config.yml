@@ -23,6 +23,7 @@ twitter_username: "skyellesa"
 github_username:  "emsky"
 
 # Build settings
+markdown: kramdown
 
 sass:
     sass_dir: _sass
