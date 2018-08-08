@@ -1,0 +1,35 @@
+
+// Animations
+// ––––––––––––––––––––––––––––––––––––––––––––––––––
+
+.fade
+	animation-name: fade
+	-webkit-animation-name: fade
+	animation-duration: .5s
+	-webkit-animation-duration: .5s
+	animation-timing-function: ease-in-out
+	-webkit-animation-timing-function: ease-in-out
+	animation-iteration-count: 1
+	-webkit-animation-iteration-count: 1
+	animation-fill-mode: forwards
+	-webkit-animation-fill-mode: forwards
+
+@keyframes fade
+	0% { opacity: 1 }
+	100% { opacity: 0 }
+
+.fade-in
+	animation-name: fade-in
+	-webkit-animation-name: fade-in
+	animation-duration: .5s
+	-webkit-animation-duration: .5s
+	animation-timing-function: ease-in-out
+	-webkit-animation-timing-function: ease-in-out
+	animation-iteration-count: 1
+	-webkit-animation-iteration-count: 1
+	animation-fill-mode: forwards
+	-webkit-animation-fill-mode: forwards
+
+@keyframes fade-in
+	0% { opacity: 0 }
+	100% { opacity: 1 }

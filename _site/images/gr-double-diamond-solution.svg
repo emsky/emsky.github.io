@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="172px" height="88px" viewBox="0 0 172 88" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 51.2 (57519) - http://www.bohemiancoding.com/sketch -->
+    <title>gr-double-diamond-solution</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-19" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="gr-double-diamond-solution" fill-rule="nonzero">
+            <path d="M81.3605429,38.934136 L44,1.57359313 L1.57359313,44 L44,86.4264069 L81.3605429,49.065864 L,38.934136" id="discovery" stroke="#161517" stroke-width="2"></path>
+            <path d="M163.201163,38.7747564 L125.84062,1.41421356 L83.4142136,43.8406204 L125.84062,86.2670273 L163.201163,48.9064844 L,38.7747564" id="execution" stroke="#161517" stroke-width="2"></path>
+            <polygon id="Star" fill="#B9B8B9" points="167 46.5 164.061074 48.045085 164.622359 44.7725425 162.244717 42.454915 165.530537 41.9774575 167 39 168.469463 41.9774575 171.755283 42.454915 169.377641 44.7725425 169.938926 48.045085"></polygon>
+        </g>
+    </g>
+</svg>

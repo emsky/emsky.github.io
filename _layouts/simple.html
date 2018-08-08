@@ -1,0 +1,16 @@
+{% include header.html %}
+
+<div class="container">
+  <div class="row header-large">
+    <div class="column column-33-sm">
+      <h1>{{ page.title }}</h1>
+      <span class="subtitle"><i class="em-svg em-{{ page.emoji }}"></i></span>
+      </div>
+    </div>
+</div>
+<div class="content-wrapper">
+  {% for item in page.partials %}
+    {% include {{item.name}}.html pagetitle=item.pagetitle pagedesc=item.pagedesc customtheme=item.customtheme projectname=item.projectname tagline=item.tagline media_lg=item.media_lg media_sm=item.media_sm alt=item.alt overview=item.overview role=item.role period=item.period industry=item.industry company=item.company statement=item.statement description=item.description heading=item.heading insightlefttitle=item.insightlefttitle insightleftdesc=item.insightleftdesc insightrighttitle=item.insightrighttitle insightrightdesc=item.insightrightdesc insightmidtitle=item.insightmidtitle insightmiddesc=item.insightmiddesc designobjective=item.designobjective subheading=item.subheading alignment=item.alignment mediaone=item.mediaone mediatwo=item.mediatwo bool_fullwidth=item.bool_fullwidth src=item.src feature1=item.feature1 feature2=item.feature2 feature3=item.feature3 more=item.more %}
+  {% endfor %}
+</div>
+{% include footer.html %}

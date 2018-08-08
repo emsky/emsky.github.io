@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="170px" height="88px" viewBox="0 0 170 88" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 51.2 (57519) - http://www.bohemiancoding.com/sketch -->
+    <title>gr-double-diamond-discover</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-19" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="gr-double-diamond-discover" fill-rule="nonzero">
+            <path d="M81.3605429,38.934136 L44,1.57359313 L1.57359313,44 L44,86.4264069 L81.3605429,49.065864 L,38.934136" id="discovery" stroke="#161517" stroke-width="2"></path>
+            <path d="M163.201163,38.7747564 L125.84062,1.41421356 L83.4142136,43.8406204 L125.84062,86.2670273 L163.201163,48.9064844 L,38.7747564" id="execution" stroke="#161517" stroke-width="2"></path>
+            <rect id="highlight" fill="#B9B8B9" transform="translate(44.130465, 44.130465) rotate(-45.000000) translate(-44.130465, -44.130465) " x="21.4107954" y="21.4107954" width="45.4393398" height="45.4393398"></rect>
+            <circle id="ship" fill="#161517" cx="168" cy="44" r="2"></circle>
+        </g>
+    </g>
+</svg>

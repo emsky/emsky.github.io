@@ -1,0 +1,116 @@
+- name: "PLDT Digicon"
+  role: "UX, Visual Design, Strategy"
+  link: "/work/epldt/digicon/"
+  media_lg: "/images/shots/digicon/digicon-showcase@sm.png"
+  media_sm: "/images/shots/digicon/digicon-showcase@sm.png"
+  alt: "Digicon app showcase"
+  monogram: "P"
+  status: true
+
+- name: "Clockenflap Music Festival"
+  role: "UX, Visual Design"
+  link: "/work/kite/clockenflap/"
+  media_lg: "/images/shots/clockenflap/clockenflap-showcase@sm.png"
+  media_sm: "/images/shots/clockenflap/clockenflap-showcase@sm.png"
+  alt: "Clockenflap app showcase"
+  monogram: "C"
+  status: true
+
+- name: "John Scott School of Voice"
+  role: "UX, Design, Strategy, PM"
+  link: "/work/johnscottschool/allegro/"
+  media_lg: "/images/shots/jdsvoice/jds-showcase@sm.png"
+  media_sm: "/images/shots/jdsvoice/jds-showcase@sm.png"
+  alt: "Classroom app showcase"
+  monogram: "J"
+  status: true
+
+- name: "Ask-E Superbot"
+  role: "Design, Strategy"
+  link: "/work/epldt/aske/"
+  media_lg: "/images/place@2x.png"
+  media_sm: "/images/place@2x.png"
+  alt: "Coming soon"
+  monogram: "A"
+  status: false
+
+- name: "The ePLDT G.E.M."
+  role: "Strategy, Branding"
+  link: "/work/epldt/gem/"
+  media_lg: "/images/place@2x.png"
+  media_sm: "/images/place@2x.png"
+  alt: "Coming soon"
+  monogram: "G"
+  status: false
+
+- name: "ePLDT Hardworking Website"
+  role: "UX, Design, Strategy"
+  link: "/work/epldt/website-redesign/"
+  media_lg: "/images/place@2x.png"
+  media_sm: "/images/place@2x.png"
+  alt: "Coming soon"
+  monogram: "H"
+  status: false
+
+- name: "ePLDT Mobile"
+  role: "UX, Design, Strategy"
+  link: "/work/epldt/epldt-mobile/"
+  media_lg: "/images/place@2x.png"
+  media_sm: "/images/place@2x.png"
+  alt: "Coming soon"
+  monogram: "M"
+  status: false
+
+- name: "NAV Global"
+  role: "Lead Design, Lead Front-end"
+  link: "/work/kite/nav/"
+  media_lg: "/images/place@2x.png"
+  media_sm: "/images/place@2x.png"
+  alt: "Coming soon"
+  monogram: "N"
+  status: false
+
+- name: "CNNGo"
+  role: "Concept, Design"
+  link: "/work/kite/cnngo/"
+  media_lg: "/images/place@2x.png"
+  media_sm: "/images/place@2x.png"
+  alt: "Coming Soon"
+  monogram: "C"
+  status: false
+
+- name: "Evident Labs"
+  role: "UX, Visual design, Front-end"
+  link: "/work/nimbyx/evident/"
+  media_lg: "/images/place@2x.png"
+  media_sm: "/images/place@2x.png"
+  alt: "Coming Soon"
+  monogram: "E"
+  status: false
+
+- name: "Nimbyx Shop"
+  role: "UX, Design, Front-end"
+  link: "/work/nimbyx/nimbyx-shop/"
+  media_lg: "/images/place@2x.png"
+  media_sm: "/images/place@2x.png"
+  alt: "Coming Soon"
+  monogram: "N"
+  status: false
+
+- name: "CheqRx"
+  role: "Design, Strategy"
+  link: "/work/independent/cheqrx/"
+  media_lg: "/images/place@2x.png"
+  media_sm: "/images/place@2x.png"
+  alt: "Coming Soon"
+  monogram: "C"
+  status: false
+
+- name: "Xavier University Ateneo de Cagayan"
+  role: "UX, Design, Front-end, PM"
+  link: "/work/independent/xuadc/"
+  media_lg: "/images/place@2x.png"
+  media_sm: "/images/place@2x.png"
+  alt: "Coming Soon"
+  monogram: "X"
+  status: false
