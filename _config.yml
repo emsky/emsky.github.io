@@ -23,17 +23,26 @@ twitter_username: "skyellesa"
 github_username:  "emsky"
 
 # Build settings
-markdown: kramdown
+markdown:
+    kramdown:
+      - auto_ids: false
 
 sass:
     sass_dir: _sass
 
+source: .
+destination: _site
+
 # Folders to process
 permalink: /posts/:title.html
 //relative_permalinks: false # Fixes problem with relative links not working
-include: ["_work"]
+include:
+    - "_work"
+    - .htaccess
 exclude:
     - .DS_Store
     - .gitignore
     - config.codekit3
     - "_work/_templates"
+    - Gemfile
+    - Gemfile.lock

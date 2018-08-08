@@ -1,78 +1,79 @@
-<div id="showcase" class="container container-full footer-showcase">
-      <div class="row row-wrap row-no-padding">
-        <div class="column">
-          <h3>{{ include.more }}</h3>
-        </div>
+<div id="showcase" class="container-full footer-showcase">
+    <div class="wrapper">
+          <div class="row row-wrap row-no-padding">
+            <div class="column">
+              <h3>{{ include.more }}</h3>
+            </div>
 
-      </div>
-      <div class="spacer clearfix"></div>
-      <div class="row showcase">
-        {% if site.data.projects[include.feature1].status %}
-          <div class="column project-card">
-        {% else %}
-        <div class="column project-card coming-soon">
-        {% endif %}
-          <div class="project-details">
-            <h3 class="project-name">{{ site.data.projects[include.feature1].name }}</h3>
-            <h5 class="project-role">{{ site.data.projects[include.feature1].role }}</h5>
           </div>
-          <div class="project-shot">
-            <a href="{{ site.data.projects[include.feature1].link }}"><picture class="dead-centered">
-                <source media="(min-width: 40rem)" srcset="{{ site.data.projects[include.feature1].media_lg }}">
-                <img src="{{ site.data.projects[include.feature1].media_sm }}" alt="{{ site.data.projects[include.feature1].alt }}">
-              </picture></a>
-            <span class="project-mono dead-centered">{{ site.data.projects[include.feature1].monogram }}</span>
-          </div>
-        </div>
+          <div class="row showcase">
+            {% if site.data.projects[include.feature1].status %}
+              <div class="column project-card">
+            {% else %}
+            <div class="column project-card coming-soon">
+            {% endif %}
+              <div class="project-details">
+                <h3 class="project-name">{{ site.data.projects[include.feature1].name }}</h3>
+                <h5 class="project-role">{{ site.data.projects[include.feature1].role }}</h5>
+              </div>
+              <div class="project-shot">
+                <a href="{{ site.data.projects[include.feature1].link }}"><picture class="dead-centered">
+                    <source media="(min-width: 40rem)" srcset="{{ site.data.projects[include.feature1].media_lg }}">
+                    <img src="{{ site.data.projects[include.feature1].media_sm }}" alt="{{ site.data.projects[include.feature1].alt }}">
+                  </picture></a>
+                <span class="project-mono dead-centered">{{ site.data.projects[include.feature1].monogram }}</span>
+              </div>
+            </div>
 
-        {% if site.data.projects[include.feature2].status %}
-          <div class="column project-card">
-        {% else %}
-        <div class="column project-card coming-soon">
-        {% endif %}
-          <div class="project-details">
-            <h3 class="project-name">{{ site.data.projects[include.feature2].name }}</h3>
-            <h5 class="project-role">{{ site.data.projects[include.feature2].role }}</h5>
-          </div>
-          <div class="project-shot">
-            <a href="{{ site.data.projects[include.feature2].link }}"><picture class="dead-centered">
-                <source media="(min-width: 40rem)" srcset="{{ site.data.projects[include.feature2].media_lg }}">
-                <img src="{{ site.data.projects[include.feature2].media_sm }}" alt="{{ site.data.projects[include.feature2].alt }}">
-              </picture></a>
-            <span class="project-mono dead-centered">{{ site.data.projects[include.feature2].monogram }}</span>
             {% if site.data.projects[include.feature2].status %}
-              <!-- do nothing -->
+              <div class="column project-card">
             {% else %}
-              <h6 class="text-soon dead-centered" data-text='Coming Soon'>Coming Soon</h6>
+            <div class="column project-card coming-soon">
             {% endif %}
-          </div>
-        </div>
+              <div class="project-details">
+                <h3 class="project-name">{{ site.data.projects[include.feature2].name }}</h3>
+                <h5 class="project-role">{{ site.data.projects[include.feature2].role }}</h5>
+              </div>
+              <div class="project-shot">
+                <a href="{{ site.data.projects[include.feature2].link }}"><picture class="dead-centered">
+                    <source media="(min-width: 40rem)" srcset="{{ site.data.projects[include.feature2].media_lg }}">
+                    <img src="{{ site.data.projects[include.feature2].media_sm }}" alt="{{ site.data.projects[include.feature2].alt }}">
+                  </picture></a>
+                <span class="project-mono dead-centered">{{ site.data.projects[include.feature2].monogram }}</span>
+                {% if site.data.projects[include.feature2].status %}
+                  <!-- do nothing -->
+                {% else %}
+                  <h6 class="text-soon dead-centered" data-text='Coming Soon'>Coming Soon</h6>
+                {% endif %}
+              </div>
+            </div>
 
-        {% if site.data.projects[include.feature3].status %}
-          <div class="column project-card">
-        {% else %}
-        <div class="column project-card coming-soon">
-        {% endif %}
-          <div class="project-details">
-            <h3 class="project-name">{{ site.data.projects[include.feature3].name }}</h3>
-            <h5 class="project-role">{{ site.data.projects[include.feature3].role }}</h5>
-          </div>
-          <div class="project-shot">
-            <a href="{{ site.data.projects[include.feature3].link }}"><picture class="dead-centered">
-                <source media="(min-width: 40rem)" srcset="{{ site.data.projects[include.feature3].media_lg }}">
-                <img src="{{ site.data.projects[include.feature3].media_sm }}" alt="{{ site.data.projects[include.feature3].alt }}">
-              </picture></a>
-            <span class="project-mono dead-centered">{{ site.data.projects[include.feature3].monogram }}</span>
             {% if site.data.projects[include.feature3].status %}
-              <!-- do nothing -->
+              <div class="column project-card">
             {% else %}
-              <h6 class="text-soon dead-centered" data-text='Coming Soon'>Coming Soon</h6>
+            <div class="column project-card coming-soon">
             {% endif %}
+              <div class="project-details">
+                <h3 class="project-name">{{ site.data.projects[include.feature3].name }}</h3>
+                <h5 class="project-role">{{ site.data.projects[include.feature3].role }}</h5>
+              </div>
+              <div class="project-shot">
+                <a href="{{ site.data.projects[include.feature3].link }}"><picture class="dead-centered">
+                    <source media="(min-width: 40rem)" srcset="{{ site.data.projects[include.feature3].media_lg }}">
+                    <img src="{{ site.data.projects[include.feature3].media_sm }}" alt="{{ site.data.projects[include.feature3].alt }}">
+                  </picture></a>
+                <span class="project-mono dead-centered">{{ site.data.projects[include.feature3].monogram }}</span>
+                {% if site.data.projects[include.feature3].status %}
+                  <!-- do nothing -->
+                {% else %}
+                  <h6 class="text-soon dead-centered" data-text='Coming Soon'>Coming Soon</h6>
+                {% endif %}
+              </div>
+            </div>
+
+          </div>
+          <div class="row">
+            <div class="column turn-over"><a href="/work">Turn over to see more <br><i class="em-svg em-point_right"></i></a></div>
           </div>
         </div>
-
-      </div>
-      <div class="row">
-        <div class="column turn-over"><a href="/work">Turn over to see more <br><i class="em-svg em-point_right"></i></a></div>
-      </div>
-    </div>
+</div>

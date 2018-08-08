@@ -82,7 +82,7 @@
 		font-size: $sm-m
 		font-weight: 800
 		text-transform: uppercase
-		letter-spacing: -0.05rem
+		letter-spacing: 0
 		color: fade-out($black, .2)
 
 	h5.project-role
@@ -174,7 +174,7 @@
 
 .violator, .footer-showcase
 	@include background-gradient(bottom, $white, $wash3)
-	padding: 5rem 3rem
+	padding: 10rem 3rem
 
 	button
 		display: block
@@ -184,9 +184,6 @@
 		font-size: $lg-m
 		letter-spacing: -.05rem
 		text-align: center
-
-.footer-showcase
-
 
 .turn-over
 	text-align: center
@@ -300,7 +297,7 @@
 			flex-basis: 33%
 			flex-shrink: 0
 			flex-grow: 0
-			margin-bottom: 10rem !important
+			margin-bottom: 10rem
 			margin-top: 2rem !important
 
 			.project-shot
@@ -308,6 +305,16 @@
 				picture, img
 					z-index: 2
 					max-width: 420px
+
+	// different spacing for footer showcasees
+
+	.footer-showcase
+
+		.showcase
+			margin: 5rem 0 0
+
+			.project-card
+				margin-bottom: 4rem
 
 	.hero-video
 		padding-top: 96px

@@ -673,6 +673,13 @@
 		"oF": 0,
 		"oS": 3
 		},
+	"\/_site\/feed.xml": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/_site\/feed.xml",
+		"oF": 0
+		},
 	"\/_site\/fonts\/astrid.woff2": {
 		"cB": 0,
 		"ft": 8192,
@@ -834,20 +841,6 @@
 		"ft": 8192,
 		"oA": 0,
 		"oAP": "\/_site\/fonts\/GoogleSans-Regular.ttf",
-		"oF": 0
-		},
-	"\/_site\/Gemfile": {
-		"cB": 0,
-		"ft": 8192,
-		"oA": 0,
-		"oAP": "\/_site\/Gemfile",
-		"oF": 0
-		},
-	"\/_site\/Gemfile.lock": {
-		"cB": 0,
-		"ft": 8192,
-		"oA": 0,
-		"oAP": "\/_site\/Gemfile.lock",
 		"oF": 0
 		},
 	"\/_site\/images\/arrows-curve.svg": {
@@ -1387,6 +1380,13 @@
 		"rFN": 0,
 		"uCM": 0
 		},
+	"\/_site\/work.html": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/_site\/work.html",
+		"oF": 0
+		},
 	"\/_site\/work\/epldt\/digicon\/index.html": {
 		"cB": 0,
 		"ft": 8192,
@@ -1801,6 +1801,13 @@
 		"ft": 8192,
 		"oA": 0,
 		"oAP": "\/casestudy.html",
+		"oF": 0
+		},
+	"\/colophon.html": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/colophon.html",
 		"oF": 0
 		},
 	"\/colophon.md": {
@@ -2481,6 +2488,13 @@
 		"oT": 1,
 		"q": 100
 		},
+	"\/index.html": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/index.html",
+		"oF": 0
+		},
 	"\/index.md": {
 		"cB": 0,
 		"cS": 0,
@@ -2595,6 +2609,13 @@
 		"pME": 1,
 		"rFN": 0,
 		"uCM": 0
+		},
+	"\/work.html": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/work.html",
+		"oF": 0
 		},
 	"\/work.md": {
 		"cB": 0,

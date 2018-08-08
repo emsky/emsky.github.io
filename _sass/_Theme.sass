@@ -17,19 +17,19 @@ $jm-m: 4.8rem
 $xxl-d: 5.4rem
 $xxl-m: 4.2rem
 
-$xl-d: 4.2rem
+$xl-d: 4.8rem
 $xl-m: 3.6rem
 
 $lg-d: 3.7rem
 $lg-m: 3.2rem
 
 $md-d: 3.2rem
-$md-m: 2.4rem
+$md-m: 2.8rem
 
-$sm-d: 2.4rem
-$sm-m: 1.8rem
+$sm-d: 2.8rem
+$sm-m: 2rem
 
-$mc-d: 1.8rem
+$mc-d: 2rem
 $mc-m: 1.3rem
 
 $nn-d: 1.3rem
@@ -109,12 +109,11 @@ button, .button
 	.nav__logo
 		transition: all .5 ease-in-out
 		opacity: 1
-		padding-left: 3rem
+		padding-left: 2rem
 		padding-top: 1rem
 
 .logo
 	flex-shrink: 0
-	margin-left: 1rem
 
 .logo-mono svg #logoName
 	fill: $charcoal !important
@@ -169,8 +168,7 @@ button, .button
 // ––––––––––––––––––––––––––––––––––––––––––––––––––
 
 .hero
-	padding-top: 35%
-	padding-left: 2rem
+	padding: 35% 3rem 0
 	color: $charcoal
 	display: flex
 	align-items: center
@@ -189,14 +187,9 @@ button, .button
 		margin-top: 2rem
 
 
-.hero--case
-	padding-top: 35%
-
 .header-large
-	padding: 1rem
 	padding-top: 40%
-	font-family: $font-caps
-	background: tomato
+	font-family: $font-modern
 
 	h1
 		font-size: $jm-m
@@ -220,9 +213,10 @@ button, .button
 			li
 				margin-right: 1rem
 
+.bottom-container
+	background-color: $charcoal
 
 footer
-	background-color: $charcoal
 	padding: 96px 3rem 2rem
 	min-height: 100vh
 
@@ -236,6 +230,7 @@ footer
 	.footer-logo
 		padding-top: 3rem
 		margin-bottom: 2rem
+		padding-left: 1rem
 
 	.photo-wrapper
 		height: 16rem
@@ -282,6 +277,9 @@ footer
 // Larger than  Mobile
 @media (min-width: 40.0rem)
 
+	.navbar
+		padding: 3rem 4rem
+
 	.full-height
 		height: 100%
 		height: 100vh
@@ -296,18 +294,22 @@ footer
 		padding: 10rem
 
 		h1.hero__headline
-			font-size: $xxl-d
+			font-size: $jm-d
 
 		p.hero__greeting
-			font-size: $mc-d
+			font-size: $sm-d
 
 
 	.header-large
-		padding: 16rem 4em 3rem
+		padding: 16rem 4em 4rem
+		overflow: visible
 
 		h1
 			font-size: $jm-d
 			font-family: 'Google Sans'
+
+	.content-wrapper
+		padding: 4rem 8rem 10rem
 
 	// Grid pull utilities
 	.pull-left
