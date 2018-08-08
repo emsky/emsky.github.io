@@ -30,9 +30,8 @@ sass:
 
 # Folders to process
 permalink: /posts/:title.html
-relative_permalinks: false # Fixes problem with relative links not working
+//relative_permalinks: false # Fixes problem with relative links not working
 include: ["_work"]
-
 exclude:
     - .DS_Store
     - .gitignore
