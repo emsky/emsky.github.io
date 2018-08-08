@@ -1,0 +1,49 @@
+{% include header.html %}
+
+<div class="container">
+  <div class="row header">
+    <div class="column">
+      {{ content }}
+      </div>
+    </div>
+
+
+  <div id="projects">
+    <div class="row showcase">
+
+    {% for project in site.data.projects %}
+      {% if project.status %}
+        <div class="column project-card">
+      {% else %}
+      <div class="column project-card coming-soon">
+      {% endif %}
+
+        <div class="project-details">
+          <h3 class="project-name">{{ project.name }}</h3>
+          <h5 class="project-role">{{ project.role }}</h5>
+        </div>
+        <div class="project-shot">
+          <a href="{{ project.link }}"><picture class="dead-centered">
+              <source media="(min-width: 40rem)" srcset="{{ project.media_lg }}">
+              <img src="{{ project.media_sm }}" alt="{{ project.alt }}">
+            </picture></a>
+          <span class="project-mono dead-centered">{{ project.monogram }}</span>
+
+          {% if project.status %}
+            <!-- do nothing -->
+          {% else %}
+            <h6 class="text-soon dead-centered" data-text='Coming Soon'>Coming Soon</h6>
+          {% endif %}
+
+        </div>
+      </div>
+    {% endfor %}
+
+
+    </div>
+
+  </div>
+
+</div>
+
+{% include footer.html %}

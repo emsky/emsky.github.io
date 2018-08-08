@@ -1,0 +1,334 @@
+
+// Theme
+// ––––––––––––––––––––––––––––––––––––––––––––––––––
+
+$purple: #654BA5
+$ube: #563E8E
+$sky: #68D5F8
+$black: #16162C
+$charcoal: #161517
+
+
+// Sizes
+
+$jm-d: 6.4rem
+$jm-m: 4.8rem
+
+$xxl-d: 5.4rem
+$xxl-m: 4.2rem
+
+$xl-d: 4.2rem
+$xl-m: 3.6rem
+
+$lg-d: 3.7rem
+$lg-m: 3.2rem
+
+$md-d: 3.2rem
+$md-m: 2.4rem
+
+$sm-d: 2.4rem
+$sm-m: 1.8rem
+
+$mc-d: 1.8rem
+$mc-m: 1.3rem
+
+$nn-d: 1.3rem
+$nn-m: 1rem
+
+// OVERRIDES: Buttons
+// ––––––––––––––––––––––––––––––––––––––––––––––––––
+
+
+button, .button
+	padding: .6rem 2rem
+
+	&.button-outline
+		@include border-gradient(left, $indigo3, $sky2, 4px)
+		color: $indigo4
+		transition: all .2s ease-in-out
+		//border-color: red
+
+		&:focus,
+		&:hover
+			@include border-gradient(left, $indigo4, $sky3, 4px)
+			background-image: -webkit-linear-gradient(left, $indigo4, $sky3)
+			background-clip: unset
+			background-size: auto
+			color: $white
+
+		&[disabled]
+
+			&:focus,
+			&:hover
+				color: sky2
+
+	&.button-clear
+		background-color: transparent
+		border-color: transparent
+		color: $indigo4
+		padding: 1rem 1rem
+		transition: all .2s ease-in-out
+
+		&:focus,
+		&:hover
+			background-color: transparent
+			border-color: transparent
+			color: $sky3
+
+		&[disabled]
+
+			&:focus,
+			&:hover
+				color: $sky2
+
+// PLUGIN SETTINGS
+// ––––––––––––––––––––––––––––––––––––––––––––––––––
+
+/* Cursor */
+.typed-cursor
+	color: $indigo4
+
+.effect--typed
+	color: $indigo3
+
+
+// NAVIGATION
+// ––––––––––––––––––––––––––––––––––––––––––––––––––
+
+
+.navbar
+	position: fixed
+	height: auto
+	top: 0
+	left: 0
+	padding: 2rem 1rem
+	box-sizing: border-box
+	z-index: 200
+	border-top: 8px solid $charcoal
+
+	.nav__logo
+		transition: all .5 ease-in-out
+		opacity: 1
+		padding-left: 3rem
+		padding-top: 1rem
+
+.logo
+	flex-shrink: 0
+	margin-left: 1rem
+
+.logo-mono svg #logoName
+	fill: $charcoal !important
+
+.logo-colored svg #logoName
+	fill: url(#grad3)
+
+.logo-colored svg #logoRayLeft
+	fill: $sky
+
+.logo-colored svg #logoRayMiddle
+	fill: $sky
+
+.logo-colored svg #logoRayRight
+	fill: $sky
+
+.navicon
+	flex-shrink: 0
+
+
+// back to top button
+.button-btt
+	display: block
+	visibility: hidden
+	opacity: 0
+	position: fixed
+	right: 0
+	bottom: 0
+	z-index: 20000
+	transition: all .5s linear
+	padding: 1rem
+	margin-right: 1rem
+
+// scrollicon
+
+.hero__pull-down
+	position: absolute
+	bottom: -1rem
+
+// HEIGHTS
+// ––––––––––––––––––––––––––––––––––––––––––––––––––
+
+.full-height
+	height: 100%
+	min-height: 100vh
+
+.half-mast
+	height: 100%
+	min-height: 100vh
+
+// HERO
+// ––––––––––––––––––––––––––––––––––––––––––––––––––
+
+.hero
+	padding-top: 35%
+	padding-left: 2rem
+	color: $charcoal
+	display: flex
+	align-items: center
+	position: relative
+	overflow: hidden
+
+	h1.hero__headline
+		font-size: $xxl-m
+		line-height: 1.24em
+		letter-spacing: -0.15rem
+
+	.hero__greeting
+		font-weight: 400
+
+	.hero__cta
+		margin-top: 2rem
+
+
+.hero--case
+	padding-top: 35%
+
+.header-large
+	padding: 1rem
+	padding-top: 40%
+	font-family: $font-caps
+	background: tomato
+
+	h1
+		font-size: $jm-m
+
+.vcard
+	padding: 0
+
+	p
+		margin-bottom: .5rem
+
+	.social
+		font-size: 1.8rem
+		margin-top: 3rem
+
+		ul
+			list-style: none
+			display: flex
+			flex-direction: row
+			justify-content: flex-start
+
+			li
+				margin-right: 1rem
+
+
+footer
+	background-color: $charcoal
+	padding: 96px 3rem 2rem
+	min-height: 100vh
+
+	.footer-details
+		padding: 1rem
+		margin-bottom: 2rem
+
+		p.text-invert-fade
+			padding-bottom: 2rem
+
+	.footer-logo
+		padding-top: 3rem
+		margin-bottom: 2rem
+
+	.photo-wrapper
+		height: 16rem
+		width: 16rem
+		border-radius: 50%
+		overflow: hidden
+		float: left
+		border: 8px solid $charcoal
+		position: relative
+
+		.photo
+			height: 120%
+			width: 120%
+			overflow: hidden
+			border-radius: 50%
+			display: block
+			position: absolute
+			top: 45%
+			left: 60%
+			transform: translateX(-50%) translateY(-50%)
+
+	.copyright
+		padding-top: 4rem
+		position: relative
+		font-size: .65em
+		letter-spacing: .05rem
+		font-family: 'Google Sans', 'Poppins'
+		font-weight: 100
+		text-transform: uppercase
+		color: fade-out($white,.7)
+		align-items: baseline
+
+/*
+		&::before
+			content: ' '
+			width: 100%
+			display: block
+			height: 1px
+			position: absolute
+			opacity: .5
+			top: 1rem
+			@include background-gradient(left, $indigo3, $sky2) */
+
+// Larger than  Mobile
+@media (min-width: 40.0rem)
+
+	.full-height
+		height: 100%
+		height: 100vh
+		max-height: 100vh
+		max-height: 100%
+
+	.half-mast
+		height: 85%
+		min-height: 85vh
+
+	.hero
+		padding: 10rem
+
+		h1.hero__headline
+			font-size: $xxl-d
+
+		p.hero__greeting
+			font-size: $mc-d
+
+
+	.header-large
+		padding: 16rem 4em 3rem
+
+		h1
+			font-size: $jm-d
+			font-family: 'Google Sans'
+
+	// Grid pull utilities
+	.pull-left
+		order: 1
+
+	.pull-right
+		order: 2
+
+	footer
+		min-height: 30vh
+		height: auto
+		padding: 4rem 10rem
+
+		.vcard
+			margin-left: 6rem
+
+		.photo-wrapper
+			float: right
+
+		.copyright
+
+			.column:nth-child(2) p
+				text-align: right
+				vertical-align: bottom

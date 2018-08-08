@@ -1,0 +1,14 @@
+<div class="container">
+  <div class="row row-wrap subsection-centered row-center">
+    <div class="column content">
+      <h4 class="heading">{{ include.heading }}</h4>
+      <p class="description">{{ include.description }}</p>
+    </div>
+    <div class="column image">
+      <picture>
+        <source media="(min-width: 40rem)" srcset="{{ include.media_lg }}">
+        <img src="{{ include.media_sm }}" alt="{{ include.alt }}" style="width:auto;">
+      </picture>
+    </div>
+  </div>
+</div>

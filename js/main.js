@@ -30,6 +30,18 @@ $navbtn.click(function() {
     $navbtn.addClass("--active"), $nav.addClass("revealed"), $("html").addClass("locked"))
 });
 
+$('.project-shot a').hover(function(){
+      $(this).siblings('.project-mono').animate({
+        'opacity': '.8',
+        'top': '-=2px'
+      }, 250)
+    },
+    function(){
+      $(this).siblings('.project-mono').animate({
+        'opacity': '.1'
+      }, 250)
+    });
+
 $('.button-hear').click(function(){
   $('#pronounce')[0].play();
 });
@@ -136,6 +148,7 @@ $(window).scroll(function() {
       console.log('beaming up!')
    }
 });
+
 
 
 var $card = $('.card');
