@@ -1,14 +1,345 @@
 <!DOCTYPE html>
-<html xmlns="http://www.w3.org/1999/xhtml" lang="en">
+<html lang="en">
 <head>
-	<meta charset="utf-8"/>
-	<meta name="layout" content="landing"/>
-	<meta name="permalink" content="/"/>
+
+  <!-- Basic Page Needs
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <meta charset="utf-8">
+  <title></title>
+  <meta name="description" content="">
+  <meta name="author" content="Ellesa Sabasaje, UXD">
+
+  <!-- Mobile Specific Metas
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <!-- FONT
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,300i,400,400i,600,600i,700,700i,900,900i" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:600,700,800" rel="stylesheet">
+  <link href="https://afeld.github.io/emoji-css/emoji.css" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700,900" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Google+Sans:300,700,900" rel="stylesheet">
+
+  <!-- CSS
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <link rel="stylesheet" href="/css/normalize.css">
+  <link rel="stylesheet" href="/css/astrid.css">
+  <link rel="stylesheet" href="/css/milligram.css">
+  <link rel="stylesheet" href="/css/fa.css">
+
+  <!-- Favicon
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <link rel="icon" type="image/png" href="/images/favicon.png">
+
 </head>
-<body>
+<body id="">
+
+  <!-- Primary Page Layout
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <div class="container">
+    <header>
+      <nav class="navbar row row-nowrap">
+            <div class="nav__logo fade-in column column-50 logo logo-mono"><a href="/"><img src="/images/logo.svg" alt=""></a></div>
+            <div class="nav__menu column column-25 column-offset-25 navicon">
+              <div class="navmenu">
+                <div class="menu-bg"></div>
+                <div class="menu">
+                  <div class="menu__content">
+                    <ul>
+                      <li><a href="/work">Work <sup>13</sup></a></li>
+                      <li><a href="/about">About</a></li>
+                      <li><a href="/resume">Resume</a></li>
+                      <li><a href="mailto:uxellesa@gmail.com">Contact</a></li>
+                      <li><a href="https://medium.com/@ellesa">Blog</a></li>
+                    </ul>
+                    <address>
+                      <p><a href="tel:+639285504378">+63 928 550 4378 <i class="fas fa-sm fa-phone"></i></a></p>
+                      <p><a href="mailto:uxellesa@gmail.com">uxellesa@gmail.com <i class="fas fa-sm fa-envelope"></i></a></p>
+                    </address>
+                  </div>
+                </div>
+                <button class="menu-toggle"></button>
+            </div>
+            </div>
+      </nav>
+      <button onclick="topFunction()" class="button button-clear button-btt" id="backToTop" title="Go to top">
+        <svg version="1.1" id="Ebene_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="53px" height="20px" viewBox="0 0 53 20" enable-background="new 0 0 53 20" xml:space="preserve">
+        <g fill="#654BA5">
+        	<polygon points="43.886,16.221 42.697,17.687 26.5,4.731 10.303,17.688 9.114,16.221 26.5,2.312 	"></polygon>
+        </g>
+        </svg>
+      </button>
+      <div class="clearfix"></div>
+    </header>
+
+  </div>
+
+
+<div class="container container-full">
+  <div id="banner" class="hero row full-height">
+    <div class="column">
+      <p class="hero__greeting"><i class="em-svg em-wave"></i> Hello! I'm Ellesa.</p>
+      <h1 class="hero__headline">Holistic digital product designer,<br>
+      with a knack for<br><span class="effect--typed skillset">UX strategy</span></h1>
+      <div class="hero__cta">
+        <button class="button-outline">Contact me</button>
+        <button class="button button-clear">Discover my work  <i class="fas fa-sm fa-arrow-down"></i></button>
+      </div>
+      <div class="hero__pull-down">
+        <img src="/images/pull-down-black.svg" alt="Scroll to see more.">
+      </div>
+    </div>
+  </div>
+
+  <div id="career">
+
+        <!-- Showcase ePLDT -->
+        <div class="row case case--epldt">
+          <div class="column pull-right">
+            <div class="case-shot">
+              <picture>
+                <source media="(min-width: 40rem)" srcset="images/shots/epldt.png">
+                <img src="images/shots/epldt@sm.png" alt="Flowers" style="width:auto;">
+              </picture>
+            </div>
+          </div>
+          <div class="column column-42-sm">
+            <div class="case-details pull-left">
+              <h2 class="company">ePLDT<sup data-units="projects">5 <i class="em-svg em-rocket"></i></sup></h2>
+              <h5 class="position">Sr. UX Designer</h4>
+              <h5 class="duration">
+                <span class="duration_start">Oct 2016</span>
+                <span class="duration_end">Jul 2018</span>
+              </h4>
+              <p class="description">As part of the company’s key innovation group, I helped ePLDT tackle some tough problems from designing customer experiences to establishing design strategy for cross functional teams.</p>
+              <a href="/work/epldt" class="button button-outline">Read Case Study →</a>
+            </div>
+          </div>
+
+        </div>
+
+        <!-- Showcase Nimbyx -->
+        <div class="row case case--nimbyx">
+          <div class="column">
+            <div class="case-shot pull-left">
+              <picture>
+                <source media="(min-width: 40rem)" srcset="images/shots/nimbyx.png">
+                <img src="images/shots/nimbyx@sm.png" alt="Flowers" style="width:auto;">
+              </picture>
+            </div>
+          </div>
+          <div class="column column-42-sm pull-right">
+            <div class="case-details">
+              <h2 class="company">Nimbyx<sup data-units="projects">2 <i class="em-svg em-rocket"></i></sup></h2>
+              <h5 class="position">UX Engineer</h4>
+              <h5 class="duration">
+                <span class="duration_start">Oct 2015</span>
+                <span class="duration_end">Jul 2016</span>
+              </h4>
+              <p class="description">Working on the company's flagship products, Evident Labs and Nimbyx ecosystem, I took charge of designing and developing the style guide and CSS frameworks. Handling research, wireframing, prototyping, high-fidelity mockups and user flows, I saved hours of development time, by working closely with clients to rapidly iterate on UI solutions.</p>
+              <a href="/work/nimbyx" class="button button-outline">Read Case Study →</a>
+            </div>
+          </div>
+
+        </div>
+
+        <!-- Showcase Kite Systems -->
+        <div class="row case case--kite">
+          <div class="column pull-right">
+            <div class="case-shot">
+              <picture>
+                <source media="(min-width: 40rem)" srcset="images/shots/kite.png">
+                <img src="images/shots/kite@sm.png" alt="Flowers" style="width:auto;">
+              </picture>
+            </div>
+          </div>
+          <div class="column column-42-sm pull-left">
+            <div class="case-details">
+              <h2 class="company">Kite Systems<sup data-units="projects">3 <i class="em-svg em-rocket"></i></sup></h2>
+              <h5 class="position">Lead UI Designer and Front-end Developer</h4>
+              <h5 class="duration">
+                <span class="duration_start">Sept 2014</span>
+                <span class="duration_end">Oct 2015</span>
+              </h4>
+              <p class="description">I worked with an international team of developers an designers for the company's key projects: NAVGlobal, a multinational finance and wealth management app, Clockenflapp, an event app for HongKong's biggest music festival and CNNGo+Travel, CNN's answer to Netflix.</p>
+              <a href="/work/kite" class="button button-outline">Read Case Study →</a>
+            </div>
+          </div>
+
+        </div>
+
+        <!-- Showcase Independent -->
+        <div class="row case case--independent">
+          <div class="column pull-left">
+            <div class="case-shot">
+              <picture>
+                <source media="(min-width: 40rem)" srcset="images/shots/independent.png">
+                <img src="images/shots/independent@sm.png" alt="Flowers" style="width:auto;">
+              </picture>
+            </div>
+          </div>
+          <div class="column column-42-sm pull-right">
+            <div class="case-details">
+              <h2 class="company">Independent Designer<sup data-units=" projects">3 <i class="em-svg em-rocket"></i></sup></h2>
+              <h5 class="position">UX/UI Designer, Project Manager</h4>
+              <h5 class="duration">
+                <span class="duration_start">Oct 2010</span>
+                <span class="duration_end">May 2015</span>
+              </h4>
+              <p class="description">Over the years, I gained experience and fine-tuned my process by helping organizations innovate, transform and succeed in a digital world. Through design, I've helped brands set themselves up for true business success, embedding customer-centered thinking into everything they do. </p>
+              <a href="/work/" class="button button-outline">Discover more of my work →</a>
+            </div>
+          </div>
+        </div>
 
 
 
-</body>
-</html>
+  </div>
+
+</div>
+
+
+  <div id="showcase" class="container container-full violator">
+    <div class="row row-wrap row-no-padding">
+      <div class="column">
+        <h3>7+ years of experience,<br>
+        designing products and helping businesses</h3>
+      </div>
+      <div class="column column-20 centered-horizontally">
+        <button class="button-outline centered-horizontally">View resume</button>
+        <button class="button-clear centered-horizontally">Learn more about me</button>
+      </div>
+    </div>
+    <div class="spacer clearfix"></div>
+    <div class="row showcase">
+
+        <div class="column project-card project-card--digicon">
+          <div class="project-details">
+            <h3 class="project-name">PLDT Digicon</h3>
+            <h5 class="project-role">UX, Visual Design, Strategy</h5>
+          </div>
+          <div class="project-shot">
+            <a href="/work/epldt/digicon/">
+              <picture>
+                <source media="(min-width: 40rem)" srcset="/images/shots/digicon/digicon-showcase@sm.png">
+                <img src="/images/shots/digicon/digicon-showcase@sm.png" alt="Flowers">
+              </picture></a>
+            <span class="project-mono dead-centered">D</span>
+          </div>
+        </div>
+
+
+        <div class="column project-card project-card--clockenflap">
+          <div class="project-details">
+            <h3 class="project-name" class="project-name">Clockenflap Music Festival</h3>
+            <h5 class="project-role">Design, Strategy</h5>
+          </div>
+          <div class="project-shot">
+            <a href=""><picture class="dead-centered">
+                <source media="(min-width: 40rem)" srcset="/images/shots/clockenflap/clockenflap-showcase@sm.png">
+                <img src="/images/shots/clockenflap/clockenflap-showcase@sm.png" alt="Flowers">
+              </picture></a>
+            <span class="project-mono dead-centered">C</span>
+          </div>
+        </div>
+
+
+
+        <div class="column project-card project-card--jdsvoice">
+          <div class="project-details">
+            <h3 class="project-name">John Scott School of Voice</h3>
+            <h5 class="project-role">Design, Strategy, PM</h5>
+          </div>
+          <div class="project-shot">
+            <a href=""><picture class="dead-center">
+                <source media="(min-width: 40rem)" srcset="/images/shots/jdsvoice/jds-showcase@sm.png">
+                <img src="/images/shots/jdsvoice/jds-showcase@sm.png" alt="Flowers">
+              </picture></a>
+            <span class="project-mono dead-center">J</span>
+          </div>
+        </div>
+
+
+
+
+
+
+    </div>
+    <div class="spacer"></div>
+    <div class="row">
+      <div class="column" style="text-align: center; padding-right: 3rem"><a href="/work">Turn over to see more <br><i class="em-svg em-point_right"></i></a></div>
+    </div>
+  </div>
+
+<div class="container-full bottom-container">
+        <footer>
+          <div class="footer-logo">
+            <a href="/"><picture class="logo-colored">
+                <source media="(min-width: 40rem)" srcset="/images/logo.svg">
+                <img src="/images/logo.svg" alt="Flowers" style="width:auto;">
+              </picture></a>
+            </div>
+            <div class="row footer-details">
+              <div class="column-42-sm" style="margin-bottom: 1rem">
+                <p class="text-invert-fade">I’m looking for a full-time UX and product designer position, worldwide.  I’m also looking to connect with fellow designers and am open to speaking opportunities. Let’s grab a coffee or two, and chat if you’re in Makati!</p>
+                <button class="button-outline">Contact me</button>
+                <button class="button-clear">View my resume ↓</button>
+              </div>
+              <div class="column">
+                <address class="vcard">
+                  <p><a class="tel" href="tel:+639285504378">+63 928 550 4378</a></p>
+                  <p><a href="mailto:uxellesa@gmail.com">uxellesa@gmail.com</a></p>
+                  <nav class="social">
+                    <ul>
+                      <li><a href="https://www.linkedin.com/in/ellesa"><i class="fab fa-linkedin"></a></i></li>
+                      <li><a href="https://www.behance.net/skyellesa"><i class="fab fa-behance"></i></a></li>
+                      <li><a href="https://medium.com/@ellesa"><i class="fab fa-medium"></i></a></li>
+                      <li><a href="https://github.com/emsky"><i class="fab fa-github"></i></a></li>
+                      <li><a href="https://codepen.io/emsky/"><i class="fab fa-codepen"></i></a></li>
+                      <li><a href="https://twitter.com/skyellesa"><i class="fab fa-twitter"></i></a></li>
+                      <li><a href="https://instagram.com/skyellesa"><i class="fab fa-instagram"></i></a></li>
+                      <li><a href="https://vimeo.com/skyellesa"><i class="fab fa-vimeo"></i></a></li>
+                    </ul>
+                  </nav>
+                </address>
+              </div>
+              <div class="column">
+                <div class="photo-wrapper">
+                  <picture class="photo">
+                      <source media="(min-width: 40rem)" srcset="/images/photobw.jpg">
+                      <img src="/images/photobw.jpg" alt="Flowers" style="width:auto;">
+                    </picture>
+                </div>
+              </div>
+            </div>
+            <div class="row copyright">
+              <div class="column">
+                <p>Made with &nbsp;<i class="em em-purple_heart" style="height: 16px;width: 16px;"></i>  <br><a href="/colophon/">Here's the colophon</a></p>
+              </div>
+              <div class="column">
+                <p><br>Copyright 2018 Ellesa Sabasaje</p>
+              </div>
+
+            </div>
+
+        </footer>
+      </div>
+
+      <!-- End Document
+        –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/2.0.1/TweenMax.min.js"></script>
+      <script src="/js/typed.min.js"></script>
+
+      <script>
+      window.jQuery || document.write('<script src="/js/jquery-3.3.1.min.js"><\/script>')
+      window.TweenMax || document.write('<script src="/js/TweenMax.min.js"><\/script>')
+      </script>
+
+      <script src="/js/main.js"></script>
+
+      </body>
+      </html>
 
