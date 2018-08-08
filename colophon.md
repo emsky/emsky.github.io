@@ -13,7 +13,4 @@ partials:
 - name: subsectionright
   heading: "Mobile-first Sketch-ing"
   description: "True to my process, I decided to do a little experiment on my design workflow. After setting up my iPad and mobile phone with Sketch Cloud, I dived right into designing the UI for the website and the look-and-feel."
-- name: subsectionleft
-  heading: "Resources and Kudos"
-  description: "I decided to do a little experiment on my design workflow. After setting up my iPad and mobile phone with Sketch Cloud, I dived right into designing the UI for the website and the look-and-feel."
 ---
