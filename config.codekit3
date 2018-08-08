@@ -44,13 +44,6 @@
 		"oAP": "\/.sass-cache\/899bc95fb4257cdc48c3c0b4da9833fddf4a24cb\/_syntax-highlighting.scssc",
 		"oF": 0
 		},
-	"\/404.html": {
-		"cB": 0,
-		"ft": 8192,
-		"oA": 0,
-		"oAP": "\/404.html",
-		"oF": 0
-		},
 	"\/404.md": {
 		"cB": 0,
 		"cS": 0,
@@ -597,13 +590,6 @@
 		"ft": 8192,
 		"oA": 0,
 		"oAP": "\/_site\/_work\/kite.html",
-		"oF": 0
-		},
-	"\/_site\/about.html": {
-		"cB": 0,
-		"ft": 8192,
-		"oA": 0,
-		"oAP": "\/_site\/about.html",
 		"oF": 0
 		},
 	"\/_site\/about\/index.html": {
@@ -1401,13 +1387,6 @@
 		"rFN": 0,
 		"uCM": 0
 		},
-	"\/_site\/work.html": {
-		"cB": 0,
-		"ft": 8192,
-		"oA": 0,
-		"oAP": "\/_site\/work.html",
-		"oF": 0
-		},
 	"\/_site\/work\/epldt\/digicon\/index.html": {
 		"cB": 0,
 		"ft": 8192,
@@ -1798,13 +1777,6 @@
 		"pME": 1,
 		"rFN": 0,
 		"uCM": 0
-		},
-	"\/about.html": {
-		"cB": 0,
-		"ft": 8192,
-		"oA": 0,
-		"oAP": "\/about.html",
-		"oF": 0
 		},
 	"\/about.md": {
 		"cB": 0,
@@ -2509,13 +2481,6 @@
 		"oT": 1,
 		"q": 100
 		},
-	"\/index.html": {
-		"cB": 0,
-		"ft": 8192,
-		"oA": 0,
-		"oAP": "\/index.html",
-		"oF": 0
-		},
 	"\/index.md": {
 		"cB": 0,
 		"cS": 0,
@@ -2630,13 +2595,6 @@
 		"pME": 1,
 		"rFN": 0,
 		"uCM": 0
-		},
-	"\/work.html": {
-		"cB": 0,
-		"ft": 8192,
-		"oA": 0,
-		"oAP": "\/work.html",
-		"oF": 0
 		},
 	"\/work.md": {
 		"cB": 0,
