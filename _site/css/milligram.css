@@ -13,10 +13,10 @@ html {
 
 body {
   color: rgba(22, 22, 44, 0.6);
-  font-family: 'Source Sans Pro', 'Helvetica Neue', 'Helvetica', 'Arial', sans-serif;
-  font-size: 20px;
+  font-family: 'Roboto', 'Helvetica Neue', 'Helvetica', 'Arial', sans-serif;
+  font-size: 1.8em;
   font-weight: 300;
-  letter-spacing: -0.02em;
+  letter-spacing: -0.01em;
   line-height: 1.66; }
 
 h1, h2, h3, h4, h5, h6 {
@@ -869,7 +869,8 @@ footer {
       list-style: none;
       font-size: 4.2rem;
       font-weight: 700;
-      line-height: 1.2; }
+      line-height: 1.2;
+      font-family: "Google Sans", "Poppins", "Open Sans", "Helvetica Neue", "Helvetica", sans-serif; }
 
 /* warp speed ahead */
 .warpSpeed {
@@ -1254,7 +1255,7 @@ footer {
     line-height: 1.4em;
     font-weight: 700; }
   .case__title .case__greeting {
-    font-family: "Source Sans Pro", "Helvetica Neue", "Helvetica", "Arial", sans-serif; }
+    font-family: "Roboto", "Helvetica Neue", "Helvetica", "Arial", sans-serif; }
 
 .case__headshot {
   align-self: stretch;
