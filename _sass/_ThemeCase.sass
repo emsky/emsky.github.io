@@ -97,9 +97,10 @@ $color--digicon: #C81C31
 
 .phase__intro
 
-	h4.phase__heading
+	h3.phase__heading
 		font-size: $lg-m
 		font-weight: 800
+		letter-spacing: 0
 		color: $color--digicon
 		text-align: center
 		margin: 5rem 0
@@ -117,14 +118,16 @@ $color--digicon: #C81C31
 		font-size: 1em
 		font-weight: 400
 		position: relative
+		padding-bottom: 3rem
+		margin-bottom: 3rem
 
-	h4.insight__heading::before
+	h4.insight__heading::after
 		content: ''
 		position: absolute
 		width: 40px
 		height: 2px
-		top: -30px
-		left: calc(50% - 20px)
+		bottom: 0
+		left: 0
 		background-color: #f63954
 
 	.insight-left
@@ -167,7 +170,6 @@ $color--digicon: #C81C31
 .subsection-right,
 .subsection-centered,
 .subsection-images
-	padding: 1rem
 	margin: 6rem 0
 
 	.content
@@ -175,6 +177,9 @@ $color--digicon: #C81C31
 
 	h4.heading
 		margin-bottom: 3rem
+		font-family: $font-modern
+		font-size: $lg-d !important
+		padding-right: 2rem !important
 
 	p.description
 		color: $midgray
@@ -278,8 +283,8 @@ $color--digicon: #C81C31
 
 	.phase__intro
 
-		h4.phase__heading
-			font-size: $lg-d
+		h3.phase__heading
+			font-size: $xl-d
 
 		.phase__overview
 			align-self: center
@@ -315,15 +320,26 @@ $color--digicon: #C81C31
 	.subsection-left,
 	.subsection-right,
 	.subsection-images
-		min-height: 90vh
-		padding: 0 10rem
+		min-height: 72vh
+		padding: 0 8rem
 
 	.subsection-centered
-		min-height: 90vh
+		min-height: 72vh
 
 		.content
 			align-self: center
 			padding: 0 30%
+
+	.content-wrapper
+
+		.subsection-left,
+		.subsection-right,
+		.subsection-images
+			min-height: 50vh
+			padding: 0 8rem
+
+		.subsection-centered
+			min-height: 40vh
 
 	//--------------------------------------------------
 	// 03 WHAT
