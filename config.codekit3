@@ -613,6 +613,16 @@
 		"oAP": "\/_site\/about\/index.html",
 		"oF": 0
 		},
+	"\/_site\/assets\/css\/style.css": {
+		"aP": 1,
+		"bl": 0,
+		"ft": 16,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/_site\/assets\/css\/style-min.css",
+		"oF": 0,
+		"oS": 3
+		},
 	"\/_site\/casestudy.html": {
 		"cB": 0,
 		"ft": 8192,
@@ -644,6 +654,16 @@
 		"ma": 0,
 		"oA": 1,
 		"oAP": "\/_site\/css\/fa-min.css",
+		"oF": 0,
+		"oS": 3
+		},
+	"\/_site\/css\/milligram.css": {
+		"aP": 1,
+		"bl": 0,
+		"ft": 16,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/_site\/css\/milligram-min.css",
 		"oF": 0,
 		"oS": 3
 		},

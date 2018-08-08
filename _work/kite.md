@@ -8,7 +8,7 @@ partials:
     pagedesc: 'Holistic digital product designer with a knack for UX design, UX strategy, UX research, prototyping and front-end development'
     customtheme: 'turquoise'
   - name: herocase
-    projectname: "Kite Systems"
+    projectname: "Kite Systems Ltd"
     tagline: "Wearing the creative cape in a full-stack world"
     media_lg: "/images/shots/kite.png"
     media_sm: "/images/shots/kite.png"
