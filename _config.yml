@@ -31,10 +31,10 @@ sass:
 source: .
 destination: _site
 
-collections:
-  redirects:
-    output: true
-    permalink: /:path/
+#collections:
+#  redirects:
+#    output: true
+#    permalink: /:path/
 
 defaults:
   -
