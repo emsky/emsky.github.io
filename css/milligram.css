@@ -665,7 +665,7 @@ button, .button {
   position: relative;
   overflow: hidden; }
   .hero h1.hero__headline {
-    font-size: 4.2rem;
+    font-size: 3.6rem;
     line-height: 1.24em;
     letter-spacing: -0.15rem; }
   .hero .hero__greeting {
@@ -1486,6 +1486,39 @@ footer {
       width: 100% !important;
       max-width: 100%;
       object-fit: cover; } }
+
+body#crimson .phase__intro h3.phase__heading, body#crimson .project-mono {
+  color: #C81C31; }
+
+body#turquoise .phase__intro h3.phase__heading, body#turquoise .project-mono {
+  color: #4DD0E1; }
+
+body#dodgerblue .phase__intro h3.phase__heading, body#dodgerblue .project-mono {
+  color: #4480FF; }
+
+body#slategray .phase__intro h3.phase__heading, body#slategray .project-mono {
+  color: #3B3B44; }
+
+body#kiwi .phase__intro h3.phase__heading, body#kiwi .project-mono {
+  color: #4CAF50; }
+
+body#vermilion .phase__intro h3.phase__heading, body#vermilion .project-mono {
+  color: #F44336; }
+
+body#lilac .phase__intro h3.phase__heading, body#lilac .project-mono {
+  color: #9575CD; }
+
+body#lochmara .phase__intro h3.phase__heading, body#lochmara .project-mono {
+  color: #0277BD; }
+
+body#gold .phase__intro h3.phase__heading, body#gold .project-mono {
+  color: #F4B400; }
+
+body#cerulean .phase__intro h3.phase__heading, body#cerulean .project-mono {
+  color: #03A9F4; }
+
+body#hibiscus .phase__intro h3.phase__heading, body#hibiscus .project-mono {
+  color: #BD2E6E; }
 
 body#crimson .hero--case {
   background: #C81C31; }
