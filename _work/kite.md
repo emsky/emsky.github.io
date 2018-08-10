@@ -8,16 +8,17 @@ partials:
     pagedesc: 'Holistic digital product designer with a knack for UX design, UX strategy, UX research, prototyping and front-end development'
     customtheme: 'turquoise'
   - name: herocase
-    projectname: "Kite Systems Ltd"
+    projectname: "Lead UI Designer & Front-end Developer at Kite Systems"
+    project__id: "case--kite"
     tagline: "Wearing the creative cape in a full-stack world"
     media_lg: "/images/shots/kite.png"
     media_sm: "/images/shots/kite.png"
     mediaalt: "Image of PLDT Digicon app on iPhone X mockup"
   - name: caseoverview
     overview: ""
-    role: "Sr. UX Designer"
-    period: "Oct 2016 - Jul 2018"
-    industry: "Enterprise, B2B"
+    role: "Lead UI Designer & Front-end Developer"
+    period: "Sep 2014 - Nov 2015"
+    industry: "Finance, Entertainment, Media"
     company: "ePLDT"
   - name: phasehow
     heading: "Coming Soon!"
@@ -30,6 +31,6 @@ partials:
   - name: footer
 ---
 
-Branching out of my lead front-end developer role, in mid 2015, I helped Kite Systems and its sister companies, Kite Media and MagneticAsia, create a companion app for HongKong’s Premier Music & Arts Festival.
+In mid 2014, I joined Kite Systems as the lead front-end developer for NAVGlobal, a wealth and finance management app. My goal was to style for a crossover between ASP and .Net. Collaborating with an international front-end team of three, I helped Kite establish its front-end development guidelines and establish a design system.
 
-I worked to design the interface and augment the ticketing mechanics for the festival into the iOS and Android app. Successfully integrating both system was a key milestone to expanding Ticketflap to offer its services to other events and organizers.
+Branching out of my lead front-end developer role, in mid 2015, I helped Kite Systems and its sister companies, Kite Media and MagneticAsia, create a companion app for HongKong’s Premier Music & Arts Festival, where I worked to design the interface and augment ticketing mechanics on the iOS and Android versions of the app.

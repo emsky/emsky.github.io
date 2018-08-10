@@ -9,6 +9,7 @@ partials:
   customtheme: 'crimson'
 - name: herocase
   projectname: "PLDT Digicon"
+  project_id: "case--digicon"
   tagline: "Fearlessly transforming event engagement"
   media_lg: "/images/cases/digicon/headshot@sm.png"
   media_sm: "/images/cases/digicon/headshot@sm.png"
