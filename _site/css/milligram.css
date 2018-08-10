@@ -760,7 +760,8 @@ footer {
     height: 85%;
     min-height: 85vh; }
   .hero {
-    padding: 10rem; }
+    padding: 10rem;
+    overflow: visible; }
     .hero h1.hero__headline {
       font-size: 6.4rem; }
     .hero p.hero__greeting {
@@ -1234,10 +1235,6 @@ footer {
   position: relative; }
   .hero--rotate .case__headshot picture,
   .hero--rotate .case__headshot img {
-    -webkit-filter: drop-shadow(24px 24px 24px rgba(0, 0, 0, 0.28));
-    filter: drop-shadow(24px 24px 24px rgba(0, 0, 0, 0.28));
-    -ms-filter: "progid:DXImageTransform.Microsoft.Dropshadow(OffX=$x, OffY=$y, Color='$col')";
-    filter: "progid:DXImageTransform.Microsoft.Dropshadow(OffX=$x, OffY=$y, Color='$col')";
     left: 70%;
     top: 50%;
     transform: translateX(-50%) translateY(-50%) rotate(-15deg);
@@ -2124,3 +2121,26 @@ body#hibiscus #rocket #Line,
 body#hibiscus #rocket #exhaust1,
 body#hibiscus #rocket #exhaust2 {
   stroke: rgba(22, 22, 44, 0.3); }
+
+#case--epldt .hero--rotate {
+  position: relative; }
+  #case--epldt .hero--rotate .case__headshot picture,
+  #case--epldt .hero--rotate .case__headshot img {
+    filter: none !important;
+    transform: translateX(-50%) translateY(-50%);
+    transition: all .7s ease-in-out; }
+
+#case--digicon .hero--rotate {
+  position: relative; }
+  #case--digicon .hero--rotate .case__headshot picture,
+  #case--digicon .hero--rotate .case__headshot img {
+    -webkit-filter: drop-shadow(24px 24px 24px rgba(0, 0, 0, 0.28));
+    filter: drop-shadow(24px 24px 24px rgba(0, 0, 0, 0.28));
+    -ms-filter: "progid:DXImageTransform.Microsoft.Dropshadow(OffX=$x, OffY=$y, Color='$col')";
+    filter: "progid:DXImageTransform.Microsoft.Dropshadow(OffX=$x, OffY=$y, Color='$col')"; }
+
+@media (min-width: 40rem) {
+  #case--epldt .case__headshot picture,
+  #case--epldt .case__headshot img {
+    width: 120%;
+    right: 0; } }

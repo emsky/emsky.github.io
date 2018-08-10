@@ -1,0 +1,32 @@
+#case--epldt
+
+  .hero--rotate
+  	position: relative
+
+  	.case__headshot picture,
+  	.case__headshot img
+      filter: none !important
+      transform: translateX(-50%) translateY(-50%)
+      transition: all .7s ease-in-out
+
+
+#case--digicon
+  
+  .hero--rotate
+  	position: relative
+
+  	.case__headshot picture,
+  	.case__headshot img
+  		@include shadowed(24px, 24px, 24px, fade-out(black, .72))
+
+
+
+
+@media (min-width: 40rem)
+
+  #case--epldt
+
+    .case__headshot picture,
+    .case__headshot img
+      width: 120%
+      right: 0

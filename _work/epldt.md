@@ -1,17 +1,18 @@
 ---
 layout: casestudy
 permalink: '/work/epldt/'
-media: '/images/cases/epldt' 
+media: '/images/cases/epldt'
 partials:
   - name: header
     pagetitle: "Ellesa Sabasaje • UX Designer & Strategist"
     pagedesc: 'Holistic digital product designer with a knack for UX design, UX strategy, UX research, prototyping and front-end development'
     customtheme: 'crimson'
   - name: herocase
-    projectname: "ePLDT"
+    projectname: "Sr. UX Designer at ePLDT"
+    project_id: 'case--epldt'
     tagline: "Redefining the <br>Enterprise Experience"
-    media_lg: "/images/cases/digicon/headshot@sm.png"
-    media_sm: "/images/cases/digicon/headshot@sm.png"
+    media_lg: "/images/cases/epldt/headshot@sm.png"
+    media_sm: "/images/cases/epldt/headshot@sm.png"
     mediaalt: "Image of PLDT Digicon app on iPhone X mockup"
   - name: caseoverview
     overview: ""
