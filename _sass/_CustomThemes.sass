@@ -7,60 +7,621 @@
 // final-showcase
 
 $crimson: #C81C31
+$crimson2: #FF4058
 $turquoise: #4DD0E1
+$turquoise2: #4EFFB4
 $dodgerblue: #4480FF
+$dodgerblue2: #4DDE01
 $slategray: #3B3B44
+$slategray2: #7D89B5
 $kiwi: #4CAF50
+$kiwi2: #B7EE68
 $gold: #F4B400
+$gold2: #4CAF50
 $vermilion: #F44336
+$vermilion2: #FF9E65
 $lilac: #9575CD
+$lilac2: #C0A0F7
 $lochmara: #0277BD
+$lochmara2: #28AAF8
 $cerulean: #03A9F4
+$cerulean2: #28E2F8
 $hibiscus: #BD2E6E
+$hibiscus2: #F74E93
 
 body#crimson
 	.phase__intro h3.phase__heading, .project-mono
 		color: $crimson
 
+	.logo-colored svg #logoName
+		fill: url(#grad-crimson)
+
+	.logo-colored svg #logoRayLeft
+		fill: $crimson2
+
+	.logo-colored svg #logoRayMiddle
+		fill: $crimson2
+
+	.logo-colored svg #logoRayRight
+		fill: $crimson2
+
+	a
+		color: $crimson
+
+		&:focus,
+		&:hover
+			color: $crimson2
+
+	.button-outline
+		@include border-gradient(left, $crimson, $crimson2, 4px)
+		color: $crimson
+		//border-color: red
+
+		&:focus,
+		&:hover
+			@include border-gradient(left, $crimson, $crimson2, 4px)
+			background-image: -webkit-linear-gradient(left, $crimson, $crimson2)
+			background-clip: unset
+			background-size: auto
+			color: $white !important
+
+
+	.button-clear
+		background-color: transparent
+		border-color: transparent
+		color: $crimson
+
+		&:after
+			background: $crimson2
+
+		&:focus,
+		&:hover
+			background-color: transparent
+			border-color: transparent
+			color: $crimson2 !important
+
+			&:after
+				background: $crimson2
+
 body#turquoise
 	.phase__intro h3.phase__heading, .project-mono
 		color: $turquoise
+
+	.logo-colored svg #logoName
+		fill: url(#grad-turquoise)
+
+	.logo-colored svg #logoRayLeft
+		fill: $turquoise2
+
+	.logo-colored svg #logoRayMiddle
+		fill: $turquoise2
+
+	.logo-colored svg #logoRayRight
+		fill: $turquoise2
+
+	a
+		color: $turquoise
+
+		&:focus,
+		&:hover
+			color: $turquoise2
+
+	.button-outline
+		@include border-gradient(left, $turquoise, $turquoise2, 4px)
+		color: $turquoise
+		//border-color: red
+
+		&:focus,
+		&:hover
+			@include border-gradient(left, $turquoise, $turquoise2, 4px)
+			background-image: -webkit-linear-gradient(left, $turquoise, $turquoise2)
+			background-clip: unset
+			background-size: auto
+			color: $white !important
+
+
+	.button-clear
+		background-color: transparent
+		border-color: transparent
+		color: $turquoise
+
+		&:after
+			background: $turquoise2
+
+		&:focus,
+		&:hover
+			background-color: transparent
+			border-color: transparent
+			color: $turquoise2 !important
+
+			&:after
+				background: $turquoise2
 
 body#dodgerblue
 	.phase__intro h3.phase__heading, .project-mono
 		color: $dodgerblue
 
+	.logo-colored svg #logoName
+		fill: url(#grad-dodgerblue)
+
+	.logo-colored svg #logoRayLeft
+		fill: $dodgerblue2
+
+	.logo-colored svg #logoRayMiddle
+		fill: $dodgerblue2
+
+	.logo-colored svg #logoRayRight
+		fill: $dodgerblue2
+
+	a
+		color: $dodgerblue
+
+		&:focus,
+		&:hover
+			color: $dodgerblue2
+
+	.button-outline
+		@include border-gradient(left, $dodgerblue, $dodgerblue2, 4px)
+		color: $dodgerblue
+		//border-color: red
+
+		&:focus,
+		&:hover
+			@include border-gradient(left, $dodgerblue, $dodgerblue2, 4px)
+			background-image: -webkit-linear-gradient(left, $dodgerblue, $dodgerblue2)
+			background-clip: unset
+			background-size: auto
+			color: $white !important
+
+
+	.button-clear
+		background-color: transparent
+		border-color: transparent
+		color: $dodgerblue
+
+		&:after
+			background: $dodgerblue2
+
+		&:focus,
+		&:hover
+			background-color: transparent
+			border-color: transparent
+			color: $dodgerblue2 !important
+
+			&:after
+				background: $dodgerblue2
+
 body#slategray
 	.phase__intro h3.phase__heading, .project-mono
 		color: $slategray
+
+	.logo-colored svg #logoName
+		fill: url(#grad-slategray)
+
+	.logo-colored svg #logoRayLeft
+		fill: $slategray2
+
+	.logo-colored svg #logoRayMiddle
+		fill: $slategray2
+
+	.logo-colored svg #logoRayRight
+		fill: $slategray2
+
+	a
+		color: $slategray
+
+		&:focus,
+		&:hover
+			color: $slategray2
+
+	.button-outline
+		@include border-gradient(left, $slategray, $slategray2, 4px)
+		color: $slategray
+		//border-color: red
+
+		&:focus,
+		&:hover
+			@include border-gradient(left, $slategray, $slategray2, 4px)
+			background-image: -webkit-linear-gradient(left, $slategray, $slategray2)
+			background-clip: unset
+			background-size: auto
+			color: $white !important
+
+
+	.button-clear
+		background-color: transparent
+		border-color: transparent
+		color: $slategray
+
+		&:after
+			background: $slategray2
+
+		&:focus,
+		&:hover
+			background-color: transparent
+			border-color: transparent
+			color: $slategray2 !important
+
+			&:after
+				background: $slategray2
 
 body#kiwi
 	.phase__intro h3.phase__heading, .project-mono
 		color: $kiwi
 
+	.logo-colored svg #logoName
+		fill: url(#grad-kiwi)
+
+	.logo-colored svg #logoRayLeft
+		fill: $kiwi2
+
+	.logo-colored svg #logoRayMiddle
+		fill: $kiwi2
+
+	.logo-colored svg #logoRayRight
+		fill: $kiwi2
+
+	a
+		color: $kiwi
+
+		&:focus,
+		&:hover
+			color: $kiwi2
+
+	.button-outline
+		@include border-gradient(left, $kiwi, $kiwi2, 4px)
+		color: $kiwi
+		//border-color: red
+
+		&:focus,
+		&:hover
+			@include border-gradient(left, $kiwi, $kiwi2, 4px)
+			background-image: -webkit-linear-gradient(left, $kiwi, $kiwi2)
+			background-clip: unset
+			background-size: auto
+			color: $white !important
+
+
+	.button-clear
+		background-color: transparent
+		border-color: transparent
+		color: $kiwi
+
+		&:after
+			background: $kiwi2
+
+		&:focus,
+		&:hover
+			background-color: transparent
+			border-color: transparent
+			color: $kiwi2 !important
+
+			&:after
+				background: $kiwi2
+
 body#vermilion
 	.phase__intro h3.phase__heading, .project-mono
 		color: $vermilion
+
+	.logo-colored svg #logoName
+		fill: url(#grad-vermilion)
+
+	.logo-colored svg #logoRayLeft
+		fill: $vermilion2
+
+	.logo-colored svg #logoRayMiddle
+		fill: $vermilion2
+
+	.logo-colored svg #logoRayRight
+		fill: $vermilion2
+
+	a
+		color: $vermilion
+
+		&:focus,
+		&:hover
+			color: $vermilion2
+
+	.button-outline
+		@include border-gradient(left, $vermilion, $vermilion2, 4px)
+		color: $vermilion
+		//border-color: red
+
+		&:focus,
+		&:hover
+			@include border-gradient(left, $vermilion, $vermilion2, 4px)
+			background-image: -webkit-linear-gradient(left, $vermilion, $vermilion2)
+			background-clip: unset
+			background-size: auto
+			color: $white !important
+
+
+	.button-clear
+		background-color: transparent
+		border-color: transparent
+		color: $vermilion
+
+		&:after
+			background: $vermilion2
+
+		&:focus,
+		&:hover
+			background-color: transparent
+			border-color: transparent
+			color: $vermilion2 !important
+
+			&:after
+				background: $vermilion2
 
 body#lilac
 	.phase__intro h3.phase__heading, .project-mono
 		color: $lilac
 
+	.logo-colored svg #logoName
+		fill: url(#grad-lilac)
+
+	.logo-colored svg #logoRayLeft
+		fill: $lilac2
+
+	.logo-colored svg #logoRayMiddle
+		fill: $lilac2
+
+	.logo-colored svg #logoRayRight
+		fill: $lilac2
+
+	a
+		color: $lilac
+
+		&:focus,
+		&:hover
+			color: $lilac2
+
+	.button-outline
+		@include border-gradient(left, $lilac, $lilac2, 4px)
+		color: $lilac
+		//border-color: red
+
+		&:focus,
+		&:hover
+			@include border-gradient(left, $lilac, $lilac2, 4px)
+			background-image: -webkit-linear-gradient(left, $lilac, $lilac2)
+			background-clip: unset
+			background-size: auto
+			color: $white !important
+
+
+	.button-clear
+		background-color: transparent
+		border-color: transparent
+		color: $lilac
+
+		&:after
+			background: $lilac2
+
+		&:focus,
+		&:hover
+			background-color: transparent
+			border-color: transparent
+			color: $lilac2 !important
+
+			&:after
+				background: $lilac2
+
 body#lochmara
 	.phase__intro h3.phase__heading, .project-mono
 		color: $lochmara
+
+	.logo-colored svg #logoName
+		fill: url(#grad-lochmara)
+
+	.logo-colored svg #logoRayLeft
+		fill: $lochmara2
+
+	.logo-colored svg #logoRayMiddle
+		fill: $lochmara2
+
+	.logo-colored svg #logoRayRight
+		fill: $lochmara2
+
+	a
+		color: $lochmara
+
+		&:focus,
+		&:hover
+			color: $lochmara2
+
+	.button-outline
+		@include border-gradient(left, $lochmara, $lochmara2, 4px)
+		color: $lochmara
+		//border-color: red
+
+		&:focus,
+		&:hover
+			@include border-gradient(left, $lochmara, $lochmara2, 4px)
+			background-image: -webkit-linear-gradient(left, $lochmara, $lochmara2)
+			background-clip: unset
+			background-size: auto
+			color: $white !important
+
+
+	.button-clear
+		background-color: transparent
+		border-color: transparent
+		color: $lochmara
+
+		&:after
+			background: $lochmara2
+
+		&:focus,
+		&:hover
+			background-color: transparent
+			border-color: transparent
+			color: $lochmara2 !important
+
+			&:after
+				background: $lochmara2
 
 body#gold
 	.phase__intro h3.phase__heading, .project-mono
 		color: $gold
 
+	.logo-colored svg #logoName
+		fill: url(#grad-gold)
+
+	.logo-colored svg #logoRayLeft
+		fill: $gold2
+
+	.logo-colored svg #logoRayMiddle
+		fill: $gold2
+
+	.logo-colored svg #logoRayRight
+		fill: $gold2
+
+	a
+		color: $gold
+
+		&:focus,
+		&:hover
+			color: $gold2
+
+	.button-outline
+		@include border-gradient(left, $gold, $gold2, 4px)
+		color: $gold
+		//border-color: red
+
+		&:focus,
+		&:hover
+			@include border-gradient(left, $gold, $gold2, 4px)
+			background-image: -webkit-linear-gradient(left, $gold, $gold2)
+			background-clip: unset
+			background-size: auto
+			color: $white !important
+
+
+	.button-clear
+		background-color: transparent
+		border-color: transparent
+		color: $gold
+
+		&:after
+			background: $gold2
+
+		&:focus,
+		&:hover
+			background-color: transparent
+			border-color: transparent
+			color: $gold2 !important
+
+			&:after
+				background: $gold2
+
 body#cerulean
 	.phase__intro h3.phase__heading, .project-mono
 		color: $cerulean
 
+	.logo-colored svg #logoName
+		fill: url(#grad-cerulean)
+
+	.logo-colored svg #logoRayLeft
+		fill: $cerulean2
+
+	.logo-colored svg #logoRayMiddle
+		fill: $cerulean2
+
+	.logo-colored svg #logoRayRight
+		fill: $cerulean2
+
+	a
+		color: $cerulean
+
+		&:focus,
+		&:hover
+			color: $cerulean2
+
+	.button-outline
+		@include border-gradient(left, $cerulean, $cerulean2, 4px)
+		color: $cerulean
+		//border-color: red
+
+		&:focus,
+		&:hover
+			@include border-gradient(left, $cerulean, $cerulean2, 4px)
+			background-image: -webkit-linear-gradient(left, $cerulean, $cerulean2)
+			background-clip: unset
+			background-size: auto
+			color: $white !important
+
+
+	.button-clear
+		background-color: transparent
+		border-color: transparent
+		color: $cerulean
+
+		&:after
+			background: $cerulean2
+
+		&:focus,
+		&:hover
+			background-color: transparent
+			border-color: transparent
+			color: $cerulean2 !important
+
+			&:after
+				background: $cerulean2
+
 body#hibiscus
 	.phase__intro h3.phase__heading, .project-mono
 		color: $hibiscus
+
+	.logo-colored svg #logoName
+		fill: url(#grad-hibiscus)
+
+	.logo-colored svg #logoRayLeft
+		fill: $hibiscus2
+
+	.logo-colored svg #logoRayMiddle
+		fill: $hibiscus2
+
+	.logo-colored svg #logoRayRight
+		fill: $hibiscus2
+
+	a
+		color: $hibiscus
+
+		&:focus,
+		&:hover
+			color: $hibiscus2
+
+	.button-outline
+		@include border-gradient(left, $hibiscus, $hibiscus2, 4px)
+		color: $hibiscus
+		//border-color: red
+
+		&:focus,
+		&:hover
+			@include border-gradient(left, $hibiscus, $hibiscus2, 4px)
+			background-image: -webkit-linear-gradient(left, $hibiscus, $hibiscus2)
+			background-clip: unset
+			background-size: auto
+			color: $white !important
+
+
+	.button-clear
+		background-color: transparent
+		border-color: transparent
+		color: $hibiscus
+
+		&:after
+			background: $hibiscus2
+
+		&:focus,
+		&:hover
+			background-color: transparent
+			border-color: transparent
+			color: $hibiscus2 !important
+
+			&:after
+				background: $hibiscus2
 
 // CRIMSON
 body#crimson
@@ -74,18 +635,6 @@ body#crimson
 
 	h4.insight__heading::before
 		background: $crimson
-
-	.button.button-outline
-		border: 4px solid $crimson !important
-		background: transparent
-		color: $crimson
-		transition: all .5 ease-in-out
-
-		&:focus,
-		&:hover
-			color: $white
-			background: $crimson
-			border-width: 1px
 
 	.phase-icon-discover,
 	.phase-icon-execution,
@@ -142,18 +691,6 @@ body#turquoise
 	h4.insight__heading::before
 		background: $turquoise
 
-	.button.button-outline
-		border: 4px solid $turquoise !important
-		background: transparent
-		color: $turquoise
-		transition: all .5 ease-in-out
-
-		&:focus,
-		&:hover
-			color: $white
-			background: $turquoise
-			border-width: 1px
-
 	.phase-icon-discover,
 	.phase-icon-execution,
 	.phase-icon-solution
@@ -200,69 +737,6 @@ body#turquoise
 // DODGERBLUE
 body#dodgerblue
 
-	.hero--case
-		background: $dodgerblue
-
-	h3.main-objective,
-	h4.phase__heading
-		color: $dodgerblue
-
-	h4.insight__heading::before
-		background: $dodgerblue
-
-	.button.button-outline
-		border: 4px solid $dodgerblue !important
-		background: transparent
-		color: $dodgerblue
-		transition: all .5 ease-in-out
-
-		&:focus,
-		&:hover
-			color: $white
-			background: $dodgerblue
-			border-width: 1px
-
-	.phase-icon-discover,
-	.phase-icon-execution,
-	.phase-icon-solution
-		display: none
-
-	.subsection-left .content h4,
-	.subsection-right .content h4,
-	.subsection-images .content h4,
-	.subsection-centered .content h4
-
-
-	#gr-double-diamond-discover,
-	#gr-double-diamond-execution
-
-		#discovery, #execution
-			stroke: fade-out($midgray, .3)
-
-		#ship
-			fill: fade-out($midgray, .3)
-
-		#highlight
-			fill: $dodgerblue
-
-	#rocket
-
-		#rocket-window
-			fill: $dodgerblue
-
-		#rocket-wing
-			fill: $dodgerblue
-			stroke: $dodgerblue
-
-		#rocket-fire1
-			fill: $dodgerblue
-
-		#rocket-fire2,
-		#rocket-body,
-		#Line,
-		#exhaust1,
-		#exhaust2
-			stroke: fade-out($midgray, .3)
 
 
 // SLATEGRAY
@@ -278,17 +752,6 @@ body#slategray
 	h4.insight__heading::before
 		background: $slategray
 
-	.button.button-outline
-		border: 4px solid $slategray !important
-		background: transparent
-		color: $slategray
-		transition: all .5 ease-in-out
-
-		&:focus,
-		&:hover
-			color: $white
-			background: $slategray
-			border-width: 1px
 
 	.phase-icon-discover,
 	.phase-icon-execution,
@@ -344,18 +807,6 @@ body#kiwi
 
 	h4.insight__heading::before
 		background: $kiwi
-
-	.button.button-outline
-		border: 4px solid $kiwi !important
-		background: transparent
-		color: $kiwi
-		transition: all .5 ease-in-out
-
-		&:focus,
-		&:hover
-			color: $white
-			background: $kiwi
-			border-width: 1px
 
 	.phase-icon-discover,
 	.phase-icon-execution,
@@ -413,18 +864,6 @@ body#gold
 	h4.insight__heading::before
 		background: $gold
 
-	.button.button-outline
-		border: 4px solid $gold !important
-		background: transparent
-		color: $gold
-		transition: all .5 ease-in-out
-
-		&:focus,
-		&:hover
-			color: $white
-			background: $gold
-			border-width: 1px
-
 	.phase-icon-discover,
 	.phase-icon-execution,
 	.phase-icon-solution
@@ -481,18 +920,6 @@ body#vermilion
 	h4.insight__heading::before
 		background: $vermilion
 
-	.button.button-outline
-		border: 4px solid $vermilion !important
-		background: transparent
-		color: $vermilion
-		transition: all .5 ease-in-out
-
-		&:focus,
-		&:hover
-			color: $white
-			background: $vermilion
-			border-width: 1px
-
 	.phase-icon-discover,
 	.phase-icon-execution,
 	.phase-icon-solution
@@ -547,18 +974,6 @@ body#lilac
 
 	h4.insight__heading::before
 		background: $lilac
-
-	.button.button-outline
-		border: 4px solid $lilac !important
-		background: transparent
-		color: $lilac
-		transition: all .5 ease-in-out
-
-		&:focus,
-		&:hover
-			color: $white
-			background: $lilac
-			border-width: 1px
 
 	.phase-icon-discover,
 	.phase-icon-execution,
@@ -616,18 +1031,6 @@ body#lochmara
 	h4.insight__heading::before
 		background: $lochmara
 
-	.button.button-outline
-		border: 4px solid $lochmara !important
-		background: transparent
-		color: $lochmara
-		transition: all .5 ease-in-out
-
-		&:focus,
-		&:hover
-			color: $white
-			background: $lochmara
-			border-width: 1px
-
 	.phase-icon-discover,
 	.phase-icon-execution,
 	.phase-icon-solution
@@ -684,18 +1087,6 @@ body#cerulean
 	h4.insight__heading::before
 		background: $cerulean
 
-	.button.button-outline
-		border: 4px solid $cerulean !important
-		background: transparent
-		color: $cerulean
-		transition: all .5 ease-in-out
-
-		&:focus,
-		&:hover
-			color: $white
-			background: $cerulean
-			border-width: 1px
-
 	.phase-icon-discover,
 	.phase-icon-execution,
 	.phase-icon-solution
@@ -750,18 +1141,6 @@ body#hibiscus
 
 	h4.insight__heading::before
 		background: $hibiscus
-
-	.button.button-outline
-		border: 4px solid $hibiscus !important
-		background: transparent
-		color: $hibiscus
-		transition: all .5 ease-in-out
-
-		&:focus,
-		&:hover
-			color: $white
-			background: $hibiscus
-			border-width: 1px
 
 	.phase-icon-discover,
 	.phase-icon-execution,

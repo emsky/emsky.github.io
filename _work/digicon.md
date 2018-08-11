@@ -20,4 +20,10 @@ partials:
   period: "Feb 2018 - Jun 2018"
   industry: "Enterprise, B2B"
   company: "ePLDT"
+- name: footershowcase
+  feature1: 1
+  feature2: 2
+  feature3: 3
+  more: "Thanks for looking! Interested in more?"
+- name: footer
 ---
