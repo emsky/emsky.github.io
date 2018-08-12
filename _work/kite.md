@@ -8,11 +8,11 @@ partials:
     pagedesc: 'Holistic digital product designer with a knack for UX design, UX strategy, UX research, prototyping and front-end development'
     customtheme: 'turquoise'
   - name: herocase
-    projectname: "Lead UI Designer & Front-end Developer at Kite Systems"
-    project__id: "case--kite"
+    projectname: "Lead UI Designer & Developer at Kite Systems"
+    project_id: "case--kite"
     tagline: "Wearing the creative cape in a full-stack world"
-    media_lg: "/images/shots/kite.png"
-    media_sm: "/images/shots/kite.png"
+    media_lg: "/images/cases/kite/headshot.png"
+    media_sm: "/images/cases/navglobal/headshot@sm.png"
     mediaalt: "Image of PLDT Digicon app on iPhone X mockup"
   - name: caseoverview
     overview: ""

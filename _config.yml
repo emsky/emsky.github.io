@@ -58,3 +58,7 @@ exclude:
     - Gemfile
     - Gemfile.lock
     - README.md
+
+# deployment
+host: ganymede.local
+port: 4000

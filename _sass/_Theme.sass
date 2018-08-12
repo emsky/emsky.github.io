@@ -126,9 +126,12 @@ button, .button
 
 	.nav__logo
 		transition: all .5 ease-in-out
-		opacity: 1
+		opacity: 0
 		padding-left: 2rem
 		padding-top: 1rem
+
+		svg
+			height: 48px
 
 .logo
 	flex-shrink: 0
@@ -259,6 +262,9 @@ footer
 		padding-top: 3rem
 		margin-bottom: 2rem
 		padding-left: 1rem
+
+		.logo-colored svg #logoName
+			fill: url(#grad-indigo)
 
 	.photo-wrapper
 		height: 16rem
