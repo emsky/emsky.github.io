@@ -150,6 +150,10 @@ $(window).scroll(function() {
 });
 
 
+$('#personalLogo').on('load', function(){
+  // hide/remove the loading image
+  $('.nav__logo').delay(2000).css('opacity', '1');
+});
 
 var $card = $('.card');
 

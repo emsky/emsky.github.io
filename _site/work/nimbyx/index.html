@@ -34,15 +34,16 @@
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
   <link rel="icon" type="image/png" href="/images/favicon.png">
 
+
 </head>
-<body id="cerulean">
+<body id="vermilion">
 
   <!-- Primary Page Layout
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
   <div class="container">
     <header>
       <nav class="navbar row row-nowrap">
-            <div class="nav__logo fade-in column column-50 logo logo-mono"><a href="/"><img src="/images/logo.svg" alt=""></a></div>
+            <div class="nav__logo fade-in column column-50 logo logo-mono"><a href="/"><img id="personalLogo" src="/images/logo.svg" alt=""></a></div>
             <div class="nav__menu column column-25 column-offset-25 navicon">
               <div class="navmenu">
                 <div class="menu-bg"></div>
@@ -65,9 +66,9 @@
             </div>
             </div>
       </nav>
-      <button onclick="topFunction()" class="button button-clear button-btt" id="backToTop" title="Go to top">
+      <button onclick="topFunction()" class="button-btt" id="backToTop" title="Go to top">
         <svg version="1.1" id="Ebene_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="53px" height="20px" viewBox="0 0 53 20" enable-background="new 0 0 53 20" xml:space="preserve">
-        <g fill="#654BA5">
+        <g id="arrowTop" fill="#654BA5" stroke-width="1">
         	<polygon points="43.886,16.221 42.697,17.687 26.5,4.731 10.303,17.688 9.114,16.221 26.5,2.312 	"></polygon>
         </g>
         </svg>
@@ -82,9 +83,9 @@
 <div id="case--nimbyx" class="container-full hero--case">
   <div class="wrapper">
     <div id="banner" class="hero hero--rotate row half-mast">
-      <div class="column case__title">
-        <p class="case__greeting text-invert">UX Engineer & Front-end Developer at Nimbyx</p>
-        <h1 class="case__headline text-invert">Digitally transforming the dental industry</h1>
+      <div class="column column-50-sm case__title">
+        <p class="case__greeting text-invert">UX Engineer & Developer at Nimbyx</p>
+        <h1 class="case__headline text-invert">Digitally evolving the dental industry</h1>
 
         <div class="hero__pull-down">
           <img src="/images/pull-down-black.svg" alt="Scroll to see more.">
@@ -93,8 +94,8 @@
       </div>
       <div class="column case__headshot">
         <picture>
-          <source media="(min-width: 40rem)" srcset="/images/shots/kite.png">
-          <img src="/images/shots/kite.png" alt="" style="width:auto;">
+          <source media="(min-width: 40rem)" srcset="/images/cases/nimbyx/headshot.png">
+          <img src="/images/cases/nimbyx/headshot@sm.png" alt="" style="width:auto;">
         </picture>
       </div>
     </div>
@@ -143,7 +144,7 @@
                 </div>
                 <div class="case__info">
                   <h6 class="label">Industry</h6>
-                  <p class="indutry">Medical, SME</p>
+                  <p class="indutry">Medical, e-Commerce</p>
                 </div>
               </div>
 
@@ -217,7 +218,7 @@
                 <h5 class="project-role">UX, Design, Strategy, PM</h5>
               </div>
               <div class="project-shot">
-                <a href="/work/johnscottschool/allegro/"><picture class="dead-centered">
+                <a href="/work/johnscottschool/"><picture class="dead-centered">
                     <source media="(min-width: 40rem)" srcset="/images/shots/jdsvoice/jds-showcase@sm.png">
                     <img src="/images/shots/jdsvoice/jds-showcase@sm.png" alt="Classroom app showcase">
                   </picture></a>
@@ -247,8 +248,8 @@
             <div class="row footer-details">
               <div class="column column-50-sm" style="margin-bottom: 1rem">
                 <p class="text-invert-fade">I’m looking for a full-time UX and product designer position, worldwide.  I’m also looking to connect with fellow designers and am open to speaking opportunities. Let’s grab a coffee or two, and chat if you’re in Makati!</p>
-                <button class="button-outline"><a href="mailto:uxellesa@gmail.com">Contact me</a></button>
-                <button class="button-clear"><a href="/docs/ELSabasaje_Resume_2018.pdf">View my resume ↓</a></button>
+                <a class="button button-outline" href="mailto:uxellesa@gmail.com">Contact me</a>
+                <a class="button button-clear" href="/docs/ELSabasaje_Resume_2018.pdf">View my resume ↓</a>
               </div>
               <div class="column">
                 <address class="vcard">

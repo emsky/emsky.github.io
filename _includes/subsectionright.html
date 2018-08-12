@@ -2,7 +2,7 @@
     <div class="row subsection-right row-center">
       <div class="column content pull-right">
         <h4 class="heading">{{ include.heading }}</h4>
-        <p class="description">{{ include.description }}</p>
+        <p class="description">{{ include.description | markdownify }}</p>
       </div>
       <div class="column image pull-left">
         <picture>

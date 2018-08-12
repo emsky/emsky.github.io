@@ -9,6 +9,13 @@
 	],
 "creatorBuild": "26680",
 "files": {
+	"\/.bundle\/config": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/.bundle\/config",
+		"oF": 0
+		},
 	"\/.gitignore": {
 		"cB": 0,
 		"ft": 8192,
@@ -616,6 +623,13 @@
 		"oAP": "\/_site\/404.html",
 		"oF": 0
 		},
+	"\/_site\/_work\/clockenflap.html": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/_site\/_work\/clockenflap.html",
+		"oF": 0
+		},
 	"\/_site\/_work\/digicon.html": {
 		"cB": 0,
 		"ft": 8192,
@@ -630,12 +644,29 @@
 		"oAP": "\/_site\/_work\/epldt.html",
 		"oF": 0
 		},
+	"\/_site\/_work\/jdsvoice.html": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/_site\/_work\/jdsvoice.html",
+		"oF": 0
+		},
 	"\/_site\/_work\/kite.html": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
 		"oAP": "\/_site\/_work\/kite.html",
 		"oF": 0
+		},
+	"\/_site\/_work\/milligram.css": {
+		"aP": 1,
+		"bl": 0,
+		"ft": 16,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/_site\/_work\/milligram-min.css",
+		"oF": 0,
+		"oS": 3
 		},
 	"\/_site\/_work\/nimbyx.html": {
 		"cB": 0,
@@ -699,16 +730,6 @@
 		"ma": 0,
 		"oA": 1,
 		"oAP": "\/_site\/css\/fa-min.css",
-		"oF": 0,
-		"oS": 3
-		},
-	"\/_site\/css\/milligram.css": {
-		"aP": 1,
-		"bl": 0,
-		"ft": 16,
-		"ma": 0,
-		"oA": 1,
-		"oAP": "\/_site\/css\/milligram-min.css",
 		"oF": 0,
 		"oS": 3
 		},
@@ -941,6 +962,50 @@
 		"oT": 1,
 		"q": 100
 		},
+	"\/_site\/images\/cases\/clockenflap\/headshot.png": {
+		"ft": 32768,
+		"iS": 904453,
+		"oA": 0,
+		"oAP": "\/_site\/images\/cases\/clockenflap\/headshot.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/_site\/images\/cases\/clockenflap\/headshot@sm.png": {
+		"ft": 32768,
+		"iS": 298453,
+		"oA": 0,
+		"oAP": "\/_site\/images\/cases\/clockenflap\/headshot@sm.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/_site\/images\/cases\/cnngo\/screens\/main.png": {
+		"ft": 32768,
+		"iS": 6861475,
+		"oA": 0,
+		"oAP": "\/_site\/images\/cases\/cnngo\/screens\/main.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/_site\/images\/cases\/cnngo\/screens\/main@sm.png": {
+		"ft": 32768,
+		"iS": 2184807,
+		"oA": 0,
+		"oAP": "\/_site\/images\/cases\/cnngo\/screens\/main@sm.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
 	"\/_site\/images\/cases\/digicon\/headshot.png": {
 		"ft": 32768,
 		"iS": 271463,
@@ -1095,22 +1160,143 @@
 		"oT": 1,
 		"q": 100
 		},
-	"\/_site\/images\/cases\/epldt\/headshot.png": {
+	"\/_site\/images\/cases\/epldt-mobile\/headshot@sm.png": {
 		"ft": 32768,
-		"iS": 1330679,
+		"iS": 387208,
 		"oA": 0,
-		"oAP": "\/_site\/images\/cases\/epldt\/headshot.png",
+		"oAP": "\/_site\/images\/cases\/epldt-mobile\/headshot@sm.png",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"oT": 1,
 		"q": 100
 		},
-	"\/_site\/images\/cases\/epldt\/headshot@sm.png": {
+	"\/_site\/images\/cases\/epldt\/headshot@2x.png": {
 		"ft": 32768,
-		"iS": 598389,
+		"iS": 387208,
 		"oA": 0,
-		"oAP": "\/_site\/images\/cases\/epldt\/headshot@sm.png",
+		"oAP": "\/_site\/images\/cases\/epldt\/headshot@2x.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/_site\/images\/cases\/johnscottschool\/headshot.png": {
+		"ft": 32768,
+		"iS": 1525909,
+		"oA": 0,
+		"oAP": "\/_site\/images\/cases\/johnscottschool\/headshot.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/_site\/images\/cases\/johnscottschool\/headshot@sm.png": {
+		"ft": 32768,
+		"iS": 119710,
+		"oA": 0,
+		"oAP": "\/_site\/images\/cases\/johnscottschool\/headshot@sm.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/_site\/images\/cases\/kite\/headshot.png": {
+		"ft": 32768,
+		"iS": 2868856,
+		"oA": 0,
+		"oAP": "\/_site\/images\/cases\/kite\/headshot.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/_site\/images\/cases\/kite\/headshot@sm.png": {
+		"ft": 32768,
+		"iS": 719375,
+		"oA": 0,
+		"oAP": "\/_site\/images\/cases\/kite\/headshot@sm.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/_site\/images\/cases\/navglobal\/headshot.png": {
+		"ft": 32768,
+		"iS": 492355,
+		"oA": 0,
+		"oAP": "\/_site\/images\/cases\/navglobal\/headshot.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/_site\/images\/cases\/navglobal\/headshot@sm.png": {
+		"ft": 32768,
+		"iS": 178795,
+		"oA": 0,
+		"oAP": "\/_site\/images\/cases\/navglobal\/headshot@sm.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/_site\/images\/cases\/navglobal\/screens\/assets.png": {
+		"ft": 32768,
+		"iS": 774214,
+		"oA": 0,
+		"oAP": "\/_site\/images\/cases\/navglobal\/screens\/assets.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/_site\/images\/cases\/navglobal\/screens\/customize.png": {
+		"ft": 32768,
+		"iS": 765537,
+		"oA": 0,
+		"oAP": "\/_site\/images\/cases\/navglobal\/screens\/customize.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/_site\/images\/cases\/navglobal\/screens\/graphcolors.png": {
+		"ft": 32768,
+		"iS": 631723,
+		"oA": 0,
+		"oAP": "\/_site\/images\/cases\/navglobal\/screens\/graphcolors.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/_site\/images\/cases\/nimbyx\/headshot.png": {
+		"ft": 32768,
+		"iS": 1724919,
+		"oA": 0,
+		"oAP": "\/_site\/images\/cases\/nimbyx\/headshot.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/_site\/images\/cases\/nimbyx\/headshot@sm.png": {
+		"ft": 32768,
+		"iS": 129842,
+		"oA": 0,
+		"oAP": "\/_site\/images\/cases\/nimbyx\/headshot@sm.png",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
@@ -1185,6 +1371,16 @@
 		"miP": 0,
 		"oA": 2,
 		"oAP": "\/_site\/images\/gr-rocket.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"\/_site\/images\/logo-orig.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "\/_site\/images\/logo-orig.svg",
 		"oF": 0,
 		"opt": 0,
 		"plM": 3758088159,
@@ -1582,24 +1778,6 @@
 		"oAP": "\/_site\/media\/name.wav",
 		"oF": 0
 		},
-	"\/_site\/README.md": {
-		"cB": 0,
-		"cS": 0,
-		"eF": 1,
-		"eL": 1,
-		"ema": 1,
-		"eSQ": 1,
-		"ft": 4096,
-		"oA": 0,
-		"oAP": "\/_site\/README.html",
-		"oF": 0,
-		"oFM": 0,
-		"oS": 0,
-		"pHT": 0,
-		"pME": 1,
-		"rFN": 0,
-		"uCM": 0
-		},
 	"\/_site\/resume.html": {
 		"cB": 0,
 		"ft": 8192,
@@ -1633,6 +1811,20 @@
 		"ft": 8192,
 		"oA": 0,
 		"oAP": "\/_site\/work\/index.html",
+		"oF": 0
+		},
+	"\/_site\/work\/johnscottschool\/index.html": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/_site\/work\/johnscottschool\/index.html",
+		"oF": 0
+		},
+	"\/_site\/work\/kite\/clockenflap\/index.html": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/_site\/work\/kite\/clockenflap\/index.html",
 		"oF": 0
 		},
 	"\/_site\/work\/kite\/index.html": {
@@ -1937,6 +2129,49 @@
 		"rFN": 0,
 		"uCM": 0
 		},
+	"\/_work\/_templates\/epldt.md": {
+		"cB": 0,
+		"cS": 0,
+		"eF": 1,
+		"eL": 1,
+		"ema": 1,
+		"eSQ": 1,
+		"ft": 4096,
+		"oA": 0,
+		"oAP": "\/_work\/_templates\/epldt.html",
+		"oF": 0,
+		"oFM": 0,
+		"oS": 0,
+		"pHT": 0,
+		"pME": 1,
+		"rFN": 0,
+		"uCM": 0
+		},
+	"\/_work\/clockenflap.html": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/_work\/clockenflap.html",
+		"oF": 0
+		},
+	"\/_work\/clockenflap.md": {
+		"cB": 0,
+		"cS": 0,
+		"eF": 1,
+		"eL": 1,
+		"ema": 1,
+		"eSQ": 1,
+		"ft": 4096,
+		"oA": 0,
+		"oAP": "\/_work\/clockenflap.html",
+		"oF": 0,
+		"oFM": 0,
+		"oS": 0,
+		"pHT": 0,
+		"pME": 1,
+		"rFN": 0,
+		"uCM": 0
+		},
 	"\/_work\/digicon.html": {
 		"cB": 0,
 		"ft": 8192,
@@ -2005,6 +2240,38 @@
 		"rFN": 0,
 		"uCM": 0
 		},
+	"\/_work\/jdsvoice.html": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/_work\/jdsvoice.html",
+		"oF": 0
+		},
+	"\/_work\/johnscottschool.html": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/_work\/johnscottschool.html",
+		"oF": 0
+		},
+	"\/_work\/johnscottschool.md": {
+		"cB": 0,
+		"cS": 0,
+		"eF": 1,
+		"eL": 1,
+		"ema": 1,
+		"eSQ": 1,
+		"ft": 4096,
+		"oA": 0,
+		"oAP": "\/_work\/johnscottschool.html",
+		"oF": 0,
+		"oFM": 0,
+		"oS": 0,
+		"pHT": 0,
+		"pME": 1,
+		"rFN": 0,
+		"uCM": 0
+		},
 	"\/_work\/kite.html": {
 		"cB": 0,
 		"ft": 8192,
@@ -2029,6 +2296,16 @@
 		"pME": 1,
 		"rFN": 0,
 		"uCM": 0
+		},
+	"\/_work\/milligram.css": {
+		"aP": 1,
+		"bl": 0,
+		"ft": 16,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/_work\/milligram-min.css",
+		"oF": 0,
+		"oS": 3
 		},
 	"\/_work\/nimbyx.html": {
 		"cB": 0,
@@ -2371,6 +2648,72 @@
 		"oT": 1,
 		"q": 100
 		},
+	"\/images\/cases\/cases\/johnscottschool\/headshot.png": {
+		"ft": 32768,
+		"iS": 1727049,
+		"oA": 0,
+		"oAP": "\/images\/cases\/cases\/johnscottschool\/headshot.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/images\/cases\/cases\/johnscottschool\/headshot@sm.png": {
+		"ft": 32768,
+		"iS": 613438,
+		"oA": 0,
+		"oAP": "\/images\/cases\/cases\/johnscottschool\/headshot@sm.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/images\/cases\/clockenflap\/headshot.png": {
+		"ft": 32768,
+		"iS": 904110,
+		"oA": 0,
+		"oAP": "\/images\/cases\/clockenflap\/headshot.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/images\/cases\/clockenflap\/headshot@sm.png": {
+		"ft": 32768,
+		"iS": 298453,
+		"oA": 0,
+		"oAP": "\/images\/cases\/clockenflap\/headshot@sm.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/images\/cases\/cnngo\/screens\/main.png": {
+		"ft": 32768,
+		"iS": 6861475,
+		"oA": 0,
+		"oAP": "\/images\/cases\/cnngo\/screens\/main.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/images\/cases\/cnngo\/screens\/main@sm.png": {
+		"ft": 32768,
+		"iS": 2184807,
+		"oA": 0,
+		"oAP": "\/images\/cases\/cnngo\/screens\/main@sm.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
 	"\/images\/cases\/digicon\/headshot.png": {
 		"ft": 32768,
 		"iS": 1526498,
@@ -2525,6 +2868,17 @@
 		"oT": 1,
 		"q": 100
 		},
+	"\/images\/cases\/epldt-mobile\/headshot@sm.png": {
+		"ft": 32768,
+		"iS": 387208,
+		"oA": 0,
+		"oAP": "\/images\/cases\/epldt-mobile\/headshot@sm.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
 	"\/images\/cases\/epldt\/headshot.png": {
 		"ft": 32768,
 		"iS": 7930355,
@@ -2536,11 +2890,143 @@
 		"oT": 1,
 		"q": 100
 		},
+	"\/images\/cases\/epldt\/headshot@2x.png": {
+		"ft": 32768,
+		"iS": 387208,
+		"oA": 0,
+		"oAP": "\/images\/cases\/epldt\/headshot@2x.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
 	"\/images\/cases\/epldt\/headshot@sm.png": {
 		"ft": 32768,
 		"iS": 3759840,
 		"oA": 0,
 		"oAP": "\/images\/cases\/epldt\/headshot@sm.png",
+		"oF": 0,
+		"oIPL": 1,
+		"opt": 1,
+		"oT": 1,
+		"q": 100
+		},
+	"\/images\/cases\/johnscottschool\/headshot.png": {
+		"ft": 32768,
+		"iS": 1277506,
+		"oA": 0,
+		"oAP": "\/images\/cases\/johnscottschool\/headshot.png",
+		"oF": 0,
+		"oIPL": 1,
+		"opt": 1,
+		"oT": 1,
+		"q": 100
+		},
+	"\/images\/cases\/johnscottschool\/headshot@sm.png": {
+		"ft": 32768,
+		"iS": 455314,
+		"oA": 0,
+		"oAP": "\/images\/cases\/johnscottschool\/headshot@sm.png",
+		"oF": 0,
+		"oIPL": 1,
+		"opt": 1,
+		"oT": 1,
+		"q": 100
+		},
+	"\/images\/cases\/kite\/headshot.png": {
+		"ft": 32768,
+		"iS": 12881828,
+		"oA": 0,
+		"oAP": "\/images\/cases\/kite\/headshot.png",
+		"oF": 0,
+		"oIPL": 1,
+		"opt": 1,
+		"oT": 1,
+		"q": 100
+		},
+	"\/images\/cases\/kite\/headshot@sm.png": {
+		"ft": 32768,
+		"iS": 4364908,
+		"oA": 0,
+		"oAP": "\/images\/cases\/kite\/headshot@sm.png",
+		"oF": 0,
+		"oIPL": 1,
+		"opt": 1,
+		"oT": 1,
+		"q": 100
+		},
+	"\/images\/cases\/navglobal\/headshot.png": {
+		"ft": 32768,
+		"iS": 2391930,
+		"oA": 0,
+		"oAP": "\/images\/cases\/navglobal\/headshot.png",
+		"oF": 0,
+		"oIPL": 1,
+		"opt": 1,
+		"oT": 1,
+		"q": 100
+		},
+	"\/images\/cases\/navglobal\/headshot@sm.png": {
+		"ft": 32768,
+		"iS": 839793,
+		"oA": 0,
+		"oAP": "\/images\/cases\/navglobal\/headshot@sm.png",
+		"oF": 0,
+		"oIPL": 1,
+		"opt": 1,
+		"oT": 1,
+		"q": 100
+		},
+	"\/images\/cases\/navglobal\/screens\/assets.png": {
+		"ft": 32768,
+		"iS": 774214,
+		"oA": 0,
+		"oAP": "\/images\/cases\/navglobal\/screens\/assets.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/images\/cases\/navglobal\/screens\/customize.png": {
+		"ft": 32768,
+		"iS": 765537,
+		"oA": 0,
+		"oAP": "\/images\/cases\/navglobal\/screens\/customize.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/images\/cases\/navglobal\/screens\/graphcolors.png": {
+		"ft": 32768,
+		"iS": 631723,
+		"oA": 0,
+		"oAP": "\/images\/cases\/navglobal\/screens\/graphcolors.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/images\/cases\/nimbyx\/headshot.png": {
+		"ft": 32768,
+		"iS": 991508,
+		"oA": 0,
+		"oAP": "\/images\/cases\/nimbyx\/headshot.png",
+		"oF": 0,
+		"oIPL": 1,
+		"opt": 1,
+		"oT": 1,
+		"q": 100
+		},
+	"\/images\/cases\/nimbyx\/headshot@sm.png": {
+		"ft": 32768,
+		"iS": 376537,
+		"oA": 0,
+		"oAP": "\/images\/cases\/nimbyx\/headshot@sm.png",
 		"oF": 0,
 		"oIPL": 1,
 		"opt": 1,
@@ -2615,6 +3101,16 @@
 		"miP": 0,
 		"oA": 2,
 		"oAP": "\/images\/gr-rocket.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"\/images\/logo-orig.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "\/images\/logo-orig.svg",
 		"oF": 0,
 		"opt": 0,
 		"plM": 3758088159,

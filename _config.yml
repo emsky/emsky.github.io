@@ -23,7 +23,9 @@ twitter_username: "skyellesa"
 github_username:  "emsky"
 
 # Build settings
-markdown: kramdown
+markdown:
+  kramdown:
+    input: GFM
 
 sass:
     sass_dir: _sass
@@ -36,6 +38,12 @@ collections:
     output: true
     permalink: /:path/
 
+plugins:
+  - markdownify
+
+newline: >
+  :
+
 # Folders to process
 permalink: /posts/:title.html
 //relative_permalinks: false # Fixes problem with relative links not working
@@ -46,6 +54,11 @@ exclude:
     - .DS_Store
     - .gitignore
     - config.codekit3
-    - "_work/_templates"
+    - "_work/_templat"
     - Gemfile
     - Gemfile.lock
+    - README.md
+
+# deployment
+host: ganymede.local
+port: 4000

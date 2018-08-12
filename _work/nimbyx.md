@@ -6,19 +6,19 @@ partials:
   - name: header
     pagetitle: "Ellesa Sabasaje • UX Designer & Strategist"
     pagedesc: 'Holistic digital product designer with a knack for UX design, UX strategy, UX research, prototyping and front-end development'
-    customtheme: 'cerulean'
+    customtheme: 'vermilion'
   - name: herocase
-    projectname: "UX Engineer & Front-end Developer at Nimbyx"
+    projectname: "UX Engineer & Developer at Nimbyx"
     project_id: "case--nimbyx"
-    tagline: "Digitally transforming the dental industry"
-    media_lg: "/images/shots/kite.png"
-    media_sm: "/images/shots/kite.png"
+    tagline: "Digitally evolving the dental industry"
+    media_lg: "/images/cases/nimbyx/headshot.png"
+    media_sm: "/images/cases/nimbyx/headshot@sm.png"
     mediaalt: "Image of PLDT Digicon app on iPhone X mockup"
   - name: caseoverview
     overview: ""
     role: "UX Engineer & Sr. Front-end Developer"
     period: "Nov 2015 - Jul 2016"
-    industry: "Medical, SME"
+    industry: "Medical, e-Commerce"
     company: "Nimbyx"
   - name: phasehow
     heading: "Coming Soon!"
