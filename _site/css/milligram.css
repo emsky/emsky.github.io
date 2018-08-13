@@ -1238,7 +1238,7 @@ footer {
     padding: 3rem;
     box-shadow: -5px 20px 40px rgba(22, 21, 23, 0.1); }
   .about .bio {
-    padding: 1rem; }
+    padding-left: 4rem; }
   .about .work-experiences {
     padding: 1rem; }
   .about .education {
