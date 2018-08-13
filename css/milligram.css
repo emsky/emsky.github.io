@@ -614,6 +614,18 @@ button, .button {
 .effect--typed {
   color: #6772E5; }
 
+.notify {
+  position: fixed;
+  top: 8px;
+  left: 50%;
+  transform: translateX(-50%);
+  background: #161517;
+  padding: 1rem;
+  color: rgba(255, 255, 255, 0.6);
+  font-size: 1.2rem;
+  font-family: "Google Sans", "Poppins", "Open Sans", "Helvetica Neue", "Helvetica", sans-serif;
+  text-transform: uppercase; }
+
 .navbar {
   position: fixed;
   height: auto;
