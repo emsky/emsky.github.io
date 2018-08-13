@@ -1168,8 +1168,6 @@ footer {
     min-height: 60vh;
     margin: 3rem 0;
     padding: 10rem; }
-    .case .case-details {
-      padding: 0 5rem; }
     .case .pull-right > .case-details {
       padding-left: 0; }
     .case .case-shot {
