@@ -720,6 +720,13 @@
 		"oAP": "\/_site\/CNAME",
 		"oF": 0
 		},
+	"\/_site\/colophon.html": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/_site\/colophon.html",
+		"oF": 0
+		},
 	"\/_site\/colophon\/index.html": {
 		"cB": 0,
 		"ft": 8192,
@@ -1846,18 +1853,18 @@
 		"oAP": "\/_site\/media\/name.wav",
 		"oF": 0
 		},
+	"\/_site\/resume.html": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/_site\/resume.html",
+		"oF": 0
+		},
 	"\/_site\/resume\/index.html": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
 		"oAP": "\/_site\/resume\/index.html",
-		"oF": 0
-		},
-	"\/_site\/work.html": {
-		"cB": 0,
-		"ft": 8192,
-		"oA": 0,
-		"oAP": "\/_site\/work.html",
 		"oF": 0
 		},
 	"\/_site\/work\/epldt\/digicon\/index.html": {
