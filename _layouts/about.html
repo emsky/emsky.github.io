@@ -1,5 +1,16 @@
 {% include header.html %}
-{% include pagetitle.html pagetitle=page.pagetitle %}
+
+<div class="container">
+  <div class="row header-large">
+    <div class="column">
+      <h1>{{ include.pagetitle }}</h1>
+        {{ content }}
+      </div>
+
+    </div>
+
+  </div>
+  
 <div class="container">
   <div class="row row-center about">
       <div class="column">
