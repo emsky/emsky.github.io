@@ -1850,6 +1850,13 @@
 		"oAP": "\/_site\/resume\/index.html",
 		"oF": 0
 		},
+	"\/_site\/work.html": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/_site\/work.html",
+		"oF": 0
+		},
 	"\/_site\/work\/epldt\/digicon\/index.html": {
 		"cB": 0,
 		"ft": 8192,
@@ -3601,6 +3608,13 @@
 		"pME": 1,
 		"rFN": 0,
 		"uCM": 0
+		},
+	"\/work.html": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/work.html",
+		"oF": 0
 		},
 	"\/work.md": {
 		"cB": 0,
