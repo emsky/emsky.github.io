@@ -713,11 +713,11 @@
 		"oAP": "\/_site\/casestudy.html",
 		"oF": 0
 		},
-	"\/_site\/colophon.html": {
+	"\/_site\/CNAME": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
-		"oAP": "\/_site\/colophon.html",
+		"oAP": "\/_site\/CNAME",
 		"oF": 0
 		},
 	"\/_site\/colophon\/index.html": {
@@ -744,6 +744,16 @@
 		"ma": 0,
 		"oA": 1,
 		"oAP": "\/_site\/css\/fa-min.css",
+		"oF": 0,
+		"oS": 3
+		},
+	"\/_site\/css\/milligram.css": {
+		"aP": 1,
+		"bl": 0,
+		"ft": 16,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/_site\/css\/milligram-min.css",
 		"oF": 0,
 		"oS": 3
 		},
@@ -1836,13 +1846,6 @@
 		"oAP": "\/_site\/media\/name.wav",
 		"oF": 0
 		},
-	"\/_site\/resume.html": {
-		"cB": 0,
-		"ft": 8192,
-		"oA": 0,
-		"oAP": "\/_site\/resume.html",
-		"oF": 0
-		},
 	"\/_site\/resume\/index.html": {
 		"cB": 0,
 		"ft": 8192,
@@ -2397,13 +2400,6 @@
 		"rFN": 0,
 		"uCM": 0
 		},
-	"\/about.html": {
-		"cB": 0,
-		"ft": 8192,
-		"oA": 0,
-		"oAP": "\/about.html",
-		"oF": 0
-		},
 	"\/about.md": {
 		"cB": 0,
 		"cS": 0,
@@ -2427,6 +2423,13 @@
 		"ft": 8192,
 		"oA": 0,
 		"oAP": "\/casestudy.html",
+		"oF": 0
+		},
+	"\/CNAME": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/CNAME",
 		"oF": 0
 		},
 	"\/colophon.html": {
