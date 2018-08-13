@@ -3,13 +3,13 @@
 <div class="container">
   <div class="row header-large">
     <div class="column">
-      <h1>{{ include.pagetitle }}</h1>
+      <h1>{{ page.pagetitle }}</h1>
         {{ content }}
       </div>
 
     </div>
   </div>
-  
+
 <div class="content-wrapper">
   {{ content }}
   {% for item in page.partials %}
