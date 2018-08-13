@@ -2,5 +2,5 @@
 layout: about
 permalink: /about/
 pagetitle: |
-  Hello, I'm Ellesa.<br>Pleased to meet you.
+  Hello, I'm Ellesa. Pleased to meet you.
 ---
