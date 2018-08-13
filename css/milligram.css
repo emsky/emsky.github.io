@@ -552,6 +552,11 @@ img {
 .text-centered {
   text-align: center; }
 
+button.button-clear, .button.button-clear {
+  position: absolute;
+  top: 0;
+  left: 0; }
+
 button, .button {
   padding: .6rem 2rem; }
   button.button-outline, .button.button-outline {
@@ -807,11 +812,13 @@ footer {
     .hero p.hero__greeting {
       font-size: 2.8rem; }
   .header-large {
-    padding: 16rem 4em 4rem;
+    padding: 16rem 0 10rem;
     overflow: visible; }
     .header-large h1 {
       font-size: 6.4rem;
-      font-family: 'Google Sans'; }
+      font-family: "Google Sans", "Poppins", "Open Sans", "Helvetica Neue", "Helvetica", sans-serif; }
+    .header-large p {
+      font-family: "Roboto", "Helvetica Neue", "Helvetica", "Arial", sans-serif; }
   .content-wrapper {
     padding: 4rem 8rem 10rem; }
   .pull-left {
@@ -1103,7 +1110,6 @@ footer {
   width: 100%; }
 
 .about__greeting {
-  text-align: center;
   margin-top: 3rem; }
 
 .violator, .footer-showcase {
@@ -1120,48 +1126,55 @@ footer {
 .turn-over {
   text-align: center; }
 
-.about {
-  padding: 0 3rem; }
-  .about .exp {
-    margin-bottom: 2rem; }
-  .about .section-label {
-    opacity: 0.8;
-    font-size: 1rem;
-    color: rgba(22, 21, 23, 0.3);
-    letter-spacing: 1.2px;
-    text-transform: uppercase;
-    margin-bottom: 1rem; }
-  .about .photo {
-    padding: 2rem;
-    box-shadow: 0 -10px 20px rgba(22, 21, 23, 0.1);
-    background-color: white; }
-  .about h4.company,
-  .about h4.organization {
-    margin: 0;
-    font-size: 1.3rem;
-    margin-bottom: .5rem; }
-  .about h5.position,
-  .about h5.role,
-  .about h5.course,
-  .about h5.duration,
-  .about h5.when {
-    text-transform: uppercase;
-    font-size: 1rem;
-    margin-bottom: .5rem;
-    font-weight: 100;
-    letter-spacing: .02rem; }
-  .about h5.duration,
-  .about h5.when {
-    color: rgba(22, 21, 23, 0.2);
-    margin-bottom: .5rem; }
-  .about .bio {
-    padding: 1rem; }
-  .about .work-experiences {
-    padding: 1rem; }
-  .about .education {
-    padding: 1rem; }
-  .about .leadership {
-    padding: 1rem; }
+.about .exp {
+  margin-bottom: 2rem; }
+
+.about .section-label {
+  opacity: 0.8;
+  font-size: 1rem;
+  color: rgba(22, 21, 23, 0.3);
+  letter-spacing: 1.2px;
+  text-transform: uppercase;
+  margin-bottom: 1rem; }
+
+.about .photo {
+  padding: 2rem;
+  box-shadow: 0 -10px 20px rgba(22, 21, 23, 0.1);
+  background-color: white; }
+
+.about h4.company,
+.about h4.organization {
+  margin: 0;
+  font-size: 1.3rem;
+  margin-bottom: .5rem; }
+
+.about h5.position,
+.about h5.role,
+.about h5.course,
+.about h5.duration,
+.about h5.when {
+  text-transform: uppercase;
+  font-size: 1rem;
+  margin-bottom: .5rem;
+  font-weight: 100;
+  letter-spacing: .02rem; }
+
+.about h5.duration,
+.about h5.when {
+  color: rgba(22, 21, 23, 0.2);
+  margin-bottom: .5rem; }
+
+.about .bio {
+  padding: 1rem; }
+
+.about .work-experiences {
+  padding: 1rem; }
+
+.about .education {
+  padding: 1rem; }
+
+.about .leadership {
+  padding: 1rem; }
 
 @media (min-width: 40rem) {
   .case {
@@ -1217,23 +1230,21 @@ footer {
       max-height: 10%;
       height: 32rem;
       object-fit: cover; }
-  .about {
-    padding: 0 10rem; }
-    .about .pull-right.photo {
-      margin-left: 3rem; }
-    .about .pull-left.photo {
-      margin-right: 3rem; }
-    .about .photo {
-      padding: 3rem;
-      box-shadow: -5px 20px 40px rgba(22, 21, 23, 0.1); }
-    .about .bio {
-      padding: 1rem; }
-    .about .work-experiences {
-      padding: 1rem; }
-    .about .education {
-      padding: 1rem; }
-    .about .leadership {
-      padding: 1rem; } }
+  .about .pull-right.photo {
+    margin-left: 3rem; }
+  .about .pull-left.photo {
+    margin-right: 3rem; }
+  .about .photo {
+    padding: 3rem;
+    box-shadow: -5px 20px 40px rgba(22, 21, 23, 0.1); }
+  .about .bio {
+    padding: 1rem; }
+  .about .work-experiences {
+    padding: 1rem; }
+  .about .education {
+    padding: 1rem; }
+  .about .leadership {
+    padding: 1rem; } }
 
 .fade {
   animation-name: fade;

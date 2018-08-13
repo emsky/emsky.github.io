@@ -38,6 +38,12 @@ $nn-m: 1rem
 // OVERRIDES: Buttons
 // ––––––––––––––––––––––––––––––––––––––––––––––––––
 
+button, .button
+
+	&.button-clear
+		position: absolute
+		top: 0
+		left: 0
 
 button, .button
 	padding: .6rem 2rem
@@ -347,12 +353,15 @@ footer
 
 
 	.header-large
-		padding: 16rem 4em 4rem
+		padding: 16rem 0 10rem
 		overflow: visible
 
 		h1
 			font-size: $jm-d
-			font-family: 'Google Sans'
+			font-family: $font-modern
+
+		p
+			font-family: $font-body
 
 	.content-wrapper
 		padding: 4rem 8rem 10rem

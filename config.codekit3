@@ -146,6 +146,13 @@
 		"oAP": "\/_includes\/insights.html",
 		"oF": 0
 		},
+	"\/_includes\/pagetitle.html": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/_includes\/pagetitle.html",
+		"oF": 0
+		},
 	"\/_includes\/phasehow.html": {
 		"cB": 0,
 		"ft": 8192,
@@ -680,13 +687,6 @@
 		"ft": 8192,
 		"oA": 0,
 		"oAP": "\/_site\/_work\/nimbyx.html",
-		"oF": 0
-		},
-	"\/_site\/about.html": {
-		"cB": 0,
-		"ft": 8192,
-		"oA": 0,
-		"oAP": "\/_site\/about.html",
 		"oF": 0
 		},
 	"\/_site\/about\/index.html": {
