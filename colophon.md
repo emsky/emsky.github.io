@@ -1,7 +1,7 @@
 ---
 layout: simple
 permalink: "/colophon/index.html"
-title: "Colophon"
+pagetitle: "Colophon"
 emoji: "computer"
 partials:
 - name: subsectionleft
