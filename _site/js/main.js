@@ -144,11 +144,10 @@ var typed = new Typed('.effect--typed', {
 $(window).scroll(function() {
    if($(window).scrollTop() + $(window).height() > $(document).height() - 300) {
       $('.nav__logo').removeClass('fade-in').addClass('fade');
-      console.log('near bottom!')
    } else {
-      $('.nav__logo').removeClass('fade').addClass('fade-in');
-      console.log('beaming up!')
+      $('.nav__logo').removeClass('fade').addClass('fade-in')
    }
+
 });
 
 

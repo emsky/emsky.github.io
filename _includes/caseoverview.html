@@ -1,40 +1,48 @@
 <!-- Overview -->
   <div class="container-full">
     <div class="row case__overview">
-        <div class="column column-50-sm case__summary centered-horizontally">
-          <div class="case__info">
-            <h6 class="label">OVERVIEW</h6>
-            <div class="overview">
-              {{ content }}
+        <div class="column column-67-sm centered-horizontally">
+          <div class="row">
+            <div class="column case__summary column-75-sm">
+              <div class="case__info">
+                <h6 class="label">OVERVIEW</h6>
+                <div class="overview">
+                  {{ content }}
+                </div>
+              </div>
+                <div class="row case__details">
+                  <div class="column">
+                    <div class="case__info">
+                      <h6 class="label">Role</h6>
+                      <p class="role">{{ include.role }}</p>
+                    </div>
+                    <div class="case__info">
+                      <h6 class="label">Company</h6>
+                      <p class="company">{{ include.company }}</p>
+                    </div>
+                  </div>
+                  <div class="column case__info">
+                    <div class="case__info">
+                      <h6 class="label">Period</h6>
+                      <p class="period">
+                        {{ include.period }}
+                      </p>
+                    </div>
+                    <div class="case__info">
+                      <h6 class="label">Industry</h6>
+                      <p class="industry">{{ include.industry }}</p>
+                    </div>
+                  </div>
+
+                </div>
+            </div>
+            <div class="column column-25-sm case__skills">
+              <h6 class="label">What I did</h6>
+              <div>
+                {{ include.skills | markdownify }}
+              </div>
             </div>
           </div>
-
-
-            <div class="row case__details">
-              <div class="column">
-                <div class="case__info">
-                  <h6 class="label">Role</h6>
-                  <p class="role">{{ include.role }}</p>
-                </div>
-                <div class="case__info">
-                  <h6 class="label">Company</h6>
-                  <p class="company">{{ include.company }}</p>
-                </div>
-              </div>
-              <div class="column case__info">
-                <div class="case__info">
-                  <h6 class="label">Period</h6>
-                  <p class="period">
-                    {{ include.period }}
-                  </p>
-                </div>
-                <div class="case__info">
-                  <h6 class="label">Industry</h6>
-                  <p class="indutry">{{ include.industry }}</p>
-                </div>
-              </div>
-
-            </div>
         </div>
     </div>
   </div>
