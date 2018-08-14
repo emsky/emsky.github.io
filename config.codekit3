@@ -644,13 +644,6 @@
 		"oAP": "\/_site\/_work\/digicon.html",
 		"oF": 0
 		},
-	"\/_site\/_work\/epldt.html": {
-		"cB": 0,
-		"ft": 8192,
-		"oA": 0,
-		"oAP": "\/_site\/_work\/epldt.html",
-		"oF": 0
-		},
 	"\/_site\/_work\/jdsvoice.html": {
 		"cB": 0,
 		"ft": 8192,
@@ -1281,7 +1274,7 @@
 		},
 	"\/_site\/images\/cases\/kite\/headshot.png": {
 		"ft": 32768,
-		"iS": 2868856,
+		"iS": 2877253,
 		"oA": 0,
 		"oAP": "\/_site\/images\/cases\/kite\/headshot.png",
 		"oF": 0,
@@ -1292,7 +1285,7 @@
 		},
 	"\/_site\/images\/cases\/kite\/headshot@sm.png": {
 		"ft": 32768,
-		"iS": 719375,
+		"iS": 639238,
 		"oA": 0,
 		"oAP": "\/_site\/images\/cases\/kite\/headshot@sm.png",
 		"oF": 0,
@@ -1865,13 +1858,6 @@
 		"ft": 8192,
 		"oA": 0,
 		"oAP": "\/_site\/resume\/index.html",
-		"oF": 0
-		},
-	"\/_site\/work.html": {
-		"cB": 0,
-		"ft": 8192,
-		"oA": 0,
-		"oAP": "\/_site\/work.html",
 		"oF": 0
 		},
 	"\/_site\/work\/epldt\/digicon\/index.html": {

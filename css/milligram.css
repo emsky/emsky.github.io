@@ -1359,9 +1359,12 @@ footer {
   text-align: center;
   margin: 5rem 0; }
 
-.phase__intro p.phase__overview {
+.phase__intro .phase__overview > p {
   text-align: center;
   color: rgba(22, 22, 44, 0.6); }
+
+.phase__intro .phase__overview > h4 {
+  text-align: center; }
 
 .phase__insights {
   padding: 0 1rem; }
