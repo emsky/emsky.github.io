@@ -85,6 +85,15 @@ partials:
     media_sm: "https://placehold.jp/327x276.png"
     alt: "Competitive analysis screenshots"
   - name: subsectionright
+    heading: Designing the experiments
+    description: |
+      The envisioning phases for each project played a big role to generate experiment ideas that focus on solving the user’s pain points and not mindlessly attempt to drive growth. Nonetheless, to capture the essence of the proposed solutions and reaffirmed their potential, it is important to phrase the experiments as hypotheses.
+
+      Good hypotheses ensure better design quality by framing the user experience around the success metrics while grounding the decisions in facts and data.
+    media_lg: "https://placehold.jp/568x304.png"
+    media_sm: "https://placehold.jp/327x276.png"
+    alt: "Competitive analysis screenshots"
+  - name: subsectionleft
     heading: Personas that evolve
     description: |
       ePLDT offers a wide range of solutions and services, and it goes without saying that each targets a different set of personas. In lieu of traditional personas, we went with the JTBD (jobs-to-be-done) framework.
@@ -93,7 +102,7 @@ partials:
     media_lg: "https://placehold.jp/568x304.png"
     media_sm: "https://placehold.jp/327x276.png"
     alt: "Competitive analysis screenshots"
-  - name: subsectionleft
+  - name: subsectionright
     heading: Running usability tests at scale
     description: |
       Because we needed to make sure that our visual strategies successfully conveyed the company's brand pillars, I develop strategies and programs, not just for usability testing and evaluation, but also for measuring brand desirability. I based the desirability framework on the Microsoft Desirability Toolkit, using key words that fit ePLDT's brand messaging.
@@ -107,6 +116,56 @@ partials:
     media_lg: "https://placehold.jp/960x480.png"
     media_sm: "https://placehold.jp/960x480.png"
     alt: "Leadership experience"
+  - name: phasewhat
+    heading: "Solutions"
+    description: |
+      Now let's go see some work, shall we?
+  - name: subsectionleft
+    heading: The ePLDT Global Experience Manual (GEM)
+    description: |
+      A deep dive into uncovering the lay of the land and understanding the market, the industry and its users.
+
+      [Read the case study](/cases/epldtgem){:.button.button-outline}
+    media_lg: "https://placehold.jp/568x304.png"
+    media_sm: "https://placehold.jp/327x276.png"
+    alt: "Competitive analysis screenshots"
+  - name: subsectionright
+    heading: ePLDT Hardworking Website
+    description: |
+      A deep dive into uncovering the lay of the land and understanding the market, the industry and its users.
+
+      [Read the case study](/cases/epldtgem){:.button.button-outline}
+    media_lg: "https://placehold.jp/568x304.png"
+    media_sm: "https://placehold.jp/327x276.png"
+    alt: "Competitive analysis screenshots"
+  - name: subsectionleft
+    heading: ePLDT Mobile
+    description: |
+      A deep dive into uncovering the lay of the land and understanding the market, the industry and its users.
+
+      [Read the case study](/cases/epldtgem){:.button.button-outline}
+    media_lg: "https://placehold.jp/568x304.png"
+    media_sm: "https://placehold.jp/327x276.png"
+    alt: "Competitive analysis screenshots"
+  - name: subsectionright
+    heading: "Ask-E Superbot"
+    description: |
+      A deep dive into uncovering the lay of the land and understanding the market, the industry and its users.
+
+      [Read the case study](/cases/epldtgem){:.button.button-outline}
+    media_lg: "https://placehold.jp/568x304.png"
+    media_sm: "https://placehold.jp/327x276.png"
+    alt: "Competitive analysis screenshots"
+  - name: finalshowcasefull
+    media_lg: "https://placehold.jp/720x480.png"
+    media_sm: "https://placehold.jp/720x480.png"
+    alt: "Finished product"
+  - name: phaseretro
+    heading: "In Retrospect"
+    description: |
+      Working in ePLDT's Experience Creation team has been a huge contributor to my product design education. In two years, I have learned new processes and refined my overall comprehension of  design for the digital medium.
+
+      As I push forward to new frontiers, I believe that the use of hypotheses, experimentations, success metrics and fast idea generation are important principles and techniques that can be applied anywhere.
   - name: footershowcase
     feature1: 1
     feature2: 2
