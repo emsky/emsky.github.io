@@ -43,7 +43,7 @@ partials:
     insightmidtitle: |
       Goal #2: Act as a strategic partner, helping manage the digital roadmap for the product, applications development, and marketing teams
     insightmiddesc: |
-      Guide and upskill cross-functional teams to follow best user experience practices and to achieve operational excellence
+      To ensure digital presences and channels that are focused around the needs of users, we had to carry out comprehensive user-centered design and business projects. We needed to have the voice of the user present in every roadmapping session.
     insightrighttitle: |
       Goal #3: Open new digital channels gearshifted towards lead generation, client acquisition, customer retention and data privacy.
     insightrightdesc: |
