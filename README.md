@@ -1,4 +1,7 @@
 # Aselle V4.0
 
-emsky.github.io
-skyellesa.com
+Check out how I built this site! skyellesa.com/colophon
+
+[emsky.github.io](emsky.github.io)
+
+[skyellesa.com](skyellesa.com)
