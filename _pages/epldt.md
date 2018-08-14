@@ -80,7 +80,7 @@ partials:
   - name: subsectionleft
     heading: A user-centric approach
     description: |
-      I worked alongside cross-functional teams to create a user-centric innovation pipeline and support roadmaps of tactical projects, all with users in mind. I also help introduce and execute design sprints in collaboration with marketing, business, sales and product teams.
+      I worked alongside cross-functional teams to create a user-centric innovation pipeline and to support roadmaps of tactical projects, all with users in mind. I also helped introduce and execute design sprints in collaboration with marketing, business, sales and product teams.
     media_lg: "https://placehold.jp/568x304.png"
     media_sm: "https://placehold.jp/327x276.png"
     alt: "Competitive analysis screenshots"
@@ -105,7 +105,7 @@ partials:
   - name: subsectionright
     heading: Running usability tests at scale
     description: |
-      Because we needed to make sure that our visual strategies successfully conveyed the company's brand pillars, I develop strategies and programs, not just for usability testing and evaluation, but also for measuring brand desirability. I based the desirability framework on the Microsoft Desirability Toolkit, using key words that fit ePLDT's brand messaging.
+      Because we needed to make sure that our visual strategies successfully conveyed the company's brand pillars, I developed strategies and programs, not just for usability testing and evaluation, but also for measuring brand desirability. I based the desirability framework on the Microsoft Desirability Toolkit, using key words that fit ePLDT's brand messaging.
     media_lg:
     media_sm:
     alt:

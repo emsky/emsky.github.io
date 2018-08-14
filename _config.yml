@@ -45,13 +45,13 @@ newline: >
 permalink: /posts/:title.html
 relative_permalinks: false # Fixes problem with relative links not working
 include:
-    - "_work"
+    - "_pages"
     - .htaccess
 exclude:
     - .DS_Store
     - .gitignore
     - config.codekit3
-    - "_work/_templat"
+    - "_work/_templates"
     - Gemfile
     - Gemfile.lock
     - README.md
