@@ -4,7 +4,7 @@
       <div class="column">
         <img class="phase-icon-solution centered-horizontally" src="/images/gr-rocket.svg" alt="">
         <h3 class="phase__heading">{{ include.heading }}</h3>
-        <p class="phase__overview">{{ include.description }}</p>
+        <div class="phase__overview">{{ include.description | markdownify }}</div>
       </div>
     </div>
   </div>

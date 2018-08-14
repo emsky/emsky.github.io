@@ -49,10 +49,32 @@ $color--digicon: #C81C31
 .case__overview
 	background-color: $charcoal
 	color: $white
-	padding: 5% 0
+	padding: 2% 0
+	padding-top: 5rem
 
-	.case__summary
+	.case__summary, .case__skills
 		padding: 3rem
+
+		ul
+			display: table
+
+		li
+			display: table-row
+			list-style: none
+			line-height: 1.66
+			margin-bottom: 1rem
+
+		li::before
+			height: 8px
+			width: 8px
+			display: table-cell
+			font-family: 'Font Awesome 5 Free', 'Font Awesome 5 Brands', 'Font Awesome', 'Font Awesome Regular'
+			content: '\f067'
+			font-size: 1.1rem
+			vertical-align: top
+			padding: 6px 12px 0 0
+			color: fade-out($white, .8)
+
 
 	.case__info
 		margin-bottom: 2.4rem
@@ -104,9 +126,12 @@ $color--digicon: #C81C31
 		text-align: center
 		margin: 5rem 0
 
-	p.phase__overview
+	.phase__overview>p
 		text-align: center
 		color: $midgray
+
+	.phase__overview>h4
+		text-align: center
 
 .phase__insights
 	padding: 0 1rem

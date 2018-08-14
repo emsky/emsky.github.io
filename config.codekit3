@@ -644,13 +644,6 @@
 		"oAP": "\/_site\/_work\/digicon.html",
 		"oF": 0
 		},
-	"\/_site\/_work\/epldt.html": {
-		"cB": 0,
-		"ft": 8192,
-		"oA": 0,
-		"oAP": "\/_site\/_work\/epldt.html",
-		"oF": 0
-		},
 	"\/_site\/_work\/jdsvoice.html": {
 		"cB": 0,
 		"ft": 8192,
@@ -751,16 +744,6 @@
 		"ma": 0,
 		"oA": 1,
 		"oAP": "\/_site\/css\/fa-min.css",
-		"oF": 0,
-		"oS": 3
-		},
-	"\/_site\/css\/milligram.css": {
-		"aP": 1,
-		"bl": 0,
-		"ft": 16,
-		"ma": 0,
-		"oA": 1,
-		"oAP": "\/_site\/css\/milligram-min.css",
 		"oF": 0,
 		"oS": 3
 		},
@@ -1281,7 +1264,7 @@
 		},
 	"\/_site\/images\/cases\/kite\/headshot.png": {
 		"ft": 32768,
-		"iS": 2868856,
+		"iS": 2877253,
 		"oA": 0,
 		"oAP": "\/_site\/images\/cases\/kite\/headshot.png",
 		"oF": 0,
@@ -1292,7 +1275,7 @@
 		},
 	"\/_site\/images\/cases\/kite\/headshot@sm.png": {
 		"ft": 32768,
-		"iS": 719375,
+		"iS": 639238,
 		"oA": 0,
 		"oAP": "\/_site\/images\/cases\/kite\/headshot@sm.png",
 		"oF": 0,

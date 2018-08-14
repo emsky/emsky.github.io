@@ -3,22 +3,22 @@
       <div class="column">
         <img class="phase-icon-discover centered-horizontally" src="/images/gr-double-diamond-discover.svg" alt="" style="width: 96px">
         <h3 class="phase__heading">{{ include.heading }}</h3>
-        <p class="phase__overview">{{ include.description }}</p>
+        <div class="phase__overview">{{ include.description | markdownify  }}</div>
       </div>
     </div>
 
     <div class="row phase__insights">
       <div class="column insight-left">
         <h4 class="insight__heading">{{ include.insightlefttitle }}</h4>
-        <p class="insight__description">{{ include.insightleftdesc }}</p>
+        <p class="insight__description">{{ include.insightleftdesc | markdownify }}</p>
       </div>
       <div class="column insight-middle">
         <h4 class="insight__heading">{{ include.insightmidtitle }}</h4>
-        <p class="insight__description">{{ include.insightmiddesc }}</p>
+        <p class="insight__description">{{ include.insightmiddesc | markdownify }}</p>
       </div>
       <div class="column insight-right">
         <h4 class="insight__heading">{{ include.insightrighttitle }}</h4>
-        <p class="insight__description">{{ include.insightrightdesc }}</p>
+        <p class="insight__description">{{ include.insightrightdesc | markdownify }}</p>
       </div>
     </div>
   </div>
