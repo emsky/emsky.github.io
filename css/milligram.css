@@ -1342,7 +1342,7 @@ footer {
       width: 8px;
       display: table-cell;
       font-family: 'Font Awesome 5 Free', 'Font Awesome 5 Brands', 'Font Awesome', 'Font Awesome Regular';
-      content: '\f067';
+      content: '\f111';
       font-size: 1.1rem;
       vertical-align: top;
       padding: 6px 12px 0 0;
@@ -1359,6 +1359,13 @@ footer {
     text-transform: uppercase;
     font-size: 1.3rem;
     margin-bottom: .5rem; }
+
+.disclaimer {
+  border: 0;
+  font-size: .7em;
+  margin-left: 3rem;
+  margin-top: 0;
+  color: rgba(255, 255, 255, 0.2); }
 
 .project-objective {
   padding: 2rem 0; }
@@ -1549,6 +1556,12 @@ footer {
     padding: 0 8rem; }
   .content-wrapper .subsection-centered {
     min-height: 40vh; }
+  .subsection-left .image picture::after {
+    content: '';
+    display: block;
+    height: 200%;
+    width: 200%;
+    background: #FB2136; }
   .subsection-centered {
     padding-bottom: 0; }
   #phase-showcase-full .final-showcase {

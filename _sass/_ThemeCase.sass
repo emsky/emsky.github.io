@@ -69,7 +69,7 @@ $color--digicon: #C81C31
 			width: 8px
 			display: table-cell
 			font-family: 'Font Awesome 5 Free', 'Font Awesome 5 Brands', 'Font Awesome', 'Font Awesome Regular'
-			content: '\f067'
+			content: '\f111'
 			font-size: 1.1rem
 			vertical-align: top
 			padding: 6px 12px 0 0
@@ -91,6 +91,13 @@ $color--digicon: #C81C31
 		text-transform: uppercase
 		font-size: $nn-d
 		margin-bottom: .5rem
+
+.disclaimer
+	border: 0
+	font-size: .7em
+	margin-left: 3rem
+	margin-top: 0
+	color: fade-out($white, .8)
 
 // --------------------------------------------------
 // OBJECTIVE
@@ -364,6 +371,15 @@ $color--digicon: #C81C31
 
 		.subsection-centered
 			min-height: 40vh
+
+	.subsection-left
+
+		.image picture::after
+			content: ''
+			display: block
+			height: 200%
+			width: 200%
+			background: #FB2136
 
 	//--------------------------------------------------
 	// 03 WHAT

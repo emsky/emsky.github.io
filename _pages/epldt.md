@@ -15,6 +15,7 @@ partials:
     media_sm: "/images/cases/epldt/headshot@sm.png"
     mediaalt: "Image of PLDT Digicon app on iPhone X mockup"
   - name: caseoverview
+    disclaimer: true
     overview: ""
     role: "Sr. UX Designer"
     period: "Oct 2016 - Jul 2018"
@@ -113,9 +114,9 @@ partials:
     heading: A G.E.M. in the rough
     description: |
       Consistent designs meant a stronger brand. Collaborating closely with cross-departmental design teams, I helped develop ePLDT’s style guide, culture code and design system, and maintained centralized libraries to improve consistency of design across projects. One of our goals was to improve productivity and efficiency among design teams by providing a single source of truth for all things design-related within the organization.
-    media_lg: "https://placehold.jp/960x480.png"
-    media_sm: "https://placehold.jp/960x480.png"
-    alt: "Leadership experience"
+    media_lg: ""
+    media_sm: ""
+    alt: "Global Experience Manual Cover Page"
   - name: phasewhat
     heading: "Solutions"
     description: |
@@ -126,17 +127,17 @@ partials:
       A deep dive into uncovering the lay of the land and understanding the market, the industry and its users.
 
       [Read the case study](/cases/epldtgem){:.button.button-outline}
-    media_lg: "https://placehold.jp/568x304.png"
-    media_sm: "https://placehold.jp/327x276.png"
-    alt: "Competitive analysis screenshots"
+    media_lg: "/images/cases/epldt-gem/headshot@sm.png"
+    media_sm: "/images/cases/epldt-gem/headshot@sm.png"
+    alt: "ePLDT Global Experience Manual cover page"
   - name: subsectionright
     heading: ePLDT Hardworking Website
     description: |
       A deep dive into uncovering the lay of the land and understanding the market, the industry and its users.
 
       [Read the case study](/cases/epldtgem){:.button.button-outline}
-    media_lg: "https://placehold.jp/568x304.png"
-    media_sm: "https://placehold.jp/327x276.png"
+    media_lg: "/images/cases/epldt-website/headshot@sm.png"
+    media_sm: "/images/cases/epldt-website/headshot@sm.png"
     alt: "Competitive analysis screenshots"
   - name: subsectionleft
     heading: ePLDT Mobile
@@ -177,5 +178,3 @@ partials:
 In October 2016, I joined ePLDT’s Experience Creation Team and PLDT’s Disruptive Business Group. During the two years, I helped the team define its very own process and launched multiple experiments on the AARRR funnels of the company’s products and solutions, and helped ePLDT tackle tough challenges such as designing customer and employee experiences, bridging the gap between user experience and data security and establishing design strategies for cross-functional teams.
 
 This experience helped me learn new design methodologies and strategy frameworks which refined my overall comprehension of user experience and product design for the digital medium.
-
-  > *Due to the company’s confidentiality, the actual object of my work can’t be disclosed and some of the following designs, numbers, text, have been modified, blurred or omitted on purpose.*
