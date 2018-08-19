@@ -1,10 +1,14 @@
-<div class="container">
-  <div class="row row-wrap subsection-centered row-center">
-    <div class="column content">
-      <h4 class="heading">{{ include.heading }}</h4>
-      <p class="description">{{ include.description | markdownify}}</p>
-    </div>
-    <div class="column image">
+<div class="container-full">
+  <div class="row row-wrap subsection-centered row-center {{ include.bg_color }}">
+    {% if include.heading %}
+      <div class="column content">
+        <h4 class="heading">{{ include.heading }}</h4>
+        <p class="description">{{ include.description | markdownify}}</p>
+      </div>
+    {% else %}
+
+    {% endif %}
+    <div class="column image" style="padding-left: 0">
       <picture>
         <source media="(min-width: 40rem)" srcset="{{ include.media_lg }}">
         <img src="{{ include.media_sm }}" alt="{{ include.alt }}" style="width:auto;">

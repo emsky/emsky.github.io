@@ -1562,6 +1562,10 @@ footer {
     height: 200%;
     width: 200%;
     background: #FB2136; }
+  .pull-left.padded-right {
+    padding-right: 10rem; }
+  .pull-right.padded-left {
+    padding-left: 10rem; }
   .subsection-centered {
     padding-bottom: 0; }
   #phase-showcase-full .final-showcase {
@@ -1573,6 +1577,72 @@ footer {
       max-width: 100%;
       object-fit: cover; } }
 
+.bg_crimson {
+  background-color: #C81C31; }
+
+.bg_crimson2 {
+  background-color: #FF364A; }
+
+.bg_turquoise {
+  background-color: #4DD0E1; }
+
+.bg_turquoise2 {
+  background-color: #4EFFB4; }
+
+.bg_dodgerblue {
+  background-color: #4480FF; }
+
+.bg_dodgerblue2 {
+  background-color: #4DDE01; }
+
+.bg_slategray {
+  background-color: #3B3B44; }
+
+.bg_slategray2 {
+  background-color: #7D89B5; }
+
+.bg_kiwi {
+  background-color: #4CAF50; }
+
+.bg_kiwi2 {
+  background-color: #B7EE68; }
+
+.bg_gold {
+  background-color: #F4B400; }
+
+.bg_gold2 {
+  background-color: #4CAF50; }
+
+.bg_vermilion {
+  background-color: #F44336; }
+
+.bg_vermilion2 {
+  background-color: #FF9E65; }
+
+.bg_lilac {
+  background-color: #9575CD; }
+
+.bg_lilac2 {
+  background-color: #C0A0F7; }
+
+.bg_lochmara {
+  background-color: #0277BD; }
+
+.bg_lochmara2 {
+  background-color: #28AAF8; }
+
+.bg_cerulean {
+  background-color: #03A9F4; }
+
+.bg_cerulean2 {
+  background-color: #28E2F8; }
+
+.bg_hibiscus {
+  background-color: #FF397F; }
+
+.bg_hibiscus2 {
+  background-color: #FFB280; }
+
 body#crimson .phase__intro h3.phase__heading, body#crimson .project-mono {
   color: #C81C31; }
 
@@ -1580,23 +1650,23 @@ body#crimson .logo-colored svg #logoName {
   fill: url(#grad-crimson); }
 
 body#crimson .logo-colored svg #logoRayLeft {
-  fill: #FF4058; }
+  fill: #FF364A; }
 
 body#crimson .logo-colored svg #logoRayMiddle {
-  fill: #FF4058; }
+  fill: #FF364A; }
 
 body#crimson .logo-colored svg #logoRayRight {
-  fill: #FF4058; }
+  fill: #FF364A; }
 
 body#crimson a {
   color: #C81C31; }
   body#crimson a:focus, body#crimson a:hover {
-    color: #FF4058; }
+    color: #FF364A; }
 
 body#crimson .button-outline {
   border-left: 4px solid #C81C31;
-  border-right: 4px solid #FF4058;
-  background-image: -webkit-linear-gradient(left, #C81C31, #FF4058), -webkit-linear-gradient(left, #C81C31, #FF4058);
+  border-right: 4px solid #FF364A;
+  background-image: -webkit-linear-gradient(left, #C81C31, #FF364A), -webkit-linear-gradient(left, #C81C31, #FF364A);
   background-size: 100% 4px;
   background-position: 0 100%, 0 0;
   background-repeat: no-repeat;
@@ -1604,13 +1674,13 @@ body#crimson .button-outline {
   color: #C81C31; }
   body#crimson .button-outline:focus, body#crimson .button-outline:hover {
     border-left: 4px solid #C81C31;
-    border-right: 4px solid #FF4058;
-    background-image: -webkit-linear-gradient(left, #C81C31, #FF4058), -webkit-linear-gradient(left, #C81C31, #FF4058);
+    border-right: 4px solid #FF364A;
+    background-image: -webkit-linear-gradient(left, #C81C31, #FF364A), -webkit-linear-gradient(left, #C81C31, #FF364A);
     background-size: 100% 4px;
     background-position: 0 100%, 0 0;
     background-repeat: no-repeat;
     background-clip: border-box;
-    background-image: -webkit-linear-gradient(left, #C81C31, #FF4058);
+    background-image: -webkit-linear-gradient(left, #C81C31, #FF364A);
     background-clip: unset;
     background-size: auto;
     color: #FFFFFF !important; }
@@ -1620,13 +1690,13 @@ body#crimson .button-clear {
   border-color: transparent;
   color: #C81C31; }
   body#crimson .button-clear:after {
-    background: #FF4058; }
+    background: #FF364A; }
   body#crimson .button-clear:focus, body#crimson .button-clear:hover {
     background-color: transparent;
     border-color: transparent;
-    color: #FF4058 !important; }
+    color: #FF364A !important; }
     body#crimson .button-clear:focus:after, body#crimson .button-clear:hover:after {
-      background: #FF4058; }
+      background: #FF364A; }
 
 body#turquoise .phase__intro h3.phase__heading, body#turquoise .project-mono {
   color: #4DD0E1; }
