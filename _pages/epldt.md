@@ -44,7 +44,7 @@ partials:
   - name: phasewhy
     heading: "Understanding"
     description: |
-      We sat down with stakeholders and learned that management teams may not be aware of the strategic value of design, and do not use it as a resource for innovation. Our mission was clear: culture change&mdash;
+      We sat down with stakeholders and learned that management teams may not be aware of the strategic value of design, and do not use it as a resource for innovation. Our mission was clear &mdash;
     insightlefttitle: |
       Goal #1: Provide design leadership to the designers and developers across teams to help streamline design output and centralize resources
     insightleftdesc: |
@@ -144,8 +144,11 @@ partials:
   - name: subsectionleft
     heading: The ePLDT Global Experience Manual (GEM)
     description: |
-      A deep dive into uncovering the lay of the land and understanding the market, the industry and its users.
+      We envisioned the G.E.M. to be ePLDT's brand book, design system and culture code rolled into one source. Wrangling up cross-functional designers, writers and key company personnel, we started working on the prototype of this unprecedented project.
 
+      Inspired by Atlassian and Mailchimp, we sought to create a single source of truth for all things design-related within the organization with the goal of unifying designers across all subsidiaries and to ensure that the brand experience is consistent.
+
+      <br>
       [Read the case study](/cases/epldtgem){:.button.button-outline}
     media_lg: "/images/cases/epldt-gem/headshot@sm.png"
     media_sm: "/images/cases/epldt-gem/headshot@sm.png"
@@ -153,8 +156,12 @@ partials:
   - name: subsectionright
     heading: ePLDT Hardworking Website
     description: |
-      A deep dive into uncovering the lay of the land and understanding the market, the industry and its users.
+      As the principal UX designer, I helped ePLDT rethink the purpose of the company website, and to turn it into a stronger lead generation channel.
 
+      I worked on user research, feature hypotheses, visual design and a front-end design system based on atomic design.
+
+
+      <br>
       [Read the case study](/cases/epldtgem){:.button.button-outline}
     media_lg: "/images/cases/epldt-website/headshot@sm.png"
     media_sm: "/images/cases/epldt-website/headshot@sm.png"
@@ -162,25 +169,29 @@ partials:
   - name: subsectionleft
     heading: ePLDT Mobile
     description: |
-      A deep dive into uncovering the lay of the land and understanding the market, the industry and its users.
+      Part of the company’s mission to improve customer experience, ePLDT Mobile is the key next step toward digital transformation for enterprises.
 
+      As principal designer, my main occupation was to lead the product design of the iOS and Android application from ideation to prototyping to usability testing.
+
+
+      <br>
       [Read the case study](/cases/epldtgem){:.button.button-outline}
-    media_lg: "https://placehold.jp/568x304.png"
-    media_sm: "https://placehold.jp/327x276.png"
+    media_lg: "/images/cases/epldt-mobile/showcase.png"
+    media_sm: "/images/cases/epldt-mobile/showcase@sm.png"
     alt: "Competitive analysis screenshots"
   - name: subsectionright
     heading: "Ask-E Superbot"
     description: |
-      A deep dive into uncovering the lay of the land and understanding the market, the industry and its users.
+      As part of of the Experience Creation group, I helped ePLDT conceptualize and design its flagship chatbot service. The goal was to train a system to “read a customer’s mind” by gathering key information points and intuiting complementary products and services.
 
+      Powered by the Microsoft Bot Framework, Ask-E’s first iteration was hosted first on the company’s Facebook page and then on the company’s Workplace.
+
+
+      <br>
       [Read the case study](/cases/epldtgem){:.button.button-outline}
-    media_lg: "https://placehold.jp/568x304.png"
-    media_sm: "https://placehold.jp/327x276.png"
+    media_lg: "/images/cases/aske/showcase.png"
+    media_sm: "/images/cases/aske/showcase@sm.png"
     alt: "Competitive analysis screenshots"
-  - name: finalshowcasefull
-    media_lg: "https://placehold.jp/720x480.png"
-    media_sm: "https://placehold.jp/720x480.png"
-    alt: "Finished product"
   - name: phaseretro
     heading: "In Retrospect"
     description: |

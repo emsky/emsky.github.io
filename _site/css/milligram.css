@@ -953,7 +953,7 @@ footer {
 
 @media (min-width: 40rem) {
   .menu {
-    padding: 0 10rem; }
+    padding: 0 3rem; }
     .menu .menu__content {
       position: absolute;
       top: 50%;
@@ -1233,7 +1233,7 @@ footer {
       height: 32rem;
       object-fit: cover; }
   .about {
-    padding: 0 8rem; }
+    padding: 0 3rem; }
     .about .pull-right.photo {
       padding-left: 3rem; }
     .about .pull-left.photo {
@@ -1484,11 +1484,6 @@ footer {
   margin-top: 0; }
 
 @media (min-width: 40rem) {
-  .hero--case .case__headshot picture,
-  .hero--case .case__headshot img {
-    left: 50%;
-    top: 50%;
-    transform: translateX(-50%) translateY(-50%); }
   .case__headshot {
     order: 2; }
   .case__title {
@@ -1521,7 +1516,7 @@ footer {
     align-self: center;
     padding: 0 30%; }
   .phase__insights {
-    padding: 0 10rem; }
+    padding: 0 3rem; }
     .phase__insights .insight-left,
     .phase__insights .insight-middle,
     .phase__insights .insight-right {
@@ -1543,7 +1538,7 @@ footer {
   .subsection-right,
   .subsection-images {
     min-height: 72vh;
-    padding: 0 8rem; }
+    padding: 0 3rem; }
   .subsection-centered {
     min-height: 72vh; }
     .subsection-centered .content {
@@ -1553,7 +1548,7 @@ footer {
   .content-wrapper .subsection-right,
   .content-wrapper .subsection-images {
     min-height: 50vh;
-    padding: 0 8rem; }
+    padding: 0 3rem; }
   .content-wrapper .subsection-centered {
     min-height: 40vh; }
   .subsection-left .image picture::after {
@@ -2706,9 +2701,10 @@ body#hibiscus #rocket #exhaust2 {
     #case--epldt .hero--rotate .case__headshot img {
       transform: translateX(-50%) translateY(-50%);
       transition: all .7s ease-in-out;
-      width: 100%;
-      top: 50%;
-      right: 0; }
+      top: 0%;
+      left: 50%;
+      max-width: 150%;
+      position: absolute; }
 
 #case--digicon .hero--rotate {
   position: relative;
@@ -2763,10 +2759,9 @@ body#hibiscus #rocket #exhaust2 {
       width: 100%; }
 
 @media (min-width: 40rem) {
-  #case--epldt .case__headshot picture,
-  #case--epldt .case__headshot img {
-    transform: translateX(-50%) translateY(-50%);
-    width: 140%;
+  #case--epldt .hero--rotate .case__headshot picture,
+  #case--epldt .hero--rotate .case__headshot img {
+    width: 70%;
     top: 50%;
     right: 60%;
     -webkit-filter: drop-shadow(0 10px 10px rgba(22, 22, 44, 0.18));
