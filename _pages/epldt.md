@@ -35,14 +35,16 @@ partials:
   - name: projectvision
     statement: "Design is a battle-tested strategy for innovation"
     description: "We wanted to follow footsteps of giants such as Google Ventures, Slack, IBM, Lenovo and Xiaomi, who found that embracing design at an early stage takes far fewer resources. We discovered that a competitive edge can be built through design."
-    media_lg: "https://placehold.jp/968x478.png"
-    media_sm: "https://placehold.jp/375x240.png"
+    media_lg: "/media/graph-animated.mp4"
+    media_sm: "/media/graph-animated.mp4"
     alt: "Some project shots"
+    full: false
+    isVideo: true
 
   - name: phasewhy
     heading: "Understanding"
     description: |
-      We sat down with stakeholders and learned that management teams may not be aware of the strategic value of design, and do not use it as a resource for innovation. Our mission was clear: culture change&mdash;
+      We sat down with stakeholders and learned that management teams may not be aware of the strategic value of design, and do not use it as a resource for innovation. Our mission was clear &mdash;
     insightlefttitle: |
       Goal #1: Provide design leadership to the designers and developers across teams to help streamline design output and centralize resources
     insightleftdesc: |
@@ -68,22 +70,30 @@ partials:
     heading: Define growth opportunities
     description: |
       It's capital for the team to understand the current state of things before thinking of any solutions. We ran a series of workshops with senior and executive stakeholders to establish business objectives, strategies and measures of success. Where did we want to be at the end of the year? Where did we see ePLDT in 5 years?
-    media_lg:
-    media_sm:
-    alt:
+    media_lg: /images/cases/epldt/workshop-painpoints.jpg
+    media_sm: /images/cases/epldt/workshop-painpoints@sm.jpg
+    alt: "Design thinking workshop day 1"
+  - name: subsectioncentered
+    media_lg: /images/cases/epldt/workshop-painpoints-posts.jpg
+    media_sm: /images/cases/epldt/workshop-painpoints-posts@sm.jpg
+    alt: "Design thinking workshop day 1"
+  - name: subsectioncentered
+    media_lg: /images/cases/epldt/maturity-model.png
+    media_sm: /images/cases/epldt/maturity-model@sm.png
+    alt: "Maturity models"
   - name: subsectionright
-    heading: Every race needs a starting line
+    heading: UX Maturity Model
     description: |
-      We needed to benchmark how far we need to go and determine what it takes to get there. Inspired by Nielsen-Norman's model, I devised a framework for measuring the UX maturity of the organization. This helped us identify areas of opportunities where UX and design can deliver the most value.
-    media_lg: "https://placehold.jp/568x304.png"
-    media_sm: "https://placehold.jp/327x276.png"
+      We needed to benchmark how far we need to go and determine what it takes to get there. Inspired by Nielsen-Norman's model, I devised a simplified 5-level framework for measuring the UX maturity of the organization. This helped us identify areas of opportunities where UX and design can deliver the most value.
+    media_lg: /images/cases/epldt/maturity-model-details.png
+    media_sm: /images/cases/epldt/maturity-model-details@sm.png
     alt: ""
   - name: subsectionleft
     heading: A user-centric approach
     description: |
       I worked alongside cross-functional teams to create a user-centric innovation pipeline and to support roadmaps of tactical projects, all with users in mind. I also helped introduce and execute design sprints in collaboration with marketing, business, sales and product teams.
-    media_lg: "https://placehold.jp/568x304.png"
-    media_sm: "https://placehold.jp/327x276.png"
+    media_lg: /images/cases/epldt/double-diamond.png
+    media_sm: /images/cases/epldt/double-diamond.png
     alt: "Competitive analysis screenshots"
   - name: subsectionright
     heading: Designing the experiments
@@ -91,8 +101,8 @@ partials:
       The envisioning phases for each project played a big role to generate experiment ideas that focus on solving the user’s pain points and not mindlessly attempt to drive growth. Nonetheless, to capture the essence of the proposed solutions and reaffirmed their potential, it is important to phrase the experiments as hypotheses.
 
       Good hypotheses ensure better design quality by framing the user experience around the success metrics while grounding the decisions in facts and data.
-    media_lg: "https://placehold.jp/568x304.png"
-    media_sm: "https://placehold.jp/327x276.png"
+    media_lg: /images/cases/epldt/hypothesis-framework.png
+    media_sm: /images/cases/epldt/hypothesis-framework@sm.png
     alt: "Competitive analysis screenshots"
   - name: subsectionleft
     heading: Personas that evolve
@@ -100,22 +110,32 @@ partials:
       ePLDT offers a wide range of solutions and services, and it goes without saying that each targets a different set of personas. In lieu of traditional personas, we went with the JTBD (jobs-to-be-done) framework.
 
       Starting with provisionals derived from guerilla research, we evolved these personas as we developed the solutions. A mature persona added more business and design value to us so I devised a gamified persona development process to help us quantify the maturity level of each persona, using data from that to support other projects. Pretty neat, actually.
-    media_lg: "https://placehold.jp/568x304.png"
-    media_sm: "https://placehold.jp/327x276.png"
-    alt: "Competitive analysis screenshots"
+    media_lg: /images/cases/epldt/personas.jpg
+    media_sm: /images/cases/epldt/personas@sm.jpg
+    alt: "Personas"
   - name: subsectionright
     heading: Running usability tests at scale
     description: |
       Because we needed to make sure that our visual strategies successfully conveyed the company's brand pillars, I developed strategies and programs, not just for usability testing and evaluation, but also for measuring brand desirability. I based the desirability framework on the Microsoft Desirability Toolkit, using key words that fit ePLDT's brand messaging.
-    media_lg:
-    media_sm:
-    alt:
+    media_lg: /images/cases/epldt/test-plan.png
+    media_sm: /images/cases/epldt/test-plan@sm.png
+    alt: "Usability test framework"
+  - name: subsectionimages
+    bg_color: ''
+    mediaone:
+      media_lg: /images/cases/epldt/desirability.png
+      media_sm: /images/cases/epldt/desirability@sm.png
+      alt: "Image left"
+    mediatwo:
+      media_lg: /images/cases/epldt/desirability-words.png
+      media_sm: /images/cases/epldt/desirability-words@sm.png
+      alt: "Image right"
   - name: subsectioncentered
     heading: A G.E.M. in the rough
     description: |
       Consistent designs meant a stronger brand. Collaborating closely with cross-departmental design teams, I helped develop ePLDT’s style guide, culture code and design system, and maintained centralized libraries to improve consistency of design across projects. One of our goals was to improve productivity and efficiency among design teams by providing a single source of truth for all things design-related within the organization.
-    media_lg: ""
-    media_sm: ""
+    media_lg: /images/cases/epldt-gem/gem-shots.jpg
+    media_sm: /images/cases/epldt-gem/gem-shots@sm.jpg
     alt: "Global Experience Manual Cover Page"
   - name: phasewhat
     heading: "Solutions"
@@ -124,8 +144,11 @@ partials:
   - name: subsectionleft
     heading: The ePLDT Global Experience Manual (GEM)
     description: |
-      A deep dive into uncovering the lay of the land and understanding the market, the industry and its users.
+      We envisioned the G.E.M. to be ePLDT's brand book, design system and culture code rolled into one source. Wrangling up cross-functional designers, writers and key company personnel, we started working on the prototype of this unprecedented project.
 
+      Inspired by Atlassian and Mailchimp, we sought to create a single source of truth for all things design-related within the organization with the goal of unifying designers across all subsidiaries and to ensure that the brand experience is consistent.
+
+      <br>
       [Read the case study](/cases/epldtgem){:.button.button-outline}
     media_lg: "/images/cases/epldt-gem/headshot@sm.png"
     media_sm: "/images/cases/epldt-gem/headshot@sm.png"
@@ -133,8 +156,12 @@ partials:
   - name: subsectionright
     heading: ePLDT Hardworking Website
     description: |
-      A deep dive into uncovering the lay of the land and understanding the market, the industry and its users.
+      As the principal UX designer, I helped ePLDT rethink the purpose of the company website, and to turn it into a stronger lead generation channel.
 
+      I worked on user research, feature hypotheses, visual design and a front-end design system based on atomic design.
+
+
+      <br>
       [Read the case study](/cases/epldtgem){:.button.button-outline}
     media_lg: "/images/cases/epldt-website/headshot@sm.png"
     media_sm: "/images/cases/epldt-website/headshot@sm.png"
@@ -142,25 +169,29 @@ partials:
   - name: subsectionleft
     heading: ePLDT Mobile
     description: |
-      A deep dive into uncovering the lay of the land and understanding the market, the industry and its users.
+      Part of the company’s mission to improve customer experience, ePLDT Mobile is the key next step toward digital transformation for enterprises.
 
+      As principal designer, my main occupation was to lead the product design of the iOS and Android application from ideation to prototyping to usability testing.
+
+
+      <br>
       [Read the case study](/cases/epldtgem){:.button.button-outline}
-    media_lg: "https://placehold.jp/568x304.png"
-    media_sm: "https://placehold.jp/327x276.png"
+    media_lg: "/images/cases/epldt-mobile/showcase.png"
+    media_sm: "/images/cases/epldt-mobile/showcase@sm.png"
     alt: "Competitive analysis screenshots"
   - name: subsectionright
     heading: "Ask-E Superbot"
     description: |
-      A deep dive into uncovering the lay of the land and understanding the market, the industry and its users.
+      As part of of the Experience Creation group, I helped ePLDT conceptualize and design its flagship chatbot service. The goal was to train a system to “read a customer’s mind” by gathering key information points and intuiting complementary products and services.
 
+      Powered by the Microsoft Bot Framework, Ask-E’s first iteration was hosted first on the company’s Facebook page and then on the company’s Workplace.
+
+
+      <br>
       [Read the case study](/cases/epldtgem){:.button.button-outline}
-    media_lg: "https://placehold.jp/568x304.png"
-    media_sm: "https://placehold.jp/327x276.png"
+    media_lg: "/images/cases/aske/showcase.png"
+    media_sm: "/images/cases/aske/showcase@sm.png"
     alt: "Competitive analysis screenshots"
-  - name: finalshowcasefull
-    media_lg: "https://placehold.jp/720x480.png"
-    media_sm: "https://placehold.jp/720x480.png"
-    alt: "Finished product"
   - name: phaseretro
     heading: "In Retrospect"
     description: |

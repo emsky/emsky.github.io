@@ -1,10 +1,10 @@
 <div class="container">
     <div class="row subsection-left row-center">
-      <div class="column content">
+      <div class="column content pull-left padded-right">
         <h4 class="heading">{{ include.heading }}</h4>
         <p class="description">{{ include.description | markdownify }}</p>
       </div>
-      <div class="column image">
+      <div class="column column-50-sm image pull-right">
         <picture>
           <source media="(min-width: 40rem)" srcset="{{ include.media_lg }}">
           <img src="{{ include.media_sm }}" alt="{{ include.alt }}" style="width:auto;">

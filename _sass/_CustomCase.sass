@@ -6,12 +6,13 @@
 
     .case__headshot picture,
     .case__headshot img
-      transform: translateX(-50%) translateY(-50%)
       //@include shadowed(0, 24px, 24px, fade-out(black, .72))
+      transform: translateX(-50%) translateY(-50%)
       transition: all .7s ease-in-out
-      width: 100%
-      top: 50%
-      right: 0
+      top: 0%
+      left: 50%
+      max-width: 150%
+      position: absolute
 
 
 #case--digicon
@@ -80,13 +81,15 @@
 
   #case--epldt
 
-    .case__headshot picture,
-    .case__headshot img
-      transform: translateX(-50%) translateY(-50%)
-      width: 140%
-      top: 50%
-      right: 60%
-      @include shadowed(0, 10px, 10px, fade-out($black, .82))
+    .hero--rotate
+
+      .case__headshot picture,
+      .case__headshot img
+        //transform: translateX(-50%) translateY(-50%)
+        width: 70%
+        top: 50%
+        right: 60%
+        @include shadowed(0, 10px, 10px, fade-out($black, .82))
 
   #case--clockenflap
 

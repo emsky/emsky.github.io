@@ -1,12 +1,12 @@
-<div class="container">
-    <div class="row subsection-images row-center">
-      <div class="column image">
+<div class="container-full">
+    <div class="row subsection-images row-center {{ include.bg_color }}">
+      <div class="column image" style="align-self: flex-start">
         <picture>
           <source media="(min-width: 40rem)" srcset="{{ include.mediaone.media_lg }}">
           <img src="{{ include.mediaone.media_sm }}" alt="{{ include.mediaone.alt }}" style="width:auto;">
         </picture>
       </div>
-      <div class="column image">
+      <div class="column image" style="align-self: flex-end">
         <picture>
           <source media="(min-width: 40rem)" srcset="{{ include.mediatwo.media_lg }}">
           <img src="{{ include.mediatwo.media_sm }}" alt="{{ include.mediaone.alt }}" style="width:auto;">

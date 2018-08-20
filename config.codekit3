@@ -1130,13 +1130,6 @@
 		"oAP": "\/_site\/404.html",
 		"oF": 0
 		},
-	"\/_site\/_pages\/epldt.html": {
-		"cB": 0,
-		"ft": 8192,
-		"oA": 0,
-		"oAP": "\/_site\/_pages\/epldt.html",
-		"oF": 0
-		},
 	"\/_site\/about\/index.html": {
 		"cB": 0,
 		"ft": 8192,
@@ -1154,89 +1147,11 @@
 		"oF": 0,
 		"oS": 3
 		},
-	"\/_site\/casestudy.html": {
-		"cB": 0,
-		"ft": 8192,
-		"oA": 0,
-		"oAP": "\/_site\/casestudy.html",
-		"oF": 0
-		},
-	"\/_site\/CNAME": {
-		"cB": 0,
-		"ft": 8192,
-		"oA": 0,
-		"oAP": "\/_site\/CNAME",
-		"oF": 0
-		},
-	"\/_site\/colophon.html": {
-		"cB": 0,
-		"ft": 8192,
-		"oA": 0,
-		"oAP": "\/_site\/colophon.html",
-		"oF": 0
-		},
 	"\/_site\/colophon\/index.html": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
 		"oAP": "\/_site\/colophon\/index.html",
-		"oF": 0
-		},
-	"\/_site\/css\/astrid.css": {
-		"aP": 1,
-		"bl": 0,
-		"ft": 16,
-		"ma": 0,
-		"oA": 1,
-		"oAP": "\/_site\/css\/astrid-min.css",
-		"oF": 0,
-		"oS": 3
-		},
-	"\/_site\/css\/fa.css": {
-		"aP": 1,
-		"bl": 0,
-		"ft": 16,
-		"ma": 0,
-		"oA": 1,
-		"oAP": "\/_site\/css\/fa-min.css",
-		"oF": 0,
-		"oS": 3
-		},
-	"\/_site\/css\/milligram.css": {
-		"aP": 1,
-		"bl": 0,
-		"ft": 16,
-		"ma": 0,
-		"oA": 1,
-		"oAP": "\/_site\/css\/milligram-min.css",
-		"oF": 0,
-		"oS": 3
-		},
-	"\/_site\/css\/normalize.css": {
-		"aP": 1,
-		"bl": 0,
-		"ft": 16,
-		"ma": 0,
-		"oA": 1,
-		"oAP": "\/_site\/css\/normalize-min.css",
-		"oF": 0,
-		"oS": 3
-		},
-	"\/_site\/css\/skeleton.css": {
-		"aP": 1,
-		"bl": 0,
-		"ft": 16,
-		"ma": 0,
-		"oA": 1,
-		"oAP": "\/_site\/css\/skeleton-min.css",
-		"oF": 0,
-		"oS": 3
-		},
-	"\/_site\/docs\/ELSabasaje_Resume_2018.pdf": {
-		"cB": 0,
-		"ft": 8192,
-		"oA": 0,
-		"oAP": "\/_site\/docs\/ELSabasaje_Resume_2018.pdf",
 		"oF": 0
 		},
 	"\/_site\/feed.xml": {
@@ -1246,1041 +1161,6 @@
 		"oAP": "\/_site\/feed.xml",
 		"oF": 0
 		},
-	"\/_site\/fonts\/astrid.woff2": {
-		"cB": 0,
-		"ft": 8192,
-		"oA": 0,
-		"oAP": "\/_site\/fonts\/astrid.woff2",
-		"oF": 0
-		},
-	"\/_site\/fonts\/fa-brands-400.eot": {
-		"cB": 0,
-		"ft": 8192,
-		"oA": 0,
-		"oAP": "\/_site\/fonts\/fa-brands-400.eot",
-		"oF": 0
-		},
-	"\/_site\/fonts\/fa-brands-400.svg": {
-		"ft": 2097152,
-		"miP": 0,
-		"oA": 2,
-		"oAP": "\/_site\/fonts\/fa-brands-400.svg",
-		"oF": 0,
-		"opt": 0,
-		"plM": 3758088159,
-		"prP": 0
-		},
-	"\/_site\/fonts\/fa-brands-400.ttf": {
-		"cB": 0,
-		"ft": 8192,
-		"oA": 0,
-		"oAP": "\/_site\/fonts\/fa-brands-400.ttf",
-		"oF": 0
-		},
-	"\/_site\/fonts\/fa-brands-400.woff": {
-		"cB": 0,
-		"ft": 8192,
-		"oA": 0,
-		"oAP": "\/_site\/fonts\/fa-brands-400.woff",
-		"oF": 0
-		},
-	"\/_site\/fonts\/fa-brands-400.woff2": {
-		"cB": 0,
-		"ft": 8192,
-		"oA": 0,
-		"oAP": "\/_site\/fonts\/fa-brands-400.woff2",
-		"oF": 0
-		},
-	"\/_site\/fonts\/fa-regular-400.eot": {
-		"cB": 0,
-		"ft": 8192,
-		"oA": 0,
-		"oAP": "\/_site\/fonts\/fa-regular-400.eot",
-		"oF": 0
-		},
-	"\/_site\/fonts\/fa-regular-400.svg": {
-		"ft": 2097152,
-		"miP": 0,
-		"oA": 2,
-		"oAP": "\/_site\/fonts\/fa-regular-400.svg",
-		"oF": 0,
-		"opt": 0,
-		"plM": 3758088159,
-		"prP": 0
-		},
-	"\/_site\/fonts\/fa-regular-400.ttf": {
-		"cB": 0,
-		"ft": 8192,
-		"oA": 0,
-		"oAP": "\/_site\/fonts\/fa-regular-400.ttf",
-		"oF": 0
-		},
-	"\/_site\/fonts\/fa-regular-400.woff": {
-		"cB": 0,
-		"ft": 8192,
-		"oA": 0,
-		"oAP": "\/_site\/fonts\/fa-regular-400.woff",
-		"oF": 0
-		},
-	"\/_site\/fonts\/fa-regular-400.woff2": {
-		"cB": 0,
-		"ft": 8192,
-		"oA": 0,
-		"oAP": "\/_site\/fonts\/fa-regular-400.woff2",
-		"oF": 0
-		},
-	"\/_site\/fonts\/fa-solid-900.eot": {
-		"cB": 0,
-		"ft": 8192,
-		"oA": 0,
-		"oAP": "\/_site\/fonts\/fa-solid-900.eot",
-		"oF": 0
-		},
-	"\/_site\/fonts\/fa-solid-900.svg": {
-		"ft": 2097152,
-		"miP": 0,
-		"oA": 2,
-		"oAP": "\/_site\/fonts\/fa-solid-900.svg",
-		"oF": 0,
-		"opt": 0,
-		"plM": 3758088159,
-		"prP": 0
-		},
-	"\/_site\/fonts\/fa-solid-900.ttf": {
-		"cB": 0,
-		"ft": 8192,
-		"oA": 0,
-		"oAP": "\/_site\/fonts\/fa-solid-900.ttf",
-		"oF": 0
-		},
-	"\/_site\/fonts\/fa-solid-900.woff": {
-		"cB": 0,
-		"ft": 8192,
-		"oA": 0,
-		"oAP": "\/_site\/fonts\/fa-solid-900.woff",
-		"oF": 0
-		},
-	"\/_site\/fonts\/fa-solid-900.woff2": {
-		"cB": 0,
-		"ft": 8192,
-		"oA": 0,
-		"oAP": "\/_site\/fonts\/fa-solid-900.woff2",
-		"oF": 0
-		},
-	"\/_site\/fonts\/GoogleSans-Bold.ttf": {
-		"cB": 0,
-		"ft": 8192,
-		"oA": 0,
-		"oAP": "\/_site\/fonts\/GoogleSans-Bold.ttf",
-		"oF": 0
-		},
-	"\/_site\/fonts\/GoogleSans-BoldItalic.ttf": {
-		"cB": 0,
-		"ft": 8192,
-		"oA": 0,
-		"oAP": "\/_site\/fonts\/GoogleSans-BoldItalic.ttf",
-		"oF": 0
-		},
-	"\/_site\/fonts\/GoogleSans-Italic.ttf": {
-		"cB": 0,
-		"ft": 8192,
-		"oA": 0,
-		"oAP": "\/_site\/fonts\/GoogleSans-Italic.ttf",
-		"oF": 0
-		},
-	"\/_site\/fonts\/GoogleSans-Medium.ttf": {
-		"cB": 0,
-		"ft": 8192,
-		"oA": 0,
-		"oAP": "\/_site\/fonts\/GoogleSans-Medium.ttf",
-		"oF": 0
-		},
-	"\/_site\/fonts\/GoogleSans-MediumItalic.ttf": {
-		"cB": 0,
-		"ft": 8192,
-		"oA": 0,
-		"oAP": "\/_site\/fonts\/GoogleSans-MediumItalic.ttf",
-		"oF": 0
-		},
-	"\/_site\/fonts\/GoogleSans-Regular.ttf": {
-		"cB": 0,
-		"ft": 8192,
-		"oA": 0,
-		"oAP": "\/_site\/fonts\/GoogleSans-Regular.ttf",
-		"oF": 0
-		},
-	"\/_site\/images\/arrows-curve.svg": {
-		"ft": 2097152,
-		"miP": 0,
-		"oA": 2,
-		"oAP": "\/_site\/images\/arrows-curve.svg",
-		"oF": 0,
-		"opt": 0,
-		"plM": 3758088159,
-		"prP": 0
-		},
-	"\/_site\/images\/bg\/bg01.png": {
-		"ft": 32768,
-		"iS": 2816168,
-		"oA": 0,
-		"oAP": "\/_site\/images\/bg\/bg01.png",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"oT": 1,
-		"q": 100
-		},
-	"\/_site\/images\/bg\/bg01@sm.png": {
-		"ft": 32768,
-		"iS": 910875,
-		"oA": 0,
-		"oAP": "\/_site\/images\/bg\/bg01@sm.png",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"oT": 1,
-		"q": 100
-		},
-	"\/_site\/images\/cases\/cases\/johnscottschool\/headshot.png": {
-		"ft": 32768,
-		"iS": 1727049,
-		"oA": 0,
-		"oAP": "\/_site\/images\/cases\/cases\/johnscottschool\/headshot.png",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"oT": 1,
-		"q": 100
-		},
-	"\/_site\/images\/cases\/cases\/johnscottschool\/headshot@sm.png": {
-		"ft": 32768,
-		"iS": 613438,
-		"oA": 0,
-		"oAP": "\/_site\/images\/cases\/cases\/johnscottschool\/headshot@sm.png",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"oT": 1,
-		"q": 100
-		},
-	"\/_site\/images\/cases\/clockenflap\/headshot.png": {
-		"ft": 32768,
-		"iS": 904453,
-		"oA": 0,
-		"oAP": "\/_site\/images\/cases\/clockenflap\/headshot.png",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"oT": 1,
-		"q": 100
-		},
-	"\/_site\/images\/cases\/clockenflap\/headshot@sm.png": {
-		"ft": 32768,
-		"iS": 298453,
-		"oA": 0,
-		"oAP": "\/_site\/images\/cases\/clockenflap\/headshot@sm.png",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"oT": 1,
-		"q": 100
-		},
-	"\/_site\/images\/cases\/cnngo\/screens\/main.png": {
-		"ft": 32768,
-		"iS": 6861475,
-		"oA": 0,
-		"oAP": "\/_site\/images\/cases\/cnngo\/screens\/main.png",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"oT": 1,
-		"q": 100
-		},
-	"\/_site\/images\/cases\/cnngo\/screens\/main@sm.png": {
-		"ft": 32768,
-		"iS": 2184807,
-		"oA": 0,
-		"oAP": "\/_site\/images\/cases\/cnngo\/screens\/main@sm.png",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"oT": 1,
-		"q": 100
-		},
-	"\/_site\/images\/cases\/digicon\/headshot.png": {
-		"ft": 32768,
-		"iS": 271463,
-		"oA": 0,
-		"oAP": "\/_site\/images\/cases\/digicon\/headshot.png",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"oT": 1,
-		"q": 100
-		},
-	"\/_site\/images\/cases\/digicon\/headshot@sm.png": {
-		"ft": 32768,
-		"iS": 134729,
-		"oA": 0,
-		"oAP": "\/_site\/images\/cases\/digicon\/headshot@sm.png",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"oT": 1,
-		"q": 100
-		},
-	"\/_site\/images\/cases\/epldt-gem\/cover.png": {
-		"ft": 32768,
-		"iS": 342507,
-		"oA": 0,
-		"oAP": "\/_site\/images\/cases\/epldt-gem\/cover.png",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"oT": 1,
-		"q": 100
-		},
-	"\/_site\/images\/cases\/epldt-gem\/cover@sm.png": {
-		"ft": 32768,
-		"iS": 199167,
-		"oA": 0,
-		"oAP": "\/_site\/images\/cases\/epldt-gem\/cover@sm.png",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"oT": 1,
-		"q": 100
-		},
-	"\/_site\/images\/cases\/epldt-gem\/headshot.png": {
-		"ft": 32768,
-		"iS": 2233803,
-		"oA": 0,
-		"oAP": "\/_site\/images\/cases\/epldt-gem\/headshot.png",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"oT": 1,
-		"q": 100
-		},
-	"\/_site\/images\/cases\/epldt-gem\/headshot@sm.png": {
-		"ft": 32768,
-		"iS": 1432061,
-		"oA": 0,
-		"oAP": "\/_site\/images\/cases\/epldt-gem\/headshot@sm.png",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"oT": 1,
-		"q": 100
-		},
-	"\/_site\/images\/cases\/epldt-mobile\/bandwidth-week.png": {
-		"ft": 32768,
-		"iS": 79368,
-		"oA": 0,
-		"oAP": "\/_site\/images\/cases\/epldt-mobile\/bandwidth-week.png",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"oT": 1,
-		"q": 100
-		},
-	"\/_site\/images\/cases\/epldt-mobile\/bandwidth-week@sm.png": {
-		"ft": 32768,
-		"iS": 48683,
-		"oA": 0,
-		"oAP": "\/_site\/images\/cases\/epldt-mobile\/bandwidth-week@sm.png",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"oT": 1,
-		"q": 100
-		},
-	"\/_site\/images\/cases\/epldt-mobile\/dashboard-bandwidth.png": {
-		"ft": 32768,
-		"iS": 74278,
-		"oA": 0,
-		"oAP": "\/_site\/images\/cases\/epldt-mobile\/dashboard-bandwidth.png",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"oT": 1,
-		"q": 100
-		},
-	"\/_site\/images\/cases\/epldt-mobile\/dashboard-bandwidth@sm.png": {
-		"ft": 32768,
-		"iS": 45048,
-		"oA": 0,
-		"oAP": "\/_site\/images\/cases\/epldt-mobile\/dashboard-bandwidth@sm.png",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"oT": 1,
-		"q": 100
-		},
-	"\/_site\/images\/cases\/epldt-mobile\/dashboard-multisite.png": {
-		"ft": 32768,
-		"iS": 57786,
-		"oA": 0,
-		"oAP": "\/_site\/images\/cases\/epldt-mobile\/dashboard-multisite.png",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"oT": 1,
-		"q": 100
-		},
-	"\/_site\/images\/cases\/epldt-mobile\/dashboard-multisite@sm.png": {
-		"ft": 32768,
-		"iS": 36965,
-		"oA": 0,
-		"oAP": "\/_site\/images\/cases\/epldt-mobile\/dashboard-multisite@sm.png",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"oT": 1,
-		"q": 100
-		},
-	"\/_site\/images\/cases\/epldt-mobile\/gr_bandwidth_singleday.png": {
-		"ft": 32768,
-		"iS": 274810,
-		"oA": 0,
-		"oAP": "\/_site\/images\/cases\/epldt-mobile\/gr_bandwidth_singleday.png",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"oT": 1,
-		"q": 100
-		},
-	"\/_site\/images\/cases\/epldt-mobile\/gr_bandwidth_singleday@sm.png": {
-		"ft": 32768,
-		"iS": 159350,
-		"oA": 0,
-		"oAP": "\/_site\/images\/cases\/epldt-mobile\/gr_bandwidth_singleday@sm.png",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"oT": 1,
-		"q": 100
-		},
-	"\/_site\/images\/cases\/epldt-mobile\/gr_bandwidth_singleweek.png": {
-		"ft": 32768,
-		"iS": 296207,
-		"oA": 0,
-		"oAP": "\/_site\/images\/cases\/epldt-mobile\/gr_bandwidth_singleweek.png",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"oT": 1,
-		"q": 100
-		},
-	"\/_site\/images\/cases\/epldt-mobile\/gr_bandwidth_singleweek@sm.png": {
-		"ft": 32768,
-		"iS": 170658,
-		"oA": 0,
-		"oAP": "\/_site\/images\/cases\/epldt-mobile\/gr_bandwidth_singleweek@sm.png",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"oT": 1,
-		"q": 100
-		},
-	"\/_site\/images\/cases\/epldt-mobile\/gr_dashboard-multisite.png": {
-		"ft": 32768,
-		"iS": 238295,
-		"oA": 0,
-		"oAP": "\/_site\/images\/cases\/epldt-mobile\/gr_dashboard-multisite.png",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"oT": 1,
-		"q": 100
-		},
-	"\/_site\/images\/cases\/epldt-mobile\/gr_dashboard-multisite@sm.png": {
-		"ft": 32768,
-		"iS": 146805,
-		"oA": 0,
-		"oAP": "\/_site\/images\/cases\/epldt-mobile\/gr_dashboard-multisite@sm.png",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"oT": 1,
-		"q": 100
-		},
-	"\/_site\/images\/cases\/epldt-mobile\/headshot@sm.png": {
-		"ft": 32768,
-		"iS": 387208,
-		"oA": 0,
-		"oAP": "\/_site\/images\/cases\/epldt-mobile\/headshot@sm.png",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"oT": 1,
-		"q": 100
-		},
-	"\/_site\/images\/cases\/epldt-website\/headshot.png": {
-		"ft": 32768,
-		"iS": 12946439,
-		"oA": 0,
-		"oAP": "\/_site\/images\/cases\/epldt-website\/headshot.png",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"oT": 1,
-		"q": 100
-		},
-	"\/_site\/images\/cases\/epldt-website\/headshot@sm.png": {
-		"ft": 32768,
-		"iS": 4060085,
-		"oA": 0,
-		"oAP": "\/_site\/images\/cases\/epldt-website\/headshot@sm.png",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"oT": 1,
-		"q": 100
-		},
-	"\/_site\/images\/cases\/epldt\/headshot.png": {
-		"ft": 32768,
-		"iS": 1285182,
-		"oA": 0,
-		"oAP": "\/_site\/images\/cases\/epldt\/headshot.png",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"oT": 1,
-		"q": 100
-		},
-	"\/_site\/images\/cases\/epldt\/headshot@2x.png": {
-		"ft": 32768,
-		"iS": 387208,
-		"oA": 0,
-		"oAP": "\/_site\/images\/cases\/epldt\/headshot@2x.png",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"oT": 1,
-		"q": 100
-		},
-	"\/_site\/images\/cases\/epldt\/headshot@sm.png": {
-		"ft": 32768,
-		"iS": 634567,
-		"oA": 0,
-		"oAP": "\/_site\/images\/cases\/epldt\/headshot@sm.png",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"oT": 1,
-		"q": 100
-		},
-	"\/_site\/images\/cases\/johnscottschool\/headshot.png": {
-		"ft": 32768,
-		"iS": 340639,
-		"oA": 0,
-		"oAP": "\/_site\/images\/cases\/johnscottschool\/headshot.png",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"oT": 1,
-		"q": 100
-		},
-	"\/_site\/images\/cases\/johnscottschool\/headshot@sm.png": {
-		"ft": 32768,
-		"iS": 119710,
-		"oA": 0,
-		"oAP": "\/_site\/images\/cases\/johnscottschool\/headshot@sm.png",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"oT": 1,
-		"q": 100
-		},
-	"\/_site\/images\/cases\/kite\/headshot.png": {
-		"ft": 32768,
-		"iS": 2877253,
-		"oA": 0,
-		"oAP": "\/_site\/images\/cases\/kite\/headshot.png",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"oT": 1,
-		"q": 100
-		},
-	"\/_site\/images\/cases\/kite\/headshot@sm.png": {
-		"ft": 32768,
-		"iS": 639238,
-		"oA": 0,
-		"oAP": "\/_site\/images\/cases\/kite\/headshot@sm.png",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"oT": 1,
-		"q": 100
-		},
-	"\/_site\/images\/cases\/navglobal\/headshot.png": {
-		"ft": 32768,
-		"iS": 492355,
-		"oA": 0,
-		"oAP": "\/_site\/images\/cases\/navglobal\/headshot.png",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"oT": 1,
-		"q": 100
-		},
-	"\/_site\/images\/cases\/navglobal\/headshot@sm.png": {
-		"ft": 32768,
-		"iS": 178795,
-		"oA": 0,
-		"oAP": "\/_site\/images\/cases\/navglobal\/headshot@sm.png",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"oT": 1,
-		"q": 100
-		},
-	"\/_site\/images\/cases\/navglobal\/screens\/assets.png": {
-		"ft": 32768,
-		"iS": 774214,
-		"oA": 0,
-		"oAP": "\/_site\/images\/cases\/navglobal\/screens\/assets.png",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"oT": 1,
-		"q": 100
-		},
-	"\/_site\/images\/cases\/navglobal\/screens\/customize.png": {
-		"ft": 32768,
-		"iS": 765537,
-		"oA": 0,
-		"oAP": "\/_site\/images\/cases\/navglobal\/screens\/customize.png",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"oT": 1,
-		"q": 100
-		},
-	"\/_site\/images\/cases\/navglobal\/screens\/graphcolors.png": {
-		"ft": 32768,
-		"iS": 631723,
-		"oA": 0,
-		"oAP": "\/_site\/images\/cases\/navglobal\/screens\/graphcolors.png",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"oT": 1,
-		"q": 100
-		},
-	"\/_site\/images\/cases\/nimbyx\/headshot.png": {
-		"ft": 32768,
-		"iS": 1724919,
-		"oA": 0,
-		"oAP": "\/_site\/images\/cases\/nimbyx\/headshot.png",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"oT": 1,
-		"q": 100
-		},
-	"\/_site\/images\/cases\/nimbyx\/headshot@sm.png": {
-		"ft": 32768,
-		"iS": 129842,
-		"oA": 0,
-		"oAP": "\/_site\/images\/cases\/nimbyx\/headshot@sm.png",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"oT": 1,
-		"q": 100
-		},
-	"\/_site\/images\/favicon.png": {
-		"ft": 32768,
-		"iS": 1156,
-		"oA": 0,
-		"oAP": "\/_site\/images\/favicon.png",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"oT": 1,
-		"q": 100
-		},
-	"\/_site\/images\/gr-dam.jpg": {
-		"ft": 16384,
-		"iS": 2962038,
-		"jF": 0,
-		"oA": 0,
-		"oAP": "\/_site\/images\/gr-dam.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"q": 100
-		},
-	"\/_site\/images\/gr-dam@sm.jpg": {
-		"ft": 16384,
-		"iS": 920041,
-		"jF": 0,
-		"oA": 0,
-		"oAP": "\/_site\/images\/gr-dam@sm.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"q": 100
-		},
-	"\/_site\/images\/gr-double-diamond-discover.svg": {
-		"ft": 2097152,
-		"miP": 0,
-		"oA": 2,
-		"oAP": "\/_site\/images\/gr-double-diamond-discover.svg",
-		"oF": 0,
-		"opt": 0,
-		"plM": 3758088159,
-		"prP": 0
-		},
-	"\/_site\/images\/gr-double-diamond-execution.svg": {
-		"ft": 2097152,
-		"miP": 0,
-		"oA": 2,
-		"oAP": "\/_site\/images\/gr-double-diamond-execution.svg",
-		"oF": 0,
-		"opt": 0,
-		"plM": 3758088159,
-		"prP": 0
-		},
-	"\/_site\/images\/gr-double-diamond-solution.svg": {
-		"ft": 2097152,
-		"miP": 0,
-		"oA": 2,
-		"oAP": "\/_site\/images\/gr-double-diamond-solution.svg",
-		"oF": 0,
-		"opt": 0,
-		"plM": 3758088159,
-		"prP": 0
-		},
-	"\/_site\/images\/gr-rocket.svg": {
-		"ft": 2097152,
-		"miP": 0,
-		"oA": 2,
-		"oAP": "\/_site\/images\/gr-rocket.svg",
-		"oF": 0,
-		"opt": 0,
-		"plM": 3758088159,
-		"prP": 0
-		},
-	"\/_site\/images\/logo-orig.svg": {
-		"ft": 2097152,
-		"miP": 0,
-		"oA": 2,
-		"oAP": "\/_site\/images\/logo-orig.svg",
-		"oF": 0,
-		"opt": 0,
-		"plM": 3758088159,
-		"prP": 0
-		},
-	"\/_site\/images\/logo.png": {
-		"ft": 32768,
-		"iS": 4416,
-		"oA": 0,
-		"oAP": "\/_site\/images\/logo.png",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"oT": 1,
-		"q": 100
-		},
-	"\/_site\/images\/logo.svg": {
-		"ft": 2097152,
-		"miP": 0,
-		"oA": 2,
-		"oAP": "\/_site\/images\/logo.svg",
-		"oF": 0,
-		"opt": 0,
-		"plM": 3758088159,
-		"prP": 0
-		},
-	"\/_site\/images\/menu-spritesheet-inv.png": {
-		"ft": 32768,
-		"iS": 17029,
-		"oA": 0,
-		"oAP": "\/_site\/images\/menu-spritesheet-inv.png",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"oT": 1,
-		"q": 100
-		},
-	"\/_site\/images\/menu-spritesheet.png": {
-		"ft": 32768,
-		"iS": 16926,
-		"oA": 0,
-		"oAP": "\/_site\/images\/menu-spritesheet.png",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"oT": 1,
-		"q": 100
-		},
-	"\/_site\/images\/photo-beijing@2x.jpg": {
-		"ft": 16384,
-		"iS": 2654676,
-		"jF": 0,
-		"oA": 0,
-		"oAP": "\/_site\/images\/photo-beijing@2x.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"q": 100
-		},
-	"\/_site\/images\/photo-beijing@2x.png": {
-		"ft": 32768,
-		"iS": 1331507,
-		"oA": 0,
-		"oAP": "\/_site\/images\/photo-beijing@2x.png",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"oT": 1,
-		"q": 100
-		},
-	"\/_site\/images\/photo-training@2x.jpg": {
-		"ft": 16384,
-		"iS": 3674898,
-		"jF": 0,
-		"oA": 0,
-		"oAP": "\/_site\/images\/photo-training@2x.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"q": 100
-		},
-	"\/_site\/images\/photo-training@2x.png": {
-		"ft": 32768,
-		"iS": 7169199,
-		"oA": 0,
-		"oAP": "\/_site\/images\/photo-training@2x.png",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"oT": 1,
-		"q": 100
-		},
-	"\/_site\/images\/photo.jpg": {
-		"ft": 16384,
-		"iS": 10041494,
-		"jF": 0,
-		"oA": 0,
-		"oAP": "\/_site\/images\/photo.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"q": 100
-		},
-	"\/_site\/images\/photobw.jpg": {
-		"ft": 16384,
-		"iS": 101193,
-		"jF": 0,
-		"oA": 0,
-		"oAP": "\/_site\/images\/photobw.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"q": 100
-		},
-	"\/_site\/images\/place@2x.png": {
-		"ft": 32768,
-		"iS": 2082278,
-		"oA": 0,
-		"oAP": "\/_site\/images\/place@2x.png",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"oT": 1,
-		"q": 100
-		},
-	"\/_site\/images\/pull-down-black.svg": {
-		"ft": 2097152,
-		"miP": 0,
-		"oA": 2,
-		"oAP": "\/_site\/images\/pull-down-black.svg",
-		"oF": 0,
-		"opt": 0,
-		"plM": 3758088159,
-		"prP": 0
-		},
-	"\/_site\/images\/shots\/clockenflap\/clockenflap-showcase.png": {
-		"ft": 32768,
-		"iS": 931706,
-		"oA": 0,
-		"oAP": "\/_site\/images\/shots\/clockenflap\/clockenflap-showcase.png",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"oT": 1,
-		"q": 100
-		},
-	"\/_site\/images\/shots\/clockenflap\/clockenflap-showcase@sm.png": {
-		"ft": 32768,
-		"iS": 512747,
-		"oA": 0,
-		"oAP": "\/_site\/images\/shots\/clockenflap\/clockenflap-showcase@sm.png",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"oT": 1,
-		"q": 100
-		},
-	"\/_site\/images\/shots\/digicon\/digicon-showcase.png": {
-		"ft": 32768,
-		"iS": 595827,
-		"oA": 0,
-		"oAP": "\/_site\/images\/shots\/digicon\/digicon-showcase.png",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"oT": 1,
-		"q": 100
-		},
-	"\/_site\/images\/shots\/digicon\/digicon-showcase@sm.png": {
-		"ft": 32768,
-		"iS": 112861,
-		"oA": 0,
-		"oAP": "\/_site\/images\/shots\/digicon\/digicon-showcase@sm.png",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"oT": 1,
-		"q": 100
-		},
-	"\/_site\/images\/shots\/epldt.png": {
-		"ft": 32768,
-		"iS": 2566524,
-		"oA": 0,
-		"oAP": "\/_site\/images\/shots\/epldt.png",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"oT": 1,
-		"q": 100
-		},
-	"\/_site\/images\/shots\/epldt@sm.png": {
-		"ft": 32768,
-		"iS": 57394,
-		"oA": 0,
-		"oAP": "\/_site\/images\/shots\/epldt@sm.png",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"oT": 1,
-		"q": 100
-		},
-	"\/_site\/images\/shots\/gr_clockenflap@sm.png": {
-		"ft": 32768,
-		"iS": 133749,
-		"oA": 0,
-		"oAP": "\/_site\/images\/shots\/gr_clockenflap@sm.png",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"oT": 1,
-		"q": 100
-		},
-	"\/_site\/images\/shots\/independent.png": {
-		"ft": 32768,
-		"iS": 1043552,
-		"oA": 0,
-		"oAP": "\/_site\/images\/shots\/independent.png",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"oT": 1,
-		"q": 100
-		},
-	"\/_site\/images\/shots\/independent@sm.png": {
-		"ft": 32768,
-		"iS": 43082,
-		"oA": 0,
-		"oAP": "\/_site\/images\/shots\/independent@sm.png",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"oT": 1,
-		"q": 100
-		},
-	"\/_site\/images\/shots\/jdsvoice\/jds-showcase.png": {
-		"ft": 32768,
-		"iS": 273111,
-		"oA": 0,
-		"oAP": "\/_site\/images\/shots\/jdsvoice\/jds-showcase.png",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"oT": 1,
-		"q": 100
-		},
-	"\/_site\/images\/shots\/jdsvoice\/jds-showcase@sm.png": {
-		"ft": 32768,
-		"iS": 38465,
-		"oA": 0,
-		"oAP": "\/_site\/images\/shots\/jdsvoice\/jds-showcase@sm.png",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"oT": 1,
-		"q": 100
-		},
-	"\/_site\/images\/shots\/jdsvoice@sm.png": {
-		"ft": 32768,
-		"iS": 169525,
-		"oA": 0,
-		"oAP": "\/_site\/images\/shots\/jdsvoice@sm.png",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"oT": 1,
-		"q": 100
-		},
-	"\/_site\/images\/shots\/kite.png": {
-		"ft": 32768,
-		"iS": 626180,
-		"oA": 0,
-		"oAP": "\/_site\/images\/shots\/kite.png",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"oT": 1,
-		"q": 100
-		},
-	"\/_site\/images\/shots\/kite@sm.png": {
-		"ft": 32768,
-		"iS": 23852,
-		"oA": 0,
-		"oAP": "\/_site\/images\/shots\/kite@sm.png",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"oT": 1,
-		"q": 100
-		},
-	"\/_site\/images\/shots\/nimbyx.png": {
-		"ft": 32768,
-		"iS": 1387198,
-		"oA": 0,
-		"oAP": "\/_site\/images\/shots\/nimbyx.png",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"oT": 1,
-		"q": 100
-		},
-	"\/_site\/images\/shots\/nimbyx@sm.png": {
-		"ft": 32768,
-		"iS": 39508,
-		"oA": 0,
-		"oAP": "\/_site\/images\/shots\/nimbyx@sm.png",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"oT": 1,
-		"q": 100
-		},
 	"\/_site\/index.html": {
 		"cB": 0,
 		"ft": 8192,
@@ -2288,104 +1168,11 @@
 		"oAP": "\/_site\/index.html",
 		"oF": 0
 		},
-	"\/_site\/js\/jquery-3.3.1.min.js": {
-		"ft": 64,
-		"ma": 0,
-		"mi": 1,
-		"oA": 0,
-		"oAP": "\/_site\/js\/jquery-3.3.1.min-min.js",
-		"oF": 0,
-		"sC": 3,
-		"tS": 0
-		},
-	"\/_site\/js\/main-min.js": {
-		"ft": 64,
-		"ma": 0,
-		"mi": 1,
-		"oA": 0,
-		"oAP": "\/_site\/js\/main-min-min.js",
-		"oF": 0,
-		"sC": 3,
-		"tS": 0
-		},
-	"\/_site\/js\/main.js": {
-		"ft": 64,
-		"ma": 0,
-		"mi": 1,
-		"oA": 0,
-		"oAP": "\/_site\/js\/main-min.js",
-		"oF": 0,
-		"sC": 3,
-		"tS": 0
-		},
-	"\/_site\/js\/TweenMax.min.js": {
-		"ft": 64,
-		"ma": 0,
-		"mi": 1,
-		"oA": 0,
-		"oAP": "\/_site\/js\/TweenMax.min-min.js",
-		"oF": 0,
-		"sC": 3,
-		"tS": 0
-		},
-	"\/_site\/js\/typed.min.js": {
-		"ft": 64,
-		"ma": 0,
-		"mi": 1,
-		"oA": 0,
-		"oAP": "\/_site\/js\/typed.min-min.js",
-		"oF": 0,
-		"sC": 3,
-		"tS": 0
-		},
-	"\/_site\/media\/name.gif": {
-		"ft": 4194304,
-		"iS": 303544,
-		"oA": 0,
-		"oAP": "\/_site\/media\/name.gif",
-		"oF": 0,
-		"opt": 0
-		},
-	"\/_site\/media\/name.mp3": {
-		"cB": 0,
-		"ft": 8192,
-		"oA": 0,
-		"oAP": "\/_site\/media\/name.mp3",
-		"oF": 0
-		},
-	"\/_site\/media\/name.ogg": {
-		"cB": 0,
-		"ft": 8192,
-		"oA": 0,
-		"oAP": "\/_site\/media\/name.ogg",
-		"oF": 0
-		},
-	"\/_site\/media\/name.wav": {
-		"cB": 0,
-		"ft": 8192,
-		"oA": 0,
-		"oAP": "\/_site\/media\/name.wav",
-		"oF": 0
-		},
-	"\/_site\/resume.html": {
-		"cB": 0,
-		"ft": 8192,
-		"oA": 0,
-		"oAP": "\/_site\/resume.html",
-		"oF": 0
-		},
 	"\/_site\/resume\/index.html": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
 		"oAP": "\/_site\/resume\/index.html",
-		"oF": 0
-		},
-	"\/_site\/work.html": {
-		"cB": 0,
-		"ft": 8192,
-		"oA": 0,
-		"oAP": "\/_site\/work.html",
 		"oF": 0
 		},
 	"\/_site\/work\/epldt\/digicon\/index.html": {
@@ -2834,6 +1621,61 @@
 		"oT": 1,
 		"q": 100
 		},
+	"\/images\/cases\/epldt-gem\/gem-shots.jpg": {
+		"ft": 16384,
+		"iS": 2572362,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "\/images\/cases\/epldt-gem\/gem-shots.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 1,
+		"q": 100
+		},
+	"\/images\/cases\/epldt-gem\/gem-shots@2x.jpg": {
+		"ft": 16384,
+		"iS": 1105107,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "\/images\/cases\/epldt-gem\/gem-shots@2x.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/images\/cases\/epldt-gem\/gem-shots@2x.png": {
+		"ft": 32768,
+		"iS": 1801264,
+		"oA": 0,
+		"oAP": "\/images\/cases\/epldt-gem\/gem-shots@2x.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/images\/cases\/epldt-gem\/gem-shots@sm.jpg": {
+		"ft": 16384,
+		"iS": 951137,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "\/images\/cases\/epldt-gem\/gem-shots@sm.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 1,
+		"q": 100
+		},
+	"\/images\/cases\/epldt-gem\/gem-shots@sm.png": {
+		"ft": 32768,
+		"iS": 584638,
+		"oA": 0,
+		"oAP": "\/images\/cases\/epldt-gem\/gem-shots@sm.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
 	"\/images\/cases\/epldt-gem\/headshot.png": {
 		"ft": 32768,
 		"iS": 2233803,
@@ -2850,6 +1692,424 @@
 		"iS": 1432061,
 		"oA": 0,
 		"oAP": "\/images\/cases\/epldt-gem\/headshot@sm.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/images\/cases\/epldt-gem\/pages\/cover.png": {
+		"ft": 32768,
+		"iS": 1448391,
+		"oA": 0,
+		"oAP": "\/images\/cases\/epldt-gem\/pages\/cover.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/images\/cases\/epldt-gem\/pages\/cover@sm.png": {
+		"ft": 32768,
+		"iS": 903352,
+		"oA": 0,
+		"oAP": "\/images\/cases\/epldt-gem\/pages\/cover@sm.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/images\/cases\/epldt-gem\/pages\/foundations.png": {
+		"ft": 32768,
+		"iS": 274826,
+		"oA": 0,
+		"oAP": "\/images\/cases\/epldt-gem\/pages\/foundations.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/images\/cases\/epldt-gem\/pages\/foundations@sm.png": {
+		"ft": 32768,
+		"iS": 206678,
+		"oA": 0,
+		"oAP": "\/images\/cases\/epldt-gem\/pages\/foundations@sm.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/images\/cases\/epldt-gem\/pages\/grid.png": {
+		"ft": 32768,
+		"iS": 122642,
+		"oA": 0,
+		"oAP": "\/images\/cases\/epldt-gem\/pages\/grid.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/images\/cases\/epldt-gem\/pages\/grid@sm.png": {
+		"ft": 32768,
+		"iS": 80941,
+		"oA": 0,
+		"oAP": "\/images\/cases\/epldt-gem\/pages\/grid@sm.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/images\/cases\/epldt-gem\/pages\/icon-suite.png": {
+		"ft": 32768,
+		"iS": 677691,
+		"oA": 0,
+		"oAP": "\/images\/cases\/epldt-gem\/pages\/icon-suite.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/images\/cases\/epldt-gem\/pages\/icon-suite@sm.png": {
+		"ft": 32768,
+		"iS": 479822,
+		"oA": 0,
+		"oAP": "\/images\/cases\/epldt-gem\/pages\/icon-suite@sm.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/images\/cases\/epldt-gem\/pages\/iconography copy.png": {
+		"ft": 32768,
+		"iS": 129511,
+		"oA": 0,
+		"oAP": "\/images\/cases\/epldt-gem\/pages\/iconography copy.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/images\/cases\/epldt-gem\/pages\/iconography copy@sm.png": {
+		"ft": 32768,
+		"iS": 87345,
+		"oA": 0,
+		"oAP": "\/images\/cases\/epldt-gem\/pages\/iconography copy@sm.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/images\/cases\/epldt-gem\/pages\/iconography.png": {
+		"ft": 32768,
+		"iS": 181981,
+		"oA": 0,
+		"oAP": "\/images\/cases\/epldt-gem\/pages\/iconography.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/images\/cases\/epldt-gem\/pages\/iconography@sm.png": {
+		"ft": 32768,
+		"iS": 122810,
+		"oA": 0,
+		"oAP": "\/images\/cases\/epldt-gem\/pages\/iconography@sm.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/images\/cases\/epldt-gem\/pages\/in-action.png": {
+		"ft": 32768,
+		"iS": 217661,
+		"oA": 0,
+		"oAP": "\/images\/cases\/epldt-gem\/pages\/in-action.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/images\/cases\/epldt-gem\/pages\/in-action@sm.png": {
+		"ft": 32768,
+		"iS": 151743,
+		"oA": 0,
+		"oAP": "\/images\/cases\/epldt-gem\/pages\/in-action@sm.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/images\/cases\/epldt-gem\/pages\/neutrals.png": {
+		"ft": 32768,
+		"iS": 204024,
+		"oA": 0,
+		"oAP": "\/images\/cases\/epldt-gem\/pages\/neutrals.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/images\/cases\/epldt-gem\/pages\/neutrals@sm.png": {
+		"ft": 32768,
+		"iS": 138033,
+		"oA": 0,
+		"oAP": "\/images\/cases\/epldt-gem\/pages\/neutrals@sm.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/images\/cases\/epldt-gem\/pages\/palette.png": {
+		"ft": 32768,
+		"iS": 219607,
+		"oA": 0,
+		"oAP": "\/images\/cases\/epldt-gem\/pages\/palette.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/images\/cases\/epldt-gem\/pages\/palette@sm.png": {
+		"ft": 32768,
+		"iS": 148547,
+		"oA": 0,
+		"oAP": "\/images\/cases\/epldt-gem\/pages\/palette@sm.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/images\/cases\/epldt-gem\/pages\/paths-flows.png": {
+		"ft": 32768,
+		"iS": 269076,
+		"oA": 0,
+		"oAP": "\/images\/cases\/epldt-gem\/pages\/paths-flows.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/images\/cases\/epldt-gem\/pages\/paths-flows@sm.png": {
+		"ft": 32768,
+		"iS": 197080,
+		"oA": 0,
+		"oAP": "\/images\/cases\/epldt-gem\/pages\/paths-flows@sm.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/images\/cases\/epldt-gem\/pages\/primary-typeface.png": {
+		"ft": 32768,
+		"iS": 320039,
+		"oA": 0,
+		"oAP": "\/images\/cases\/epldt-gem\/pages\/primary-typeface.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/images\/cases\/epldt-gem\/pages\/primary-typeface@sm.png": {
+		"ft": 32768,
+		"iS": 214307,
+		"oA": 0,
+		"oAP": "\/images\/cases\/epldt-gem\/pages\/primary-typeface@sm.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/images\/cases\/epldt-gem\/pages\/secondary-typeface.png": {
+		"ft": 32768,
+		"iS": 379290,
+		"oA": 0,
+		"oAP": "\/images\/cases\/epldt-gem\/pages\/secondary-typeface.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/images\/cases\/epldt-gem\/pages\/secondary-typeface@sm.png": {
+		"ft": 32768,
+		"iS": 257960,
+		"oA": 0,
+		"oAP": "\/images\/cases\/epldt-gem\/pages\/secondary-typeface@sm.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/images\/cases\/epldt-gem\/pages\/talk-to-expert-path1.png": {
+		"ft": 32768,
+		"iS": 405149,
+		"oA": 0,
+		"oAP": "\/images\/cases\/epldt-gem\/pages\/talk-to-expert-path1.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/images\/cases\/epldt-gem\/pages\/talk-to-expert-path1@sm.png": {
+		"ft": 32768,
+		"iS": 287667,
+		"oA": 0,
+		"oAP": "\/images\/cases\/epldt-gem\/pages\/talk-to-expert-path1@sm.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/images\/cases\/epldt-gem\/pages\/talk-to-expert-path2.png": {
+		"ft": 32768,
+		"iS": 492356,
+		"oA": 0,
+		"oAP": "\/images\/cases\/epldt-gem\/pages\/talk-to-expert-path2.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/images\/cases\/epldt-gem\/pages\/talk-to-expert-path2@sm.png": {
+		"ft": 32768,
+		"iS": 350166,
+		"oA": 0,
+		"oAP": "\/images\/cases\/epldt-gem\/pages\/talk-to-expert-path2@sm.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/images\/cases\/epldt-gem\/pages\/talk-to-expert.png": {
+		"ft": 32768,
+		"iS": 151930,
+		"oA": 0,
+		"oAP": "\/images\/cases\/epldt-gem\/pages\/talk-to-expert.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/images\/cases\/epldt-gem\/pages\/talk-to-expert@sm.png": {
+		"ft": 32768,
+		"iS": 103677,
+		"oA": 0,
+		"oAP": "\/images\/cases\/epldt-gem\/pages\/talk-to-expert@sm.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/images\/cases\/epldt-gem\/pages\/typography.png": {
+		"ft": 32768,
+		"iS": 156221,
+		"oA": 0,
+		"oAP": "\/images\/cases\/epldt-gem\/pages\/typography.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/images\/cases\/epldt-gem\/pages\/typography@sm.png": {
+		"ft": 32768,
+		"iS": 105926,
+		"oA": 0,
+		"oAP": "\/images\/cases\/epldt-gem\/pages\/typography@sm.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/images\/cases\/epldt-gem\/pages\/visual-systems.png": {
+		"ft": 32768,
+		"iS": 190154,
+		"oA": 0,
+		"oAP": "\/images\/cases\/epldt-gem\/pages\/visual-systems.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/images\/cases\/epldt-gem\/pages\/visual-systems@sm.png": {
+		"ft": 32768,
+		"iS": 133704,
+		"oA": 0,
+		"oAP": "\/images\/cases\/epldt-gem\/pages\/visual-systems@sm.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/images\/cases\/epldt-gem\/pages\/web-grid-2.png": {
+		"ft": 32768,
+		"iS": 170039,
+		"oA": 0,
+		"oAP": "\/images\/cases\/epldt-gem\/pages\/web-grid-2.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/images\/cases\/epldt-gem\/pages\/web-grid-2@sm.png": {
+		"ft": 32768,
+		"iS": 116262,
+		"oA": 0,
+		"oAP": "\/images\/cases\/epldt-gem\/pages\/web-grid-2@sm.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/images\/cases\/epldt-gem\/pages\/web-grid.png": {
+		"ft": 32768,
+		"iS": 140737,
+		"oA": 0,
+		"oAP": "\/images\/cases\/epldt-gem\/pages\/web-grid.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/images\/cases\/epldt-gem\/pages\/web-grid@sm.png": {
+		"ft": 32768,
+		"iS": 95154,
+		"oA": 0,
+		"oAP": "\/images\/cases\/epldt-gem\/pages\/web-grid@sm.png",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
@@ -3021,6 +2281,61 @@
 		"oT": 1,
 		"q": 100
 		},
+	"\/images\/cases\/epldt\/desirability-words.png": {
+		"ft": 32768,
+		"iS": 705888,
+		"oA": 0,
+		"oAP": "\/images\/cases\/epldt\/desirability-words.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/images\/cases\/epldt\/desirability-words@sm.png": {
+		"ft": 32768,
+		"iS": 256392,
+		"oA": 0,
+		"oAP": "\/images\/cases\/epldt\/desirability-words@sm.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/images\/cases\/epldt\/desirability.png": {
+		"ft": 32768,
+		"iS": 357339,
+		"oA": 0,
+		"oAP": "\/images\/cases\/epldt\/desirability.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/images\/cases\/epldt\/desirability@sm.png": {
+		"ft": 32768,
+		"iS": 133099,
+		"oA": 0,
+		"oAP": "\/images\/cases\/epldt\/desirability@sm.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/images\/cases\/epldt\/double-diamond.png": {
+		"ft": 32768,
+		"iS": 886383,
+		"oA": 0,
+		"oAP": "\/images\/cases\/epldt\/double-diamond.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
 	"\/images\/cases\/epldt\/headshot.png": {
 		"ft": 32768,
 		"iS": 7930355,
@@ -3052,6 +2367,160 @@
 		"oIPL": 1,
 		"opt": 1,
 		"oT": 1,
+		"q": 100
+		},
+	"\/images\/cases\/epldt\/hypothesis-framework.png": {
+		"ft": 32768,
+		"iS": 50823,
+		"oA": 0,
+		"oAP": "\/images\/cases\/epldt\/hypothesis-framework.png",
+		"oF": 0,
+		"oIPL": 1,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/images\/cases\/epldt\/hypothesis-framework@sm.png": {
+		"ft": 32768,
+		"iS": 18388,
+		"oA": 0,
+		"oAP": "\/images\/cases\/epldt\/hypothesis-framework@sm.png",
+		"oF": 0,
+		"oIPL": 1,
+		"opt": 1,
+		"oT": 1,
+		"q": 100
+		},
+	"\/images\/cases\/epldt\/maturity-model-details.png": {
+		"ft": 32768,
+		"iS": 157457,
+		"oA": 0,
+		"oAP": "\/images\/cases\/epldt\/maturity-model-details.png",
+		"oF": 0,
+		"oIPL": 1,
+		"opt": 1,
+		"oT": 1,
+		"q": 100
+		},
+	"\/images\/cases\/epldt\/maturity-model-details@sm.png": {
+		"ft": 32768,
+		"iS": 62171,
+		"oA": 0,
+		"oAP": "\/images\/cases\/epldt\/maturity-model-details@sm.png",
+		"oF": 0,
+		"oIPL": 1,
+		"opt": 1,
+		"oT": 1,
+		"q": 100
+		},
+	"\/images\/cases\/epldt\/maturity-model.png": {
+		"ft": 32768,
+		"iS": 104971,
+		"oA": 0,
+		"oAP": "\/images\/cases\/epldt\/maturity-model.png",
+		"oF": 0,
+		"oIPL": 1,
+		"opt": 1,
+		"oT": 1,
+		"q": 100
+		},
+	"\/images\/cases\/epldt\/maturity-model@sm.png": {
+		"ft": 32768,
+		"iS": 45770,
+		"oA": 0,
+		"oAP": "\/images\/cases\/epldt\/maturity-model@sm.png",
+		"oF": 0,
+		"oIPL": 1,
+		"opt": 1,
+		"oT": 1,
+		"q": 100
+		},
+	"\/images\/cases\/epldt\/personas.jpg": {
+		"ft": 16384,
+		"iS": 693604,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "\/images\/cases\/epldt\/personas.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/images\/cases\/epldt\/personas@sm.jpg": {
+		"ft": 16384,
+		"iS": 225693,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "\/images\/cases\/epldt\/personas@sm.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/images\/cases\/epldt\/test-plan.png": {
+		"ft": 32768,
+		"iS": 375984,
+		"oA": 0,
+		"oAP": "\/images\/cases\/epldt\/test-plan.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/images\/cases\/epldt\/test-plan@sm.png": {
+		"ft": 32768,
+		"iS": 143115,
+		"oA": 0,
+		"oAP": "\/images\/cases\/epldt\/test-plan@sm.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/images\/cases\/epldt\/workshop-painpoints-posts.jpg": {
+		"ft": 16384,
+		"iS": 486606,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "\/images\/cases\/epldt\/workshop-painpoints-posts.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/images\/cases\/epldt\/workshop-painpoints-posts@sm.jpg": {
+		"ft": 16384,
+		"iS": 179148,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "\/images\/cases\/epldt\/workshop-painpoints-posts@sm.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/images\/cases\/epldt\/workshop-painpoints.jpg": {
+		"ft": 16384,
+		"iS": 1078080,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "\/images\/cases\/epldt\/workshop-painpoints.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/images\/cases\/epldt\/workshop-painpoints@sm.jpg": {
+		"ft": 16384,
+		"iS": 280287,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "\/images\/cases\/epldt\/workshop-painpoints@sm.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
 		"q": 100
 		},
 	"\/images\/cases\/johnscottschool\/headshot.png": {
@@ -3173,6 +2642,17 @@
 		"oIPL": 1,
 		"opt": 1,
 		"oT": 1,
+		"q": 100
+		},
+	"\/images\/design-edge.jpg": {
+		"ft": 16384,
+		"iS": 76224,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "\/images\/design-edge.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
 		"q": 100
 		},
 	"\/images\/favicon.png": {
@@ -3631,6 +3111,13 @@
 		"oF": 0,
 		"sC": 3,
 		"tS": 0
+		},
+	"\/media\/graph-animated.mp4": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/media\/graph-animated.mp4",
+		"oF": 0
 		},
 	"\/media\/name.gif": {
 		"ft": 4194304,
