@@ -38,7 +38,7 @@ $('.project-shot a').hover(function(){
     },
     function(){
       $(this).siblings('.project-mono').animate({
-        'opacity': '.1'
+        'opacity': '0'
       }, 250)
     });
 
