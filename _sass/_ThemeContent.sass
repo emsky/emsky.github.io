@@ -125,7 +125,7 @@
 
 
 		.project-mono
-			opacity: .1
+			opacity: 0
 			position: absolute
 			color: $indigo3
 			font-size: 52rem
@@ -244,9 +244,10 @@
 @media (min-width: 40.0rem)
 
 	.case
-		min-height: 60vh
+		min-height: 90vh
 		margin: 3rem 0
 		padding: 10rem
+		align-items: center
 
 		.case-details
 
@@ -257,6 +258,7 @@
 			max-width: 940px
 			overflow: visible
 			object-fit: cover
+			padding-left: 6rem
 
 			picture, img
 				width: auto
@@ -270,7 +272,6 @@
 	.case--nimbyx .case-shot
 		picture, img
 			width: 668px !important
-			float: right
 			margin-right: 4rem
 
 	.case--kite .case-shot
