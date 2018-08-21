@@ -22,7 +22,9 @@
 
     .case__headshot picture,
     .case__headshot img
-    @include shadowed(24px, 24px, 24px, fade-out(black, .72))
+      @include shadowed(24px, 24px, 24px, fade-out(black, .72))
+      transform: translateX(-50%) translateY(-50%)
+      left: 50%
 
 #case--clockenflap
   overflow: hidden

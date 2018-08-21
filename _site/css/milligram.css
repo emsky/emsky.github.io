@@ -1073,7 +1073,7 @@ footer {
       .project-card .project-shot a:hover picture, .project-card .project-shot a:hover img {
         transform: translateY(-0.05rem); }
     .project-card .project-shot .project-mono {
-      opacity: .1;
+      opacity: 0;
       position: absolute;
       color: #6772E5;
       font-size: 52rem;
@@ -1180,15 +1180,17 @@ footer {
 
 @media (min-width: 40rem) {
   .case {
-    min-height: 60vh;
+    min-height: 90vh;
     margin: 3rem 0;
-    padding: 10rem; }
+    padding: 10rem;
+    align-items: center; }
     .case .pull-right > .case-details {
       padding-left: 0; }
     .case .case-shot {
       max-width: 940px;
       overflow: visible;
-      object-fit: cover; }
+      object-fit: cover;
+      padding-left: 6rem; }
       .case .case-shot picture, .case .case-shot img {
         width: auto;
         object-fit: cover;
@@ -1197,7 +1199,6 @@ footer {
     width: 2000px !important; }
   .case--nimbyx .case-shot picture, .case--nimbyx .case-shot img {
     width: 668px !important;
-    float: right;
     margin-right: 4rem; }
   .case--kite .case-shot picture, .case--kite .case-shot img {
     width: 600px !important; }
@@ -1458,7 +1459,8 @@ footer {
     margin-bottom: 3rem;
     font-family: "Google Sans", "Poppins", "Open Sans", "Helvetica Neue", "Helvetica", sans-serif;
     font-size: 3.7rem !important;
-    padding-right: 2rem !important; }
+    padding-right: 2rem !important;
+    line-height: 1.35; }
   .subsection-left p.description,
   .subsection-right p.description,
   .subsection-centered p.description,
@@ -2707,11 +2709,15 @@ body#hibiscus #rocket #exhaust2 {
       position: absolute; }
 
 #case--digicon .hero--rotate {
-  position: relative;
-  -webkit-filter: drop-shadow(24px 24px 24px rgba(0, 0, 0, 0.28));
-  filter: drop-shadow(24px 24px 24px rgba(0, 0, 0, 0.28));
-  -ms-filter: "progid:DXImageTransform.Microsoft.Dropshadow(OffX=$x, OffY=$y, Color='$col')";
-  filter: "progid:DXImageTransform.Microsoft.Dropshadow(OffX=$x, OffY=$y, Color='$col')"; }
+  position: relative; }
+  #case--digicon .hero--rotate .case__headshot picture,
+  #case--digicon .hero--rotate .case__headshot img {
+    -webkit-filter: drop-shadow(24px 24px 24px rgba(0, 0, 0, 0.28));
+    filter: drop-shadow(24px 24px 24px rgba(0, 0, 0, 0.28));
+    -ms-filter: "progid:DXImageTransform.Microsoft.Dropshadow(OffX=$x, OffY=$y, Color='$col')";
+    filter: "progid:DXImageTransform.Microsoft.Dropshadow(OffX=$x, OffY=$y, Color='$col')";
+    transform: translateX(-50%) translateY(-50%);
+    left: 50%; }
 
 #case--clockenflap {
   overflow: hidden; }
