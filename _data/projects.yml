@@ -28,38 +28,38 @@
 - name: "Ask-E Superbot"
   role: "Design, Strategy"
   link: "/work/epldt/aske/"
-  media_lg: "/images/place@2x.png"
-  media_sm: "/images/place@2x.png"
+  media_lg: "/images/cases/aske/thumbshot.png"
+  media_sm: "/images/cases/aske/thumbshot@sm.png"
   alt: "Coming soon"
   monogram: "A"
-  status: false
+  status: true
 
 - name: "The ePLDT G.E.M."
   role: "Strategy, Branding"
   link: "/work/epldt/gem/"
-  media_lg: "/images/place@2x.png"
-  media_sm: "/images/place@2x.png"
+  media_lg: "/images/cases/epldt-gem/thumbshot.png"
+  media_sm: "/images/cases/epldt-gem/thumbshot@sm.png"
   alt: "Coming soon"
   monogram: "G"
-  status: false
+  status: true
 
 - name: "ePLDT Hardworking Website"
   role: "UX, Design, Strategy"
   link: "/work/epldt/website-redesign/"
-  media_lg: "/images/place@2x.png"
-  media_sm: "/images/place@2x.png"
+  media_lg: "/images/cases/epldt-website/thumbshot.png"
+  media_sm: "/images/cases/epldt-website/thumbshot@sm.png"
   alt: "Coming soon"
   monogram: "H"
-  status: false
+  status: true
 
 - name: "ePLDT Mobile"
   role: "UX, Design, Strategy"
   link: "/work/epldt/epldt-mobile/"
-  media_lg: "/images/place@2x.png"
-  media_sm: "/images/place@2x.png"
+  media_lg: "/images/cases/epldt-mobile/thumbshot.png"
+  media_sm: "/images/cases/epldt-mobile/thumbshot@sm.png"
   alt: "Coming soon"
-  monogram: "M"
-  status: false
+  monogram: "E"
+  status: true
 
 - name: "NAV Global"
   role: "Lead Design, Lead Front-end"

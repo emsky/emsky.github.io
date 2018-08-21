@@ -141,7 +141,7 @@ partials:
     heading: "Solutions"
     description: |
       Now let's go see some work, shall we?
-  - name: subsectionleft
+  - name: subsectionright
     heading: The ePLDT Global Experience Manual (GEM)
     description: |
       We envisioned the G.E.M. to be ePLDT's brand book, design system and culture code rolled into one source. Wrangling up cross-functional designers, writers and key company personnel, we started working on the prototype of this unprecedented project.
@@ -153,7 +153,7 @@ partials:
     media_lg: "/images/cases/epldt-gem/headshot@sm.png"
     media_sm: "/images/cases/epldt-gem/headshot@sm.png"
     alt: "ePLDT Global Experience Manual cover page"
-  - name: subsectionright
+  - name: subsectionleft
     heading: ePLDT Hardworking Website
     description: |
       As the principal UX designer, I helped ePLDT rethink the purpose of the company website, and to turn it into a stronger lead generation channel.
@@ -166,7 +166,7 @@ partials:
     media_lg: "/images/cases/epldt-website/headshot@sm.png"
     media_sm: "/images/cases/epldt-website/headshot@sm.png"
     alt: "Competitive analysis screenshots"
-  - name: subsectionleft
+  - name: subsectionright
     heading: ePLDT Mobile
     description: |
       Part of the company’s mission to improve customer experience, ePLDT Mobile is the key next step toward digital transformation for enterprises.
@@ -179,10 +179,10 @@ partials:
     media_lg: "/images/cases/epldt-mobile/showcase.png"
     media_sm: "/images/cases/epldt-mobile/showcase@sm.png"
     alt: "Competitive analysis screenshots"
-  - name: subsectionright
+  - name: subsectionleft
     heading: "Ask-E Superbot"
     description: |
-      As part of of the Experience Creation group, I helped ePLDT conceptualize and design its flagship chatbot service. The goal was to train a system to “read a customer’s mind” by gathering key information points and intuiting complementary products and services.
+      As part of of the Experience Creation group, I helped ePLDT conceptualize and design its flagship chatbot service. The goal was to train a system to “read the user's mind” by gathering key information points and intuiting complementary products and services.
 
       Powered by the Microsoft Bot Framework, Ask-E’s first iteration was hosted first on the company’s Facebook page and then on the company’s Workplace.
 

@@ -953,7 +953,7 @@ footer {
 
 @media (min-width: 40rem) {
   .menu {
-    padding: 0 3rem; }
+    padding: 0 8rem; }
     .menu .menu__content {
       position: absolute;
       top: 50%;
@@ -1218,7 +1218,7 @@ footer {
       margin-top: 2rem !important; }
       .showcase .project-card .project-shot picture, .showcase .project-card .project-shot img {
         z-index: 2;
-        max-width: 420px; }
+        max-width: 380px; }
   .footer-showcase .showcase {
     margin: 5rem 0 0; }
     .footer-showcase .showcase .project-card {
