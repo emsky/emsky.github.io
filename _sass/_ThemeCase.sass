@@ -25,7 +25,8 @@ $color--digicon: #C81C31
 		max-width: 85%
 		font-size: $lg-m
 		line-height: 1.4em
-		font-weight: 700
+		font-weight: 800
+		letter-spacing: 0.05rem
 
 	.case__greeting
 		font-family: $font-body
@@ -135,7 +136,7 @@ $color--digicon: #C81C31
 
 	.phase__overview>p
 		text-align: center
-		color: $midgray
+		color: $darkgray
 
 	.phase__overview>h4
 		text-align: center
@@ -147,7 +148,7 @@ $color--digicon: #C81C31
 		line-height: 1.66
 		letter-spacing: 0
 		font-size: 1em
-		font-weight: 400
+		font-weight: 800
 		position: relative
 		padding-bottom: 3rem
 		margin-bottom: 3rem
@@ -188,7 +189,7 @@ $color--digicon: #C81C31
 	content: attr(data-formula)
 	text-align: center
 	font-size: $sm-m
-	font-weight: 100
+	font-weight: 400
 	letter-spacing: 0
 	margin-bottom: 6rem
 	color: $charcoal
@@ -196,6 +197,9 @@ $color--digicon: #C81C31
 //--------------------------------------------------
 // 02 HOW
 // --------------------------------------------------
+.container-full
+	.content
+		padding: 0 3rem
 
 .subsection-left,
 .subsection-right,
@@ -209,7 +213,7 @@ $color--digicon: #C81C31
 	h4.heading
 		margin-bottom: 3rem
 		font-family: $font-modern
-		font-size: $lg-d !important
+		font-size: $lg-m !important
 		padding-right: 2rem !important
 		line-height: 1.35
 
@@ -264,7 +268,6 @@ $color--digicon: #C81C31
 
 		h1.case__headline
 			font-size: $xxl-d
-			letter-spacing: -0.05rem
 			width: 100%
 
 		p.case__greeting
@@ -325,7 +328,7 @@ $color--digicon: #C81C31
 		.insight-left,
 		.insight-middle,
 		.insight-right
-			padding: 3rem
+			padding: 3rem 4rem
 
 	.design-objective
 		font-size: $xxl-d
@@ -358,6 +361,14 @@ $color--digicon: #C81C31
 		.content
 			align-self: center
 			padding: 0 30%
+
+	.subsection-left,
+	.subsection-right,
+	.subsection-centered,
+	.subsection-images
+
+		h4.heading
+			font-size: $lg-d !important
 
 	.content-wrapper
 
