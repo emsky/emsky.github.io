@@ -19,6 +19,20 @@ partials:
     period: "Feb 2018 - Jun 2018"
     industry: "Enterprise, B2B"
     company: "ePLDT"
+    disclaimer: true
+    skills: |
+      * Visual Strategy
+      * UX Strategy
+      * Product Roadmap
+      * Data Analysis
+      * Guerilla Research
+      * Focus Groups
+      * Usability Testing
+      * Prototyping & Wireframing
+      * Design Ideation & Sketching
+  - name: phasehow
+    heading: "Coming Soon!"
+    description: "I'm wrangling up my case studies so that I can share my passion for creating great products and making a difference. Stay tuned!"
   - name: footershowcase
     feature1: 1
     feature2: 2
