@@ -19,7 +19,18 @@ partials:
     role: "Lead UI Designer & Front-end Developer"
     period: "Sep 2014 - Nov 2015"
     industry: "Finance, Entertainment, Media"
-    company: "ePLDT"
+    company: "Kite Systems"
+    disclaimer: true
+    skills: |
+      * UX Strategy
+      * Design System    
+      * Prototypes & Wireframing  
+      * Focus groups
+      * In-depth interviews
+      * UI Design
+      * Front-end Development
+      * Usability Testing
+      * Personas    
   - name: phasehow
     heading: "Coming Soon!"
     description: "I'm wrangling up my case studies so that I can share my passion for creating great products and making a difference. Stay tuned!"

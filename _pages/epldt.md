@@ -23,13 +23,17 @@ partials:
     company: "ePLDT"
     skills: |
       * UX Maturity Audit    
-      * Culture Change    
+      * Culture Change   
       * Design System    
       * Style Guide    
       * UX Strategy    
       * Website Redesign    
-      * Journey Mapping    
-      * Personas    
+      * Journey Mapping
+      * Personas
+      * Usability Testing
+      * Data Analysis
+      * Prototypes & Wireframing
+      * Design Ideation & Sketching    
       * Design Thinking Workshops
 
   - name: projectvision

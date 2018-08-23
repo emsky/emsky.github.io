@@ -16,6 +16,10 @@ partials:
   media_sm: "/images/cases/clockenflap/headshot@sm.png"
   mediaalt: "Perspective mockup of main Clockenflap screens"
 
+- name: phasehow
+  heading: "Coming Soon!"
+  description: "I'm wrangling up my case studies so that I can share my passion for creating great products and making a difference. Stay tuned!"
+
 - name: footershowcase
   feature1: 0
   feature2: 3

@@ -16,10 +16,20 @@ partials:
     mediaalt: "Image of PLDT Digicon app on iPhone X mockup"
   - name: caseoverview
     overview: ""
+    disclaimer: true
     role: "UX Engineer & Sr. Front-end Developer"
     period: "Nov 2015 - Jul 2016"
     industry: "Medical, e-Commerce"
     company: "Nimbyx"
+    skills: |
+      * UX Strategy
+      * Design System    
+      * Rapid Prototyping  
+      * UI Design
+      * Front-end Development
+      * Website Redesign    
+      * Journey Mapping    
+      * Personas    
   - name: phasehow
     heading: "Coming Soon!"
     description: "I'm wrangling up my case studies so that I can share my passion for creating great products and making a difference. Stay tuned!"
