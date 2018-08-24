@@ -14,6 +14,7 @@ partials:
     media_lg: "/images/cases/digicon/headshot.png"
     media_sm: "/images/cases/digicon/headshot@sm.png"
     mediaalt: "Image of PLDT Digicon app on iPhone X mockup"
+
   - name: caseoverview
     role: "UX Design, Visual, Strategy"
     period: "Feb 2018 - Jun 2018"
@@ -30,6 +31,13 @@ partials:
       * Usability Testing
       * Prototyping & Wireframing
       * Design Ideation & Sketching
+
+  - name: projectvision
+    statement: |
+      How might we make an app memorable so that people are still talking about it after the event is over?
+    description: |
+      Event apps naturally have a very limited lifespan. Increasing the lifetime of corporate events and conferences means we keep people sharing our content and using our products long after the doors have closed.
+
   - name: phasehow
     heading: "Coming Soon!"
     description: "I'm wrangling up my case studies so that I can share my passion for creating great products and making a difference. Stay tuned!"
