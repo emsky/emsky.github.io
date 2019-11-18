@@ -294,8 +294,8 @@ html .stripe-blue { background: #68D5F8; width: 240px; height: 180px; transform:
 .case--epldt { padding-top: 8rem; }
 
 .case--aigent .case-details, .case--cambridge .case-details, .case--epldt .case-details, .case--nimbyx .case-details, .case--kite .case-details, .case--independent .case-details { margin-top: 2rem; }
-.case--aigent h2.company, .case--cambridge h2.company, .case--epldt h2.company, .case--nimbyx h2.company, .case--kite h2.company, .case--independent h2.company { margin-bottom: 1rem; position: relative; letter-spacing: -0.01em; }
-.case--aigent h5, .case--cambridge h5, .case--epldt h5, .case--nimbyx h5, .case--kite h5, .case--independent h5 { font-size: 1.2rem; margin-bottom: 0.5rem; font-weight: 600; }
+.case--aigent .case-details h2.company, .case--cambridge .case-details h2.company, .case--epldt .case-details h2.company, .case--nimbyx .case-details h2.company, .case--kite .case-details h2.company, .case--independent .case-details h2.company { margin-bottom: 1rem; position: relative; letter-spacing: -0.01em; }
+.case--aigent .case-details h5, .case--cambridge .case-details h5, .case--epldt .case-details h5, .case--nimbyx .case-details h5, .case--kite .case-details h5, .case--independent .case-details h5 { font-size: 1.2rem; margin-bottom: 0.5rem; font-weight: 600; }
 .case--aigent .duration, .case--cambridge .duration, .case--epldt .duration, .case--nimbyx .duration, .case--kite .duration, .case--independent .duration { color: rgba(22, 21, 23, 0.3); }
 .case--aigent p.description, .case--cambridge p.description, .case--epldt p.description, .case--nimbyx p.description, .case--kite p.description, .case--independent p.description { margin: 4rem 0; color: rgba(22, 22, 44, 0.8); }
 .case--aigent .case-shot, .case--cambridge .case-shot, .case--epldt .case-shot, .case--nimbyx .case-shot, .case--kite .case-shot, .case--independent .case-shot { max-width: 327px; overflow: hidden; }
