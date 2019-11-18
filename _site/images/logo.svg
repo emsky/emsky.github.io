@@ -18,7 +18,7 @@
     </linearGradient>
     <linearGradient id="grad-dodgerblue" gradientUnits="userSpaceOnUse">
       <stop offset="0%" class="stop1" stop-color="#4480FF"/>
-      <stop offset="100%" class="stop2" stop-color="#4DDE01"/>
+      <stop offset="100%" class="stop2" stop-color="#676EFF"/>
     </linearGradient>
     <linearGradient id="grad-slategray" gradientUnits="userSpaceOnUse">
       <stop offset="0%" class="stop1" stop-color="#3B3B44"/>

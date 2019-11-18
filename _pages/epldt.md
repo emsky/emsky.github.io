@@ -6,7 +6,7 @@ partials:
   - name: header
     pagetitle: "Ellesa Sabasaje • UX Designer & Strategist"
     pagedesc: 'Holistic digital product designer with a knack for UX design, UX strategy, UX research, prototyping and front-end development'
-    customtheme: 'crimson'
+    customtheme: 'dodgerblue'
   - name: herocase
     projectname: "Sr. UX Designer at ePLDT"
     project_id: 'case--epldt'

@@ -11,7 +11,7 @@ $crimson2: #FF364A
 $turquoise: #4DD0E1
 $turquoise2: #4EFFB4
 $dodgerblue: #4480FF
-$dodgerblue2: #4DDE01
+$dodgerblue2: #676EFF
 $slategray: #3B3B44
 $slategray2: #7D89B5
 $kiwi: #4CAF50
@@ -405,7 +405,7 @@ body#lilac
 		color: $lilac
 
 	.logo-colored svg #logoName
-		fill: url(#grad-lilac)
+			fill: url(#grad-lilac)
 
 	.logo-colored svg #logoRayLeft
 		fill: $lilac2
@@ -424,14 +424,14 @@ body#lilac
 			color: $lilac2
 
 	.button-outline
-		@include border-gradient(left, $lilac, $lilac2, 4px)
+		@include border-gradient(left, $ube1, $sky1, 4px)
 		color: $lilac
 		//border-color: red
 
 		&:focus,
 		&:hover
-			@include border-gradient(left, $lilac, $lilac2, 4px)
-			background-image: -webkit-linear-gradient(left, $lilac, $lilac2)
+			@include border-gradient(left, $ube1, $sky1, 4px)
+			background-image: -webkit-linear-gradient(left, $ube1, $sky1)
 			background-clip: unset
 			background-size: auto
 			color: $white !important
@@ -670,6 +670,8 @@ body#hibiscus
 			&:after
 				background: $hibiscus2
 
+
+
 // CRIMSON
 body#crimson
 
@@ -693,37 +695,36 @@ body#crimson
 	.subsection-images .content h4,
 	.subsection-centered .content h4
 
+		#gr-double-diamond-discover,
+		#gr-double-diamond-execution
 
-	#gr-double-diamond-discover,
-	#gr-double-diamond-execution
+			#discovery, #execution
+				stroke: fade-out($midgray, .3)
 
-		#discovery, #execution
-			stroke: fade-out($midgray, .3)
+			#ship
+				fill: fade-out($midgray, .3)
 
-		#ship
-			fill: fade-out($midgray, .3)
+			#highlight
+				fill: $crimson
 
-		#highlight
-			fill: $crimson
+		#rocket
 
-	#rocket
+			#rocket-window
+				fill: $crimson
 
-		#rocket-window
-			fill: $crimson
+			#rocket-wing
+				fill: $crimson
+				stroke: $crimson
 
-		#rocket-wing
-			fill: $crimson
-			stroke: $crimson
+			#rocket-fire1
+				fill: $crimson
 
-		#rocket-fire1
-			fill: $crimson
-
-		#rocket-fire2,
-		#rocket-body,
-		#Line,
-		#exhaust1,
-		#exhaust2
-			stroke: fade-out($midgray, .3)
+			#rocket-fire2,
+			#rocket-body,
+			#Line,
+			#exhaust1,
+			#exhaust2
+				stroke: fade-out($midgray, .3)
 
 // TURQUOISE
 body#turquoise
@@ -748,42 +749,36 @@ body#turquoise
 	.subsection-images .content h4,
 	.subsection-centered .content h4
 
+		#gr-double-diamond-discover,
+		#gr-double-diamond-execution
 
-	#gr-double-diamond-discover,
-	#gr-double-diamond-execution
+			#discovery, #execution
+				stroke: fade-out($midgray, .3)
 
-		#discovery, #execution
-			stroke: fade-out($midgray, .3)
+			#ship
+				fill: fade-out($midgray, .3)
 
-		#ship
-			fill: fade-out($midgray, .3)
+			#highlight
+				fill: $turquoise
 
-		#highlight
-			fill: $turquoise
+		#rocket
 
-	#rocket
+			#rocket-window
+				fill: $turquoise
 
-		#rocket-window
-			fill: $turquoise
+			#rocket-wing
+				fill: $turquoise
+				stroke: $turquoise
 
-		#rocket-wing
-			fill: $turquoise
-			stroke: $turquoise
+			#rocket-fire1
+				fill: $turquoise
 
-		#rocket-fire1
-			fill: $turquoise
-
-		#rocket-fire2,
-		#rocket-body,
-		#Line,
-		#exhaust1,
-		#exhaust2
-			stroke: fade-out($midgray, .3)
-
-
-// DODGERBLUE
-body#dodgerblue
-
+			#rocket-fire2,
+			#rocket-body,
+			#Line,
+			#exhaust1,
+			#exhaust2
+				stroke: fade-out($midgray, .3)
 
 
 // SLATEGRAY
@@ -810,37 +805,36 @@ body#slategray
 	.subsection-images .content h4,
 	.subsection-centered .content h4
 
+		#gr-double-diamond-discover,
+		#gr-double-diamond-execution
 
-	#gr-double-diamond-discover,
-	#gr-double-diamond-execution
+			#discovery, #execution
+				stroke: fade-out($midgray, .3)
 
-		#discovery, #execution
-			stroke: fade-out($midgray, .3)
+			#ship
+				fill: fade-out($midgray, .3)
 
-		#ship
-			fill: fade-out($midgray, .3)
+			#highlight
+				fill: $slategray
 
-		#highlight
-			fill: $slategray
+		#rocket
 
-	#rocket
+			#rocket-window
+				fill: $slategray
 
-		#rocket-window
-			fill: $slategray
+			#rocket-wing
+				fill: $slategray
+				stroke: $slategray
 
-		#rocket-wing
-			fill: $slategray
-			stroke: $slategray
+			#rocket-fire1
+				fill: $slategray
 
-		#rocket-fire1
-			fill: $slategray
-
-		#rocket-fire2,
-		#rocket-body,
-		#Line,
-		#exhaust1,
-		#exhaust2
-			stroke: fade-out($midgray, .3)
+			#rocket-fire2,
+			#rocket-body,
+			#Line,
+			#exhaust1,
+			#exhaust2
+				stroke: fade-out($midgray, .3)
 
 // KIWI
 body#kiwi
@@ -865,37 +859,36 @@ body#kiwi
 	.subsection-images .content h4,
 	.subsection-centered .content h4
 
+		#gr-double-diamond-discover,
+		#gr-double-diamond-execution
 
-	#gr-double-diamond-discover,
-	#gr-double-diamond-execution
+			#discovery, #execution
+				stroke: fade-out($midgray, .3)
 
-		#discovery, #execution
-			stroke: fade-out($midgray, .3)
+			#ship
+				fill: fade-out($midgray, .3)
 
-		#ship
-			fill: fade-out($midgray, .3)
+			#highlight
+				fill: $kiwi
 
-		#highlight
-			fill: $kiwi
+		#rocket
 
-	#rocket
+			#rocket-window
+				fill: $kiwi
 
-		#rocket-window
-			fill: $kiwi
+			#rocket-wing
+				fill: $kiwi
+				stroke: $kiwi
 
-		#rocket-wing
-			fill: $kiwi
-			stroke: $kiwi
+			#rocket-fire1
+				fill: $kiwi
 
-		#rocket-fire1
-			fill: $kiwi
-
-		#rocket-fire2,
-		#rocket-body,
-		#Line,
-		#exhaust1,
-		#exhaust2
-			stroke: fade-out($midgray, .3)
+			#rocket-fire2,
+			#rocket-body,
+			#Line,
+			#exhaust1,
+			#exhaust2
+				stroke: fade-out($midgray, .3)
 
 
 // GOLD
@@ -921,37 +914,90 @@ body#gold
 	.subsection-images .content h4,
 	.subsection-centered .content h4
 
+		#gr-double-diamond-discover,
+		#gr-double-diamond-execution
 
-	#gr-double-diamond-discover,
-	#gr-double-diamond-execution
+			#discovery, #execution
+				stroke: fade-out($midgray, .3)
 
-		#discovery, #execution
-			stroke: fade-out($midgray, .3)
+			#ship
+				fill: fade-out($midgray, .3)
 
-		#ship
-			fill: fade-out($midgray, .3)
+			#highlight
+				fill: $gold
 
-		#highlight
-			fill: $gold
+		#rocket
 
-	#rocket
+			#rocket-window
+				fill: $gold
 
-		#rocket-window
-			fill: $gold
+			#rocket-wing
+				fill: $gold
+				stroke: $gold
 
-		#rocket-wing
-			fill: $gold
-			stroke: $gold
+			#rocket-fire1
+				fill: $gold
 
-		#rocket-fire1
-			fill: $gold
+			#rocket-fire2,
+			#rocket-body,
+			#Line,
+			#exhaust1,
+			#exhaust2
+				stroke: fade-out($midgray, .3)
 
-		#rocket-fire2,
-		#rocket-body,
-		#Line,
-		#exhaust1,
-		#exhaust2
-			stroke: fade-out($midgray, .3)
+// DODGERBLUE
+body#dodgerblue
+
+	.hero--case
+		background: $dodgerblue
+
+	h3.main-objective,
+	h4.phase__heading
+		color: $dodgerblue
+
+	h4.insight__heading::before
+		background: $dodgerblue
+
+	.phase-icon-discover,
+	.phase-icon-execution,
+	.phase-icon-solution
+		display: none
+
+	.subsection-left .content h4,
+	.subsection-right .content h4,
+	.subsection-images .content h4,
+	.subsection-centered .content h4
+
+		#gr-double-diamond-discover,
+		#gr-double-diamond-execution
+
+			#discovery, #execution
+				stroke: fade-out($midgray, .3)
+
+			#ship
+				fill: fade-out($midgray, .3)
+
+			#highlight
+				fill: $dodgerblue
+
+		#rocket
+
+			#rocket-window
+				fill: $dodgerblue
+
+			#rocket-wing
+				fill: $dodgerblue
+				stroke: $dodgerblue
+
+			#rocket-fire1
+				fill: $dodgerblue
+
+			#rocket-fire2,
+			#rocket-body,
+			#Line,
+			#exhaust1,
+			#exhaust2
+				stroke: fade-out($midgray, .3)
 
 
 // VERMILION
@@ -977,43 +1023,43 @@ body#vermilion
 	.subsection-images .content h4,
 	.subsection-centered .content h4
 
+		#gr-double-diamond-discover,
+		#gr-double-diamond-execution
 
-	#gr-double-diamond-discover,
-	#gr-double-diamond-execution
+			#discovery, #execution
+				stroke: fade-out($midgray, .3)
 
-		#discovery, #execution
-			stroke: fade-out($midgray, .3)
+			#ship
+				fill: fade-out($midgray, .3)
 
-		#ship
-			fill: fade-out($midgray, .3)
+			#highlight
+				fill: $vermilion
 
-		#highlight
-			fill: $vermilion
+		#rocket
 
-	#rocket
+			#rocket-window
+				fill: $vermilion
 
-		#rocket-window
-			fill: $vermilion
+			#rocket-wing
+				fill: $vermilion
+				stroke: $vermilion
 
-		#rocket-wing
-			fill: $vermilion
-			stroke: $vermilion
+			#rocket-fire1
+				fill: $vermilion
 
-		#rocket-fire1
-			fill: $vermilion
-
-		#rocket-fire2,
-		#rocket-body,
-		#Line,
-		#exhaust1,
-		#exhaust2
-			stroke: fade-out($midgray, .3)
+			#rocket-fire2,
+			#rocket-body,
+			#Line,
+			#exhaust1,
+			#exhaust2
+				stroke: fade-out($midgray, .3)
 
 // LILAC
 body#lilac
 
 	.hero--case
 		background: $lilac
+		background: -webkit-linear-gradient(right, $lilac, $ube1)
 
 	h3.main-objective,
 	h4.phase__heading
@@ -1032,37 +1078,36 @@ body#lilac
 	.subsection-images .content h4,
 	.subsection-centered .content h4
 
+		#gr-double-diamond-discover,
+		#gr-double-diamond-execution
 
-	#gr-double-diamond-discover,
-	#gr-double-diamond-execution
+			#discovery, #execution
+				stroke: fade-out($midgray, .3)
 
-		#discovery, #execution
-			stroke: fade-out($midgray, .3)
+			#ship
+				fill: fade-out($midgray, .3)
 
-		#ship
-			fill: fade-out($midgray, .3)
+			#highlight
+				fill: $lilac
 
-		#highlight
-			fill: $lilac
+		#rocket
 
-	#rocket
+			#rocket-window
+				fill: $lilac
 
-		#rocket-window
-			fill: $lilac
+			#rocket-wing
+				fill: $lilac
+				stroke: $lilac
 
-		#rocket-wing
-			fill: $lilac
-			stroke: $lilac
+			#rocket-fire1
+				fill: $lilac
 
-		#rocket-fire1
-			fill: $lilac
-
-		#rocket-fire2,
-		#rocket-body,
-		#Line,
-		#exhaust1,
-		#exhaust2
-			stroke: fade-out($midgray, .3)
+			#rocket-fire2,
+			#rocket-body,
+			#Line,
+			#exhaust1,
+			#exhaust2
+				stroke: fade-out($midgray, .3)
 
 
 // LOCHMARA
@@ -1088,37 +1133,36 @@ body#lochmara
 	.subsection-images .content h4,
 	.subsection-centered .content h4
 
+		#gr-double-diamond-discover,
+		#gr-double-diamond-execution
 
-	#gr-double-diamond-discover,
-	#gr-double-diamond-execution
+			#discovery, #execution
+				stroke: fade-out($midgray, .3)
 
-		#discovery, #execution
-			stroke: fade-out($midgray, .3)
+			#ship
+				fill: fade-out($midgray, .3)
 
-		#ship
-			fill: fade-out($midgray, .3)
+			#highlight
+				fill: $lochmara
 
-		#highlight
-			fill: $lochmara
+		#rocket
 
-	#rocket
+			#rocket-window
+				fill: $lochmara
 
-		#rocket-window
-			fill: $lochmara
+			#rocket-wing
+				fill: $lochmara
+				stroke: $lochmara
 
-		#rocket-wing
-			fill: $lochmara
-			stroke: $lochmara
+			#rocket-fire1
+				fill: $lochmara
 
-		#rocket-fire1
-			fill: $lochmara
-
-		#rocket-fire2,
-		#rocket-body,
-		#Line,
-		#exhaust1,
-		#exhaust2
-			stroke: fade-out($midgray, .3)
+			#rocket-fire2,
+			#rocket-body,
+			#Line,
+			#exhaust1,
+			#exhaust2
+				stroke: fade-out($midgray, .3)
 
 
 // CERULEAN
@@ -1144,37 +1188,36 @@ body#cerulean
 	.subsection-images .content h4,
 	.subsection-centered .content h4
 
+		#gr-double-diamond-discover,
+		#gr-double-diamond-execution
 
-	#gr-double-diamond-discover,
-	#gr-double-diamond-execution
+			#discovery, #execution
+				stroke: fade-out($midgray, .3)
 
-		#discovery, #execution
-			stroke: fade-out($midgray, .3)
+			#ship
+				fill: fade-out($midgray, .3)
 
-		#ship
-			fill: fade-out($midgray, .3)
+			#highlight
+				fill: $cerulean
 
-		#highlight
-			fill: $cerulean
+		#rocket
 
-	#rocket
+			#rocket-window
+				fill: $cerulean
 
-		#rocket-window
-			fill: $cerulean
+			#rocket-wing
+				fill: $cerulean
+				stroke: $cerulean
 
-		#rocket-wing
-			fill: $cerulean
-			stroke: $cerulean
+			#rocket-fire1
+				fill: $cerulean
 
-		#rocket-fire1
-			fill: $cerulean
-
-		#rocket-fire2,
-		#rocket-body,
-		#Line,
-		#exhaust1,
-		#exhaust2
-			stroke: fade-out($midgray, .3)
+			#rocket-fire2,
+			#rocket-body,
+			#Line,
+			#exhaust1,
+			#exhaust2
+				stroke: fade-out($midgray, .3)
 
 // HIBISCUS
 body#hibiscus
@@ -1199,33 +1242,33 @@ body#hibiscus
 	.subsection-images .content h4.heading,
 	.subsection-centered .content h4.heading
 
-	#gr-double-diamond-discover,
-	#gr-double-diamond-execution
+		#gr-double-diamond-discover,
+		#gr-double-diamond-execution
 
-		#discovery, #execution
-			stroke: fade-out($midgray, .3)
+			#discovery, #execution
+				stroke: fade-out($midgray, .3)
 
-		#ship
-			fill: fade-out($midgray, .3)
+			#ship
+				fill: fade-out($midgray, .3)
 
-		#highlight
-			fill: $hibiscus
+			#highlight
+				fill: $hibiscus
 
-	#rocket
+		#rocket
 
-		#rocket-window
-			fill: $hibiscus
+			#rocket-window
+				fill: $hibiscus
 
-		#rocket-wing
-			fill: $hibiscus
-			stroke: $hibiscus
+			#rocket-wing
+				fill: $hibiscus
+				stroke: $hibiscus
 
-		#rocket-fire1
-			fill: $hibiscus
+			#rocket-fire1
+				fill: $hibiscus
 
-		#rocket-fire2,
-		#rocket-body,
-		#Line,
-		#exhaust1,
-		#exhaust2
-			stroke: fade-out($midgray, .3)
+			#rocket-fire2,
+			#rocket-body,
+			#Line,
+			#exhaust1,
+			#exhaust2
+				stroke: fade-out($midgray, .3)

@@ -160,7 +160,7 @@ $color--digicon: #C81C31
 		height: 2px
 		bottom: 0
 		left: 0
-		background-color: #f63954
+		background-color: $dodgerblue
 
 	.insight-left
 		padding: 3rem 0 1rem
@@ -258,7 +258,7 @@ $color--digicon: #C81C31
 
 		.case__headshot picture,
 		.case__headshot img
-
+				color: red
 
 	.case__headshot
 		order: 2
@@ -275,43 +275,38 @@ $color--digicon: #C81C31
 			letter-spacing: 0
 
 	.case__headshot
-
 		picture, img
 			width: 42%
 			height: auto
 
 	.case__overview
 
-		.case__details
-
-		.case__summary
-
 		.case__info
 			margin-bottom: 2rem
 
-	// --------------------------------------------------
-	// OBJECTIVE
-	// --------------------------------------------------
+// --------------------------------------------------
+// OBJECTIVE
+// --------------------------------------------------
 
-	.project-objective
+.project-objective
+	padding: 5rem
+
+	.project-objective-statement
 		padding: 5rem
+		margin-left: 3rem
 
-		.project-objective-statement
-			padding: 5rem
-			margin-left: 3rem
+		.main-objective
+			font-size: $lg-d
 
-			.main-objective
-				font-size: $lg-d
+	.project-objective-description
+		padding: 5rem
+		margin-right: 3rem
 
-		.project-objective-description
-			padding: 5rem
-			margin-right: 3rem
+// --------------------------------------------------
+// 01 WHY
+// --------------------------------------------------
 
-	// --------------------------------------------------
-	// 01 WHY
-	// --------------------------------------------------
-
-	#phase-why
+#phase-why
 
 	.phase__intro
 
@@ -341,78 +336,78 @@ $color--digicon: #C81C31
 		padding-top: 7rem
 		font-size: $xl-d
 
-	//--------------------------------------------------
-	// 02 HOW
-	/* --------------  */
+//--------------------------------------------------
+// 02 HOW
+/* --------------  */
 
-	.phase__intro
-		min-height: 72vh
-		padding-bottom: 4rem
+.phase__intro
+	min-height: 72vh
+	padding-bottom: 4rem
+
+.subsection-left,
+.subsection-right,
+.subsection-images
+	min-height: 72vh
+	padding: 0 3rem
+
+.subsection-centered
+	min-height: 72vh
+
+	.content
+		align-self: center
+		padding: 0 30%
+
+.subsection-left,
+.subsection-right,
+.subsection-centered,
+.subsection-images
+
+	h4.heading
+		font-size: $lg-d !important
+
+.content-wrapper
 
 	.subsection-left,
 	.subsection-right,
 	.subsection-images
-		min-height: 72vh
+		min-height: 50vh
 		padding: 0 3rem
 
 	.subsection-centered
-		min-height: 72vh
+		min-height: 40vh
 
-		.content
-			align-self: center
-			padding: 0 30%
+.subsection-left
 
-	.subsection-left,
-	.subsection-right,
-	.subsection-centered,
-	.subsection-images
+	.image picture::after
+		content: ''
+		display: block
+		height: 200%
+		width: 200%
+		background: #FB2136
 
-		h4.heading
-			font-size: $lg-d !important
+.pull-left.padded-right
+	padding-right: 10rem
 
-	.content-wrapper
+.pull-right.padded-left
+	padding-left: 10rem
 
-		.subsection-left,
-		.subsection-right,
-		.subsection-images
-			min-height: 50vh
-			padding: 0 3rem
+//--------------------------------------------------
+// 03 WHAT
+// --------------------------------------------------
 
-		.subsection-centered
-			min-height: 40vh
-
-	.subsection-left
-
-		.image picture::after
-			content: ''
-			display: block
-			height: 200%
-			width: 200%
-			background: #FB2136
-
-	.pull-left.padded-right
-		padding-right: 10rem
-
-	.pull-right.padded-left
-		padding-left: 10rem
-
-	//--------------------------------------------------
-	// 03 WHAT
-	// --------------------------------------------------
-
-	#phase-what
+#phase-what
 
 	.subsection-centered
 		padding-bottom: 0
 
-	#phase-showcase-full
+#phase-showcase-full
 
-		.final-showcase
-			max-height: 72rem !important
-			overflow: hidden
-			position: relative
+	.final-showcase
+		max-height: 72rem !important
+		overflow: hidden
+		position: relative
 
-			picture, img
-				width: 100% !important
-				max-width: 100%
-				object-fit: cover
+		picture, img
+			width: 100% !important
+			max-width: 100%
+			object-fit: cover

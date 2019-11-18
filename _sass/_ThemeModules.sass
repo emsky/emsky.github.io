@@ -1,143 +1,139 @@
-
-// Theme Modules
+//! Theme Modules
 // ––––––––––––––––––––––––––––––––––––––––––––––––––
 
-
-// Theme Modules
-// ––––––––––––––––––––––––––––––––––––––––––––––––––
-
-$purple: #654BA5
+$main-color: $color-primary
 $black: #16162C
 
 html
+	.navmenu
+		z-index: 9999
+		position: relative
+		height: 60px
+		width: 60px
+		float: right
 
-.navmenu
-	z-index: 9999
-	position: relative
-	height: 60px
-	width: 60px
-	float: right
-
-.menu-toggle
-	position: absolute
-	top: 0
-	left: 0
-	width: 60px
-	height: 60px
-	background: url('../images/menu-spritesheet-inv.png')
-	background-size: 1620px 60px
-	background-position: 0 0
-	background-color: transparent
-	cursor: pointer
-	outline: 0
-	border: 0
-	float: right
-	z-index: 23000
-	padding: 0
-
-	&:hover, &:active, &:focus
-		background-color: transparent
-
-.menu-bg
-	position: absolute
-	left: 50%
-	top: 50%
-	width: 0
-	height: 0
-	border-radius: 9999px
-	background: $purple
-	//box-shadow: 0 11px 20px rgba(0,0,0,.05)
-	z-index: -1
-	-webkit-transform: translate(-50%,-50%)
-	transform: translate(-50%, -50%)
-
-
-.menu
-	position: fixed
-	height: 100%
-	width: 100%
-	top: 0
-	left: 0
-	background: $indigo2
-	z-index: 22000
-	opacity: 0
-	visibility: hidden
-	display: none
-
-	&.revealed
-		visibility: visible
-
-	.menu__content
+	.menu-toggle
 		position: absolute
-		bottom: 0
+		top: 0
+		left: 0
+		width: 60px
+		height: 60px
+		background: url('../images/menu-spritesheet-inv.png')
+		background-size: 1620px 60px
+		background-position: 0 0
+		background-color: transparent
+		cursor: pointer
+		outline: 0
+		border: 0
+		float: right
+		z-index: 23000
+		padding: 0
+
+		&:hover, &:active, &:focus
+			background-color: transparent
+
+	.menu-bg
+		position: absolute
+		left: 50%
+		top: 50%
+		width: 0
+		height: 0
+		border-radius: 9999px
+		background: $main-color
+		background: -webkit-linear-gradient(left, $black, $charcoal)
+		//box-shadow: 0 11px 20px rgba(0,0,0,.05)
+		z-index: -1
+		-webkit-transform: translate(-50%,-50%)
+		transform: translate(-50%, -50%)
+
+
+	.menu
+		position: fixed
+		height: 100%
 		width: 100%
-		padding: 4rem 3rem
+		top: 0
+		left: 0
+		background: $main-color
+		background: -webkit-linear-gradient(left, $charcoal, $charcoal)
+		z-index: 22000
+		opacity: 0
+		visibility: hidden
+		display: none
 
-		a
-			color: $white !important
-			text-decoration: none
+		&.revealed
+			visibility: visible
 
-			&:focus,
-			&:hover
-				color: fade-out($white, .3) !important
-
-		sup
-			font-size: 40%
-			line-height: 100%
-			vertical-align: middle
-			color: fade-out($white, .7)
-
-		address>p
-			margin: .6rem 0
-			font-style: normal
-
-		address i
-			font-size: 1rem
-			vertical-align: middle
-			margin-left: .5rem
-			color: fade-out($white, .8)
+		.menu__content
+			position: absolute
+			bottom: 0
+			width: 100%
+			padding: 4rem 3rem
 
 			a
-				color: fade-out($white, .6)
+				color: $white !important
+				text-decoration: none
 
-		ul
-			list-style: none
-			font-size: $xxl-m
-			line-height: 1.2
-			font-family: $font-heading
+				&:focus,
+				&:hover
+					color: fade-out($white, .3) !important
 
-			a
-				font-weight: 800
+			sup
+				font-size: 40%
+				line-height: 100%
+				vertical-align: middle
+				color: fade-out($white, .7)
 
-/* warp speed ahead */
-.warpSpeed
-	-webkit-transform: translate3d(0, 0, 0)
-	-webkit-backface-visibility: hidden
-	-webkit-perspective: 1000
-	transform: translate3d(0,0,0)
-	perspective: 1000
-	/* more specific animation properties here */
+			address>p
+				margin: .6rem 0
+				font-style: normal
+
+			address i
+				font-size: 1rem
+				vertical-align: middle
+				margin-left: .5rem
+				color: fade-out($white, .8)
+
+				a
+					color: fade-out($white, .6)
+
+			ul
+				list-style: none
+				font-size: $xxl-m
+				line-height: 1.2
+				font-family: $font-heading
+
+				a
+					font-weight: 800
+
+	/* warp speed ahead */
+	.warpSpeed
+		-webkit-transform: translate3d(0, 0, 0)
+		-webkit-backface-visibility: hidden
+		-webkit-perspective: 1000
+		transform: translate3d(0,0,0)
+		perspective: 1000
+		/* more specific animation properties here */
 
 
 
-.stripe
-  background: #6772E5
-  width: 240px
-  height: 180px
-  transform: skewY(-14deg)
-  position: absolute
-  right: -96px
-  top: -60px
+	.stripe
+		background: #6772E5
+		width: 240px
+		height: 180px
+		transform: skewY(-14deg)
+		position: absolute
+		right: -96px
+		top: -60px
 
 
-.stripe-blue
-  background: #68D5F8
-  width: 240px
-  height: 180px
-  transform: skewY(-14deg)
-  position: absolute
-  left: -60px
-  top: -60px
+	.stripe-blue
+		background: #68D5F8
+		width: 240px
+		height: 180px
+		transform: skewY(-14deg)
+		position: absolute
+		left: -60px
+		top: -60px
 
 
 // Larger than  Mobile

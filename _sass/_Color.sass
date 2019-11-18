@@ -6,6 +6,9 @@ $ube1: #563E8E
 $ube2: #654BA5
 $ube3: #A78CEA
 
+$crimson: #C81C31
+$crimson2: #FF364A
+
 $indigo1: #32325C
 $indigo2: #545ABF
 $indigo3: #6772E5
@@ -24,6 +27,7 @@ $peach2: #FFCCA5
 
 $yellow1: #E6A03E
 $yellow2: #FDD760
+$yellow3: #F6DB0A
 
 $wash1: #E6EBF1
 $wash2: #F0F4FA
@@ -37,33 +41,33 @@ $darkgray: fade-out(#16162C,.2)
 
 $color-initial: $white !default
 $color-primary: $ube2 !default
-$color-secondary: $sky1 !default
-$color-tertiary: $indigo2 !default
+$color-secondary: $ube2 !default
+$color-tertiary: $ube2 !default
 $color-quaternary: $green1 !default
 $color-quinary: $yellow1 !default
 
 
 @mixin horizontal-gradient($from, $to, $stop: 100%)
-  /* fallback/image non-cover color */
-  background-color: $from
+	/* fallback/image non-cover color */
+	background-color: $from
 
-  /* Firefox 3.6+ */
-  background-image: -moz-linear-gradient(left, $from 0%, $to $stop)
+	/* Firefox 3.6+ */
+	background-image: -moz-linear-gradient(left, $from 0%, $to $stop)
 
-  /* Safari 4+, Chrome 1+ */
-  background-image: -webkit-gradient(linear, left top, right top, color-stop(0%, $from), color-stop($stop, $to))
+	/* Safari 4+, Chrome 1+ */
+	background-image: -webkit-gradient(linear, left top, right top, color-stop(0%, $from), color-stop($stop, $to))
 
-  /* Safari 5.1+, Chrome 10+ */
-  background-image: -webkit-linear-gradient(left, $from 0%, $to $stop)
+	/* Safari 5.1+, Chrome 10+ */
+	background-image: -webkit-linear-gradient(left, $from 0%, $to $stop)
 
-  /* Opera 11.10+ */
-  background-image: -o-linear-gradient(left, $from 0%, $to $stop)
+	/* Opera 11.10+ */
+	background-image: -o-linear-gradient(left, $from 0%, $to $stop)
 
-  /* IE10+ */
-  background: -ms-linear-gradient(left, $from 0%, $to $stop)
+	/* IE10+ */
+	background: -ms-linear-gradient(left, $from 0%, $to $stop)
 
-  /* Standard */
-  background: linear-gradient(to right, $from 0%, $to $stop)
+	/* Standard */
+	background: linear-gradient(to right, $from 0%, $to $stop)
 
-  /* IE6-9 */
-  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='$from', endColorstr='$to',GradientType=1 )
+	/* IE6-9 */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='$from', endColorstr='$to',GradientType=1 )
