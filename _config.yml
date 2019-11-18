@@ -13,10 +13,10 @@
 # you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
-title: "Ellesa Sabasaje • UX Designer & Strategist"
+title: "Ellesa Sabasaje • UX Designer"
 email: "uxellesa@gmail.com"
 description: >- # this means to ignore newlines until "baseurl:"
-  "Holistic digital product designer with a knack for UX design, UX strategy, UX research, prototyping and front-end development"
+  "Hands-on design leader with a knack for UX design, UX strategy, UX research, prototyping and front-end development"
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "http://emsky.github.io/" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: "skyellesa"

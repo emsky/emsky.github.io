@@ -100,7 +100,7 @@ var typed = new Typed('.effect--typed', {
 
   if ($(".effect--typed")[0]){
     var typed = new Typed('.effect--typed', {
-        strings: ["UX Design", "UX Strategy", "UX Research", "UI Design", "Front-end Development"],
+        strings: ["UX Design", "UX Strategy", "UX Research", "UI Design"],
         typeSpeed: 100,
         contentType: 'text',
         backSpeed: 50,
